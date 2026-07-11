@@ -1,0 +1,17 @@
+Name,Icon,Background
+BASICS,thaumcraft:textures/items/thaumonomiconcheat.png,thaumcraft:textures/gui/gui_researchback.png
+THAUMATURGY,thaumcraft:textures/misc/r_thaumaturgy.png,thaumcraft:textures/gui/gui_researchback.png
+ALCHEMY,thaumcraft:textures/misc/r_crucible.png,thaumcraft:textures/gui/gui_researchback.png
+ARTIFICE,thaumcraft:textures/misc/r_artifice.png,thaumcraft:textures/gui/gui_researchback.png
+GOLEMANCY,thaumcraft:textures/misc/r_golemancy.png,thaumcraft:textures/gui/gui_researchback.png
+ELDRITCH,thaumcraft:textures/misc/r_eldritch.png,thaumcraft:textures/gui/gui_researchbackeldritch.png
+AUTOMAGY,automagy:textures/gui/researchIcon.png,thaumcraft:textures/gui/gui_researchback.png
+RAILCRAFT,railcraft:textures/items/tool.crowbar.magic.png,thaumcraft:textures/gui/gui_researchback.png
+EMT,emt:textures/misc/emt.png,emt:textures/misc/background.png
+TT_CATEGORY,ttinkerer:textures/misc/r_enchanting.png,thaumcraft:textures/gui/gui_researchback.png
+FORBIDDEN,forbidden:textures/misc/forbidden.png,forbidden:textures/misc/runecircle.png
+gadomancy,gadomancy:textures/items/category_icon.png,gadomancy:textures/gui/gui_researchback.png
+MAGICBEES,magicbees:textures/items/beeInfusion.png,thaumcraft:textures/gui/gui_researchback.png
+TM,taintedmagic:textures/misc/IconThaumonomiconTab.png,thaumcraft:textures/gui/gui_researchback.png
+thaumicenergistics,thaumicenergistics:textures/research/tab.icon.png,thaumicenergistics:textures/research/Research.Background.png
+DRACONIC,draconicevolution:textures/items/draconicDistructionStaff.png,thaumcraft:textures/gui/gui_researchback.png

@@ -1,0 +1,18 @@
+filename = 'DamageTilt_1.7.10_0.1.0.jar'
+name = 'Damage Tilt'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'DamageTilt-1.7.10-0.1.0.jar'
+
+[download]
+hash = 'd9049a2f3683276b4a3279b8d5377bd60ad3b786'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3097543
+project-id = 411705

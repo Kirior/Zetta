@@ -1,0 +1,18 @@
+filename = 'industrialcraft-2-2.2.828-experimental.jar'
+name = 'IndustrialCraft 2'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'industrialcraft-2-2.2.828-experimental.jar'
+
+[download]
+hash = '64f71495feddba295ed4392797d48d7dcfcfc779'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6833054
+project-id = 242638

@@ -1,0 +1,16 @@
+{
+  "_name": "etfuturum:netherite_stairs",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 50.0,
+    "resistance": 3600.0,
+    "sound": "<unknown>",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

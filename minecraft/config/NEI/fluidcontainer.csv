@@ -1,0 +1,241 @@
+Fluid,Amount,Empty Container,Empty Container Display Name,Empty Container Item,Filled Container,Filled Container Display Name,Filled Container Item
+acid,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.containerCan@64,Acid Can,BinnieCore:containerCan
+acid,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.containerGlass@64,Acid Glass,BinnieCore:containerGlass
+acid,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.containerBucket@64,Acid Bucket,BinnieCore:containerBucket
+acid,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.containerCapsule@64,Acid Capsule,BinnieCore:containerCapsule
+acid,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.containerRefractory@64,Acid Capsule,BinnieCore:containerRefractory
+acid,1000,1xitem.misc@8,Glass Cylinder,Genetics:misc,1xitem.containerCylinder@64,Acid Cylinder,BinnieCore:containerCylinder
+acid,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@12,Acid Magic Capsule,MagicBees:capsule.magic
+acid,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@12,Acid Void Capsule,MagicBees:capsule.void
+aerotheum,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.thermalfoundation.bucket@7,Zephyrean Aerotheum Bucket,ThermalFoundation:bucket
+aluminum.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@4,Molten Aluminum Bucket,TConstruct:buckets
+aluminumbrass.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@8,Molten Aluminum Brass Bucket,TConstruct:buckets
+alumite.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@10,Molten Alumite Bucket,TConstruct:buckets
+ardite.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@6,Molten Ardite Bucket,TConstruct:buckets
+binnie.bacteria,1000,1xitem.misc@8,Glass Cylinder,Genetics:misc,1xitem.containerCylinder@769,Bacteria Cylinder,BinnieCore:containerCylinder
+binnie.bacteriapoly,1000,1xitem.misc@8,Glass Cylinder,Genetics:misc,1xitem.containerCylinder@770,Polymerized Bacteria Cylinder,BinnieCore:containerCylinder
+binnie.bacteriavector,1000,1xitem.misc@8,Glass Cylinder,Genetics:misc,1xitem.containerCylinder@772,Bacteria Vector Cylinder,BinnieCore:containerCylinder
+binnie.dna.raw,1000,1xitem.misc@8,Glass Cylinder,Genetics:misc,1xitem.containerCylinder@771,Raw DNA Cylinder,BinnieCore:containerCylinder
+binnie.growthmedium,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.containerRefractory@768,binniecore.item.container.refractory.binnie.growthmedium,BinnieCore:containerRefractory
+binnie.growthmedium,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.containerCan@768,binniecore.item.container.can.binnie.growthmedium,BinnieCore:containerCan
+binnie.growthmedium,1000,1xitem.misc@8,Glass Cylinder,Genetics:misc,1xitem.containerCylinder@768,Growth Medium Cylinder,BinnieCore:containerCylinder
+binnie.growthmedium,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.containerCapsule@768,binniecore.item.container.capsule.binnie.growthmedium,BinnieCore:containerCapsule
+binnie.growthmedium,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.containerGlass@768,binniecore.item.container.glass.binnie.growthmedium,BinnieCore:containerGlass
+binnie.growthmedium,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.containerBucket@768,binniecore.item.container.bucket.binnie.growthmedium,BinnieCore:containerBucket
+biodiesel,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.ImmersiveEngineering.fluidContainers@7,Bucket of Biodiesel,ImmersiveEngineering:fluidContainers
+biodiesel,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.ImmersiveEngineering.fluidContainers@6,Bottle of Biodiesel,ImmersiveEngineering:fluidContainers
+bioethanol,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.for.refractoryEthanol@0,Ethanol Capsule,Forestry:refractoryEthanol
+bioethanol,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.for.canEthanol@0,Ethanol Can,Forestry:canEthanol
+bioethanol,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.for.waxCapsuleEthanol@0,Ethanol Capsule,Forestry:waxCapsuleEthanol
+bioethanol,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.for.bucketEthanol@0,Ethanol Bucket,Forestry:bucketEthanol
+bioethanol,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@4,Bioethanol Void Capsule,MagicBees:capsule.void
+bioethanol,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@4,Bioethanol Magic Capsule,MagicBees:capsule.magic
+biofuel,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.mfr.bucket.biofuel@0,BioFuel Bucket,MineFactoryReloaded:bucket.biofuel
+biomass,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.for.bucketBiomass@0,Biomass Bucket,Forestry:bucketBiomass
+biomass,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.for.canBiomass@0,Biomass Can,Forestry:canBiomass
+biomass,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.for.waxCapsuleBiomass@0,Biomass Capsule,Forestry:waxCapsuleBiomass
+biomass,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@3,Biomass Void Capsule,MagicBees:capsule.void
+biomass,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.for.refractoryBiomass@0,Biomass Capsule,Forestry:refractoryBiomass
+biomass,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@3,Biomass Magic Capsule,MagicBees:capsule.magic
+blood,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@16,Bucket o' Blood,TConstruct:buckets
+bronze.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@7,Molten Bronze Bucket,TConstruct:buckets
+chocolatemilk,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.mfr.bucket.chocolatemilk@0,Chocolate Milk Bucket,MineFactoryReloaded:bucket.chocolatemilk
+cloud_seed,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketCloud_seed@0,Cloud Seed Bucket,EnderIO:bucketCloud_seed
+cloud_seed_concentrated,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketCloud_seed_concentrated@0,Concentrated Cloud Seed Bucket,EnderIO:bucketCloud_seed_concentrated
+coal,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.thermalfoundation.bucket@6,Liquifacted Coal Bucket,ThermalFoundation:bucket
+coal,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@24,Liquifacted Coal Magic Capsule,MagicBees:capsule.magic
+coal,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@24,Liquifacted Coal Void Capsule,MagicBees:capsule.void
+cobalt.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@5,Molten Cobalt Bucket,TConstruct:buckets
+copper.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@2,Molten Copper Bucket,TConstruct:buckets
+creosote,1000,1xic2.itemCellEmpty@0,Empty Cell,IC2:itemCellEmpty,1xitem.railcraft.fluid.creosote.cell@0,Creosote Cell,Railcraft:fluid.creosote.cell
+creosote,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.railcraft.fluid.creosote.bottle@0,Creosote Bottle,Railcraft:fluid.creosote.bottle
+creosote,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.railcraft.fluid.creosote.can@0,Creosote Can,Railcraft:fluid.creosote.can
+creosote,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.ImmersiveEngineering.fluidContainers@0,Bottle of Creosote Oil,ImmersiveEngineering:fluidContainers
+creosote,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.ImmersiveEngineering.fluidContainers@1,Bucket of Creosote Oil,ImmersiveEngineering:fluidContainers
+creosote,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.railcraft.fluid.creosote.wax@0,Creosote Capsule,Railcraft:fluid.creosote.wax
+creosote,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.railcraft.fluid.creosote.bucket@0,Creosote Bucket,Railcraft:fluid.creosote.bucket
+creosote,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@16,Creosote Oil Magic Capsule,MagicBees:capsule.magic
+creosote,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@16,Creosote Oil Void Capsule,MagicBees:capsule.void
+creosote,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.railcraft.fluid.creosote.refactory@0,Creosote Capsule,Railcraft:fluid.creosote.refactory
+cryotheum,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.thermalfoundation.bucket@4,Gelid Cryotheum Bucket,ThermalFoundation:bucket
+cryotheum,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@22,Gelid Cryotheum Magic Capsule,MagicBees:capsule.magic
+cryotheum,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@22,Gelid Cryotheum Void Capsule,MagicBees:capsule.void
+electrum.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@22,Molten Electrum Bucket,TConstruct:buckets
+emerald.liquid,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@15,Liquified Emerald Bucket,TConstruct:buckets
+ender,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@23,Liquified Ender Bucket,TConstruct:buckets
+ender,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.thermalfoundation.bucket@2,Resonant Ender Bucket,ThermalFoundation:bucket
+ender,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@20,Resonant Ender Magic Capsule,MagicBees:capsule.magic
+ender,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@20,Resonant Ender Void Capsule,MagicBees:capsule.void
+ender_distillation,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketEnder_distillation@0,Dew of the Void Bucket,EnderIO:bucketEnder_distillation
+enderium.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@30,Molten Enderium Bucket,TConstruct:buckets
+ethanol,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.ImmersiveEngineering.fluidContainers@5,Bucket of Ethanol,ImmersiveEngineering:fluidContainers
+ethanol,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.ImmersiveEngineering.fluidContainers@4,Bottle of Ethanol,ImmersiveEngineering:fluidContainers
+fire_water,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketFire_water@0,Fire Water Bucket,EnderIO:bucketFire_water
+fluiddeath,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.ItemBucketDeath@0,Bucket of Liquid Death,Thaumcraft:ItemBucketDeath
+fluidmushroom,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketMushroom@0,Bucket of Mushroom Soup,Automagy:bucketMushroom
+fluidpure,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.ItemBucketPure@0,Bucket of Purifying Fluid,Thaumcraft:ItemBucketPure
+fluidvishroom,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketVishroom@0,Bucket of Vishroom Soup,Automagy:bucketVishroom
+for.honey,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.for.waxCapsuleHoney@0,Honey Capsule,Forestry:waxCapsuleHoney
+for.honey,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.for.bucketHoney@0,Honey Bucket,Forestry:bucketHoney
+for.honey,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.for.refractoryHoney@0,Honey Capsule,Forestry:refractoryHoney
+for.honey,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.for.canHoney@0,Honey Can,Forestry:canHoney
+fuel,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketFuel@0,Fuel Bucket,BuildCraft|Energy:bucketFuel
+fuel,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@6,Fuel Void Capsule,MagicBees:capsule.void
+fuel,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@6,Fuel Magic Capsule,MagicBees:capsule.magic
+glass,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.for.bucketGlass@0,Molten Glass Bucket,Forestry:bucketGlass
+glass.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@13,Molten Glass Bucket,TConstruct:buckets
+glowstone,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.thermalfoundation.bucket@1,Energized Glowstone Bucket,ThermalFoundation:bucket
+glowstone,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@19,Energized Glowstone Magic Capsule,MagicBees:capsule.magic
+glowstone,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@19,Energized Glowstone Void Capsule,MagicBees:capsule.void
+glue,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@25,Sticky Glue Bucket,TConstruct:buckets
+gold.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@1,Molten Gold Bucket,TConstruct:buckets
+honey,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@8,Honey Void Capsule,MagicBees:capsule.void
+honey,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@8,Honey Magic Capsule,MagicBees:capsule.magic
+hootch,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketHootch@0,Hootch Bucket,EnderIO:bucketHootch
+ic2biogas,1000,1xic2.itemCellEmpty@0,Empty Cell,IC2:itemCellEmpty,1xic2.itemCellEmpty@7,Biogas Cell,IC2:itemCellEmpty
+ic2biomass,1000,1xic2.itemCellEmpty@0,Empty Cell,IC2:itemCellEmpty,1xic2.itemCellEmpty@6,Biomass Cell,IC2:itemCellEmpty
+ic2constructionfoam,1000,1xic2.itemCellEmpty@0,Empty Cell,IC2:itemCellEmpty,1xic2.itemCellEmpty@4,Construction Foam Cell,IC2:itemCellEmpty
+ic2coolant,1000,1xic2.itemCellEmpty@0,Empty Cell,IC2:itemCellEmpty,1xic2.itemCellEmpty@9,Coolant Cell,IC2:itemCellEmpty
+ic2distilledwater,1000,1xic2.itemCellEmpty@0,Empty Cell,IC2:itemCellEmpty,1xic2.itemCellEmpty@12,Distilled Water Cell,IC2:itemCellEmpty
+ic2hotcoolant,1000,1xic2.itemCellEmpty@0,Empty Cell,IC2:itemCellEmpty,1xic2.itemCellEmpty@10,Hot Coolant Cell,IC2:itemCellEmpty
+ic2pahoehoelava,1000,1xic2.itemCellEmpty@0,Empty Cell,IC2:itemCellEmpty,1xic2.itemCellEmpty@11,Pahoehoe Lava Cell,IC2:itemCellEmpty
+ic2steam,1000,1xic2.itemCellEmpty@0,Empty Cell,IC2:itemCellEmpty,1xic2.itemCellEmpty@14,Steam Cell,IC2:itemCellEmpty
+ic2superheatedsteam,1000,1xic2.itemCellEmpty@0,Empty Cell,IC2:itemCellEmpty,1xic2.itemCellEmpty@13,Superheated Steam Cell,IC2:itemCellEmpty
+ic2uumatter,1000,1xic2.itemCellEmpty@0,Empty Cell,IC2:itemCellEmpty,1xic2.itemCellEmpty@3,UuMatter Cell,IC2:itemCellEmpty
+ice,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.for.waxCapsuleIce@0,Ice Capsule,Forestry:waxCapsuleIce
+ice,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.for.refractoryIce@0,Ice Capsule,Forestry:refractoryIce
+ice,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.for.canIce@0,Ice Can,Forestry:canIce
+ice,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@10,Ice Magic Capsule,MagicBees:capsule.magic
+ice,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@10,Ice Void Capsule,MagicBees:capsule.void
+ice,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.for.bucketIce@0,Crushed Ice Bucket,Forestry:bucketIce
+invar.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@21,Molten Invar Bucket,TConstruct:buckets
+iron.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@0,Molten Iron Bucket,TConstruct:buckets
+juice,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.for.waxCapsuleJuice@0,Juice Capsule,Forestry:waxCapsuleJuice
+juice,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.for.canJuice@0,Juice Can,Forestry:canJuice
+juice,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@9,Juice Void Capsule,MagicBees:capsule.void
+juice,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.for.bucketJuice@0,Juice Bucket,Forestry:bucketJuice
+juice,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@9,Juice Magic Capsule,MagicBees:capsule.magic
+juice,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.for.refractoryJuice@0,Juice Capsule,Forestry:refractoryJuice
+latex,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.containerCan@130,Latex Can,BinnieCore:containerCan
+latex,1000,1xitem.misc@8,Glass Cylinder,Genetics:misc,1xitem.containerCylinder@130,Latex Cylinder,BinnieCore:containerCylinder
+latex,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.containerCapsule@130,Latex Capsule,BinnieCore:containerCapsule
+latex,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.containerBucket@130,Latex Bucket,BinnieCore:containerBucket
+latex,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.containerRefractory@130,Latex Capsule,BinnieCore:containerRefractory
+latex,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.containerGlass@130,Latex Glass,BinnieCore:containerGlass
+lava,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketLava@0,Lava Bucket,minecraft:lava_bucket
+lava,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.for.canLava@0,Lava Can,Forestry:canLava
+lava,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.for.refractoryLava@0,Lava Capsule,Forestry:refractoryLava
+lava,1000,1xic2.itemCellEmpty@0,Empty Cell,IC2:itemCellEmpty,1xic2.itemCellEmpty@2,Lava Cell,IC2:itemCellEmpty
+lava,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@2,Lava Void Capsule,MagicBees:capsule.void
+lava,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@2,Lava Magic Capsule,MagicBees:capsule.magic
+lead.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@18,Molten Lead Bucket,TConstruct:buckets
+life essence,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketLife@0,Bucket of Life,AWWayofTime:bucketLife
+liquid_sunshine,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketLiquid_sunshine@0,Liquid Sunshine Bucket,EnderIO:bucketLiquid_sunshine
+liquidnitrogen,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.containerCan@66,Nitrogen Can,BinnieCore:containerCan
+liquidnitrogen,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.containerGlass@66,Nitrogen Glass,BinnieCore:containerGlass
+liquidnitrogen,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.containerBucket@66,Nitrogen Bucket,BinnieCore:containerBucket
+liquidnitrogen,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.containerCapsule@66,Nitrogen Capsule,BinnieCore:containerCapsule
+liquidnitrogen,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.containerRefractory@66,Nitrogen Capsule,BinnieCore:containerRefractory
+liquidnitrogen,1000,1xitem.misc@8,Glass Cylinder,Genetics:misc,1xitem.containerCylinder@66,Nitrogen Cylinder,BinnieCore:containerCylinder
+liquidnitrogen,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@14,Liquid Nitrogen Magic Capsule,MagicBees:capsule.magic
+liquidnitrogen,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@14,Liquid Nitrogen Void Capsule,MagicBees:capsule.void
+lumium.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@27,Molten Lumium Bucket,TConstruct:buckets
+mana,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.thermalfoundation.bucket@5,Primal Mana Bucket,ThermalFoundation:bucket
+mana,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@23,Primal Mana Magic Capsule,MagicBees:capsule.magic
+mana,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@23,Primal Mana Void Capsule,MagicBees:capsule.void
+manyullyn.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@9,Molten Manyullyn Bucket,TConstruct:buckets
+mead,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.for.canMead@0,Mead Can,Forestry:canMead
+mead,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.for.beverage@2,Mead,Forestry:beverage
+mead,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.for.refractoryMead@0,Mead Capsule,Forestry:refractoryMead
+mead,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.for.bucketMead@0,Mead Bucket,Forestry:bucketMead
+mead,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.for.waxCapsuleMead@0,Mead Capsule,Forestry:waxCapsuleMead
+meat,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.mfr.bucket.meat@0,Meat Bucket,MineFactoryReloaded:bucket.meat
+milk,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.mfr.bucket.milk@0,Milk Bucket,minecraft:milk_bucket
+milk,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.mfr.milkbottle@0,Milk Bottle,MineFactoryReloaded:milkbottle
+milk,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@11,Milk Magic Capsule,MagicBees:capsule.magic
+milk,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@11,Milk Void Capsule,MagicBees:capsule.void
+mithril.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@29,Molten Mana Infused Metal Bucket,TConstruct:buckets
+mobessence,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.mfr.bucket.essence@0,Essence Bucket,MineFactoryReloaded:bucket.essence
+mushroomsoup,1000,1xitem.bowl@0,Bowl,minecraft:bowl,1xitem.mushroomStew@0,Mushroom Stew,minecraft:mushroom_stew
+mushroomsoup,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.mfr.bucket.mushroomsoup@0,Mushroom Soup Bucket,MineFactoryReloaded:bucket.mushroomsoup
+nickel.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@17,Molten Nickel Bucket,TConstruct:buckets
+nutrient_distillation,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketNutrient_distillation@0,Nutrient Distillation Bucket,EnderIO:bucketNutrient_distillation
+obsidian.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@11,Molten Obsidian Bucket,TConstruct:buckets
+oil,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketOil@0,Oil Bucket,BuildCraft|Energy:bucketOil
+oil,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@5,Oil Void Capsule,MagicBees:capsule.void
+oil,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@5,Oil Magic Capsule,MagicBees:capsule.magic
+petrotheum,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.thermalfoundation.bucket@8,Tectonic Petrotheum Bucket,ThermalFoundation:bucket
+pigiron.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@26,Molten Pig Iron Bucket,TConstruct:buckets
+pinkslime,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.mfr.bucket.pinkslime@0,Pink Slime Bucket,MineFactoryReloaded:bucket.pinkslime
+plantoil,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.ImmersiveEngineering.fluidContainers@3,Bucket of Plant Oil,ImmersiveEngineering:fluidContainers
+plantoil,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.ImmersiveEngineering.fluidContainers@2,Bottle of Plant Oil,ImmersiveEngineering:fluidContainers
+platinum.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@20,Molten Shiny Bucket,TConstruct:buckets
+poison,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.containerCan@65,Poison Can,BinnieCore:containerCan
+poison,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.containerGlass@65,Poison Glass,BinnieCore:containerGlass
+poison,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.containerBucket@65,Poison Bucket,BinnieCore:containerBucket
+poison,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.containerCapsule@65,Poison Capsule,BinnieCore:containerCapsule
+poison,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.containerRefractory@65,Poison Capsule,BinnieCore:containerRefractory
+poison,1000,1xitem.misc@8,Glass Cylinder,Genetics:misc,1xitem.containerCylinder@65,Poison Cylinder,BinnieCore:containerCylinder
+poison,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@13,Poison Magic Capsule,MagicBees:capsule.magic
+poison,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@13,Poison Void Capsule,MagicBees:capsule.void
+pyrotheum,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.thermalfoundation.bucket@3,Blazing Pyrotheum Bucket,ThermalFoundation:bucket
+pyrotheum,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@21,Blazing Pyrotheum Magic Capsule,MagicBees:capsule.magic
+pyrotheum,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@21,Blazing Pyrotheum Void Capsule,MagicBees:capsule.void
+redstone,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.thermalfoundation.bucket@0,Destabilized Redstone Bucket,ThermalFoundation:bucket
+redstone,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@18,Destabilized Redstone Magic Capsule,MagicBees:capsule.magic
+redstone,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@18,Destabilized Redstone Void Capsule,MagicBees:capsule.void
+resin,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.containerCan@129,Resin Can,BinnieCore:containerCan
+resin,1000,1xitem.misc@8,Glass Cylinder,Genetics:misc,1xitem.containerCylinder@129,Resin Cylinder,BinnieCore:containerCylinder
+resin,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.containerCapsule@129,Resin Capsule,BinnieCore:containerCapsule
+resin,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.containerBucket@129,Resin Bucket,BinnieCore:containerBucket
+resin,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.containerRefractory@129,Resin Capsule,BinnieCore:containerRefractory
+resin,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.containerGlass@129,Resin Glass,BinnieCore:containerGlass
+rocket_fuel,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketRocket_fuel@0,Rocket Fuel Bucket,EnderIO:bucketRocket_fuel
+sap,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.containerCan@128,Sap Can,BinnieCore:containerCan
+sap,1000,1xitem.misc@8,Glass Cylinder,Genetics:misc,1xitem.containerCylinder@128,Sap Cylinder,BinnieCore:containerCylinder
+sap,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.containerCapsule@128,Sap Capsule,BinnieCore:containerCapsule
+sap,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.containerBucket@128,Sap Bucket,BinnieCore:containerBucket
+sap,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.containerRefractory@128,Sap Capsule,BinnieCore:containerRefractory
+sap,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.containerGlass@128,Sap Glass,BinnieCore:containerGlass
+seedoil,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.for.waxCapsuleSeedOil@0,Seed Oil Capsule,Forestry:waxCapsuleSeedOil
+seedoil,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.for.bucketSeedOil@0,Seed Oil Bucket,Forestry:bucketSeedOil
+seedoil,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.for.refractorySeedOil@0,Seed Oil Capsule,Forestry:refractorySeedOil
+seedoil,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.for.canSeedOil@0,Seed Oil Can,Forestry:canSeedOil
+seedoil,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@7,Seed Oil Void Capsule,MagicBees:capsule.void
+seedoil,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@7,Seed Oil Magic Capsule,MagicBees:capsule.magic
+sewage,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.mfr.bucket.sewage@0,Sewage Bucket,MineFactoryReloaded:bucket.sewage
+short.mead,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.for.canShortMead@0,Short Mead Can,Forestry:canShortMead
+short.mead,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.for.refractoryShortMead@0,Short Mead Capsule,Forestry:refractoryShortMead
+short.mead,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.for.beverage@0,Short Mead,Forestry:beverage
+short.mead,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.for.bucketShortMead@0,Short Mead Bucket,Forestry:bucketShortMead
+short.mead,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.for.waxCapsuleShortMead@0,Short Mead Capsule,Forestry:waxCapsuleShortMead
+signalum.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@28,Molten Signalum Bucket,TConstruct:buckets
+silver.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@19,Molten Silver Bucket,TConstruct:buckets
+slime.blue,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@24,Liquid Slime Bucket,TConstruct:buckets
+sludge,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.mfr.bucket.sludge@0,Sludge Bucket,MineFactoryReloaded:bucket.sludge
+steam,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.railcraft.fluid.steam.bottle@0,Steam Bottle,Railcraft:fluid.steam.bottle
+steam,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@17,Steam Magic Capsule,MagicBees:capsule.magic
+steam,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@17,Steam Void Capsule,MagicBees:capsule.void
+steel.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@12,Molten Steel Bucket,TConstruct:buckets
+stone.seared,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@14,Seared Stone Bucket,TConstruct:buckets
+tar,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketOfTar@0,Bucket of Tar,divinerpg:bucketOfTar
+tin.molten,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.tconstruct.bucket@3,Molten Tin Bucket,TConstruct:buckets
+turpentine,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.containerCan@131,Turpentine Can,BinnieCore:containerCan
+turpentine,1000,1xitem.misc@8,Glass Cylinder,Genetics:misc,1xitem.containerCylinder@131,Turpentine Cylinder,BinnieCore:containerCylinder
+turpentine,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.containerCapsule@131,Turpentine Capsule,BinnieCore:containerCapsule
+turpentine,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.containerBucket@131,Turpentine Bucket,BinnieCore:containerBucket
+turpentine,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.containerRefractory@131,Turpentine Capsule,BinnieCore:containerRefractory
+turpentine,1000,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.containerGlass@131,Turpentine Glass,BinnieCore:containerGlass
+vapor_of_levity,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketVapor_of_levity@0,Vapor of Levity Bucket,EnderIO:bucketVapor_of_levity
+water,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.bucketWater@0,Water Bucket,minecraft:water_bucket
+water,1000,1xitem.for.refractoryEmpty@0,Refractory Capsule,Forestry:refractoryEmpty,1xitem.for.refractoryWater@0,Water Capsule,Forestry:refractoryWater
+water,1000,1xitem.for.canEmpty@0,Can,Forestry:canEmpty,1xitem.for.canWater@0,Water Can,Forestry:canWater
+water,333,1xitem.glassBottle@0,Glass Bottle,minecraft:glass_bottle,1xitem.potion@0,Water Bottle,minecraft:potion
+water,1000,1xitem.for.waxCapsule@0,Wax Capsule,Forestry:waxCapsule,1xitem.for.waxCapsuleWater@0,Water Capsule,Forestry:waxCapsuleWater
+water,1000,1xic2.itemCellEmpty@0,Empty Cell,IC2:itemCellEmpty,1xic2.itemCellEmpty@1,Water Cell,IC2:itemCellEmpty
+water,2000,1xitem.capsule.magic@0,Empty Magic Capsule,MagicBees:capsule.magic,1xitem.capsule.magic@1,Water Magic Capsule,MagicBees:capsule.magic
+water,8000,1xitem.capsule.void@0,Empty Void Capsule,MagicBees:capsule.void,1xitem.capsule.void@1,Water Void Capsule,MagicBees:capsule.void
+witchery:brew,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.witchery:bucketbrew@0,item.witchery:bucketbrew.name,witchery:bucketbrew
+witchery:fluidspirit,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.witchery:bucketspirit@0,Spirit Bucket,witchery:bucketspirit
+witchery:hollowtears,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.witchery:buckethollowtears@0,Hollow Tears Bucket,witchery:buckethollowtears
+xpjuice,1000,1xitem.bucket@0,Bucket,minecraft:bucket,1xitem.openblocks.filledbucket@0,XP Bucket,OpenBlocks:filledbucket

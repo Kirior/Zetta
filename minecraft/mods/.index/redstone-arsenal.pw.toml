@@ -1,0 +1,21 @@
+filename = 'RedstoneArsenal-[1.7.10]1.1.2-92.jar'
+name = 'Redstone Arsenal'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'RedstoneArsenal-[1.7.10]1.1.2-92.jar'
+
+[download]
+hash = 'c746298542e1e5ec2d60f81ce0e99b5752482adf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2277490
+project-id = 70631
+
+[[x-prismlauncher-dependencies]]
+addonId = '69162'
+type = 'REQUIRED'

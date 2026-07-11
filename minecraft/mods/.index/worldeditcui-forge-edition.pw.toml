@@ -1,0 +1,18 @@
+filename = 'WorldEditCuiFe-v1.0.7-mf-1.7.10-10.13.4.1566.jar'
+name = 'WorldEditCUI Forge Edition'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'WorldEditCuiFe-v1.0.7-mf-1.7.10-10.13.4.1566.jar'
+
+[download]
+hash = '86f6217264457cb9a2ac047c0fc0f4eab75ee371'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2390420
+project-id = 242932

@@ -1,0 +1,21 @@
+filename = 'ElectroMagicTools-1.2.6.2[1.7.10].jar'
+name = 'Electro-Magic Tools'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ElectroMagicTools-1.2.6.2[1.7.10]'
+
+[download]
+hash = '0bc88d5d10c1d63d8f180a30d10287935a6d99f7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2336582
+project-id = 236669
+
+[[x-prismlauncher-dependencies]]
+addonId = '223628'
+type = 'EMBEDDED'

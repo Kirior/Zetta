@@ -1,0 +1,18 @@
+filename = 'alreadydecoratingfix-1.0a.jar'
+name = 'Biome Decoration Fix'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Biome Decoration Fix 1.0a'
+
+[download]
+hash = '8296281ae3a71b82c7bd5762f474206621c7df74'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3479308
+project-id = 533258

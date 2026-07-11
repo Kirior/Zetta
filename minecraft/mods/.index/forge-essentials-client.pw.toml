@@ -1,0 +1,21 @@
+filename = 'forgeessentials-1.7.10-7.5.1-client.jar'
+name = 'Forge Essentials Client'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'forgeessentials-1.7.10-7.5.1'
+
+[download]
+hash = '17fa5e5e8888eeb47fd92a88047b597a5c23cb72'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6113617
+project-id = 235928
+
+[[x-prismlauncher-dependencies]]
+addonId = '74735'
+type = 'TOOL'

@@ -1,0 +1,1868 @@
+<!DOCTYPE html><!--[if lt IE 7 ]>	<html lang="en-US" class="no-js ie6"> <![endif]--><!--[if IE 7 ]>		<html lang="en-US" class="no-js ie7"> <![endif]--><!--[if IE 8 ]>		<html lang="en-US" class="no-js ie8"> <![endif]--><!--[if IE 9 ]>		<html lang="en-US" class="no-js ie9"> <![endif]--><!--[if (gt IE 9)|!(IE)]><!--><html lang="en-US" class="no-js"><!--<![endif]--><head><meta charset="UTF-8"/>
+<script>
+// templated by golang 
+function __setCMPv2RequestData() {
+    window._CMPv2RequestData = {
+	    "language": "en"
+    };
+}
+__setCMPv2RequestData();
+
+var gtagLoadBackoff = 50;
+function gtagLoadedCheck() {
+    if(typeof gtag == 'undefined') {
+        gtagLoadBackoff += 50;
+
+        return setTimeout(function(){
+            gtagLoadedCheck();
+        }, gtagLoadBackoff);
+    } else {
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied'
+        });
+    }
+}
+
+gtagLoadedCheck();</script>
+
+<script src="https://privacy.gatekeeperconsent.com/tcf2_stub.js" data-cfasync="false"></script>
+<script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force,customSetScriptFn=null){var setScript=function(){if(force||window.ezTcfConsent[category]){if(typeof customSetScriptFn==='function'){customSetScriptFn();}else{var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};</script>
+<script>var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}</script>
+<script>if(typeof _setEzCookies!=='function'){function _setEzCookies(ezConsentData){var cookies=window.ezCookieQueue;for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}}
+window.ezCookieQueue=window.ezCookieQueue||[];if(typeof addEzCookies!=='function'){function addEzCookies(arr){window.ezCookieQueue=[...window.ezCookieQueue,...arr];}}
+addEzCookies([]);if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}</script>
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=true;window.__ezScriptHost="//www.ezojs.com";__ez.queue=__ez.queue||function(){var e=0,i=0,t=[],n=!1,o=[],r=[],s=!0,a=function(e,i,n,o,r,s,a){var l=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,d=this;this.name=e,this.funcName=i,this.parameters=null===n?null:w(n)?n:[n],this.isBlock=o,this.blockedBy=r,this.deleteWhenComplete=s,this.isError=!1,this.isComplete=!1,this.isInitialized=!1,this.proceedIfError=a,this.fWindow=l,this.isTimeDelay=!1,this.process=function(){f("... func = "+e),d.isInitialized=!0,d.isComplete=!0,f("... func.apply: "+e);var i=d.funcName.split("."),n=null,o=this.fWindow||window;i.length>3||(n=3===i.length?o[i[0]][i[1]][i[2]]:2===i.length?o[i[0]][i[1]]:o[d.funcName]),null!=n&&n.apply(null,this.parameters),!0===d.deleteWhenComplete&&delete t[e],!0===d.isBlock&&(f("----- F'D: "+d.name),p())}},l=function(e,i,t,n,o,r,s){var a=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,l=this;this.name=e,this.path=i,this.async=o,this.defer=r,this.isBlock=t,this.blockedBy=n,this.isInitialized=!1,this.isError=!1,this.isComplete=!1,this.proceedIfError=s,this.fWindow=a,this.isTimeDelay=!1,this.isPath=function(e){return"/"===e[0]&&"/"!==e[1]},this.getSrc=function(e){return void 0!==window.__ezScriptHost&&this.isPath(e)?window.__ezScriptHost+e:e},this.process=function(){l.isInitialized=!0,f("... file = "+e);var i=this.fWindow?this.fWindow.document:document,t=i.createElement("script");t.src=this.getSrc(this.path),!0===o?t.async=!0:!0===r&&(t.defer=!0),t.onerror=function(){var e={url:window.location.href,name:l.name,path:l.path,user_agent:window.navigator.userAgent};"undefined"!=typeof _ezaq&&(e.pageview_id=_ezaq.page_view_id);var i=encodeURIComponent(JSON.stringify(e)),t=new XMLHttpRequest;t.open("GET","//g.ezoic.net/ezqlog?d="+i,!0),t.send(),f("----- ERR'D: "+l.name),l.isError=!0,!0===l.isBlock&&p()},t.onreadystatechange=t.onload=function(){var e=t.readyState;f("----- F'D: "+l.name),e&&!/loaded|complete/.test(e)||(l.isComplete=!0,!0===l.isBlock&&p())},i.getElementsByTagName("head")[0].appendChild(t)}},d=function(e,i){this.name=e,this.path="",this.async=!1,this.defer=!1,this.isBlock=!1,this.blockedBy=[],this.isInitialized=!0,this.isError=!1,this.isComplete=i,this.proceedIfError=!1,this.isTimeDelay=!1,this.process=function(){}};function c(e,i,n,s,a,d,c,u,f){var p=new l(e,i,n,s,a,d,c,f);!0===u?o[e]=p:r[e]=p,t[e]=p,h(p)}function h(e){!0!==u(e)&&0!=s&&e.process()}function u(e){if(!0===e.isTimeDelay&&!1===n)return f(e.name+" blocked = TIME DELAY!"),!0;if(w(e.blockedBy))for(var i=0;i<e.blockedBy.length;i++){var o=e.blockedBy[i];if(!1===t.hasOwnProperty(o))return f(e.name+" blocked = "+o),!0;if(!0===e.proceedIfError&&!0===t[o].isError)return!1;if(!1===t[o].isComplete)return f(e.name+" blocked = "+o),!0}return!1}function f(e){var i=window.location.href,t=new RegExp("[?&]ezq=([^&#]*)","i").exec(i);"1"===(t?t[1]:null)&&console.debug(e)}function p(){++e>200||(f("let's go"),m(o),m(r))}function m(e){for(var i in e)if(!1!==e.hasOwnProperty(i)){var t=e[i];!0===t.isComplete||u(t)||!0===t.isInitialized||!0===t.isError?!0===t.isError?f(t.name+": error"):!0===t.isComplete?f(t.name+": complete already"):!0===t.isInitialized&&f(t.name+": initialized already"):t.process()}}function w(e){return"[object Array]"==Object.prototype.toString.call(e)}return window.addEventListener("load",(function(){setTimeout((function(){n=!0,f("TDELAY -----"),p()}),5e3)}),!1),{addFile:c,addFileOnce:function(e,i,n,o,r,s,a,l,d){t[e]||c(e,i,n,o,r,s,a,l,d)},addDelayFile:function(e,i){var n=new l(e,i,!1,[],!1,!1,!0);n.isTimeDelay=!0,f(e+" ...  FILE! TDELAY"),r[e]=n,t[e]=n,h(n)},addFunc:function(e,n,s,l,d,c,u,f,p,m){!0===c&&(e=e+"_"+i++);var w=new a(e,n,s,l,d,u,f,m);!0===p?o[e]=w:r[e]=w,t[e]=w,h(w)},addDelayFunc:function(e,i,n){var o=new a(e,i,n,!1,[],!0,!0);o.isTimeDelay=!0,f(e+" ...  FUNCTION! TDELAY"),r[e]=o,t[e]=o,h(o)},items:t,processAll:p,setallowLoad:function(e){s=e},markLoaded:function(e){if(e&&0!==e.length){if(e in t){var i=t[e];!0===i.isComplete?f(i.name+" "+e+": error loaded duplicate"):(i.isComplete=!0,i.isInitialized=!0)}else t[e]=new d(e,!0);f("markLoaded dummyfile: "+t[e].name)}},logWhatsBlocked:function(){for(var e in t)!1!==t.hasOwnProperty(e)&&u(t[e])}}}();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.dot=__ez.dot||{};__ez.queue.addFileOnce('/detroitchicago/boise.js', '//go.ezodn.com/detroitchicago/boise.js?gcb=195-0&cb=5', true, [], true, false, true, false);__ez.queue.addFileOnce('/parsonsmaize/abilene.js', '//go.ezodn.com/parsonsmaize/abilene.js?gcb=195-0&cb=37cb48c9b5', true, [], true, false, true, false);__ez.queue.addFileOnce('/parsonsmaize/mulvane.js', '//go.ezodn.com/parsonsmaize/mulvane.js?gcb=195-0&cb=e75e48eec0', true, ['/parsonsmaize/abilene.js'], true, false, true, false);__ez.queue.addFileOnce('/detroitchicago/birmingham.js', '//go.ezodn.com/detroitchicago/birmingham.js?gcb=195-0&cb=539c47377c', true, ['/parsonsmaize/abilene.js'], true, false, true, false);</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">window._ezaq = Object.assign({"ad_cache_level":0,"adpicker_placement_cnt":0,"ai_placeholder_cache_level":0,"ai_placeholder_placement_cnt":-1,"article_category":"customnpcs","author":"Noppes","domain":"kodevelopment.nl","domain_id":299597,"ezcache_level":0,"ezcache_skip_code":0,"has_bad_image":0,"has_bad_words":0,"is_sitespeed":0,"lt_cache_level":0,"publish_date":"2014-10-11","response_size":143049,"response_size_orig":137212,"response_time_orig":0,"template_id":120,"url":"http://www.kodevelopment.nl/minecraft/customnpcs/custom-npcs","word_count":0,"worst_bad_word_level":0}, typeof window._ezaq !== "undefined" ? window._ezaq : {});__ez.queue.markLoaded('ezaqBaseReady');</script>
+<script type='text/javascript' data-ezscrex='false' data-cfasync='false'>
+window.ezAnalyticsStatic = true;
+window._ez_send_requests_through_ezoic = true;window.ezWp = true;
+function analyticsAddScript(script) {
+	var ezDynamic = document.createElement('script');
+	ezDynamic.type = 'text/javascript';
+	ezDynamic.innerHTML = script;
+	document.head.appendChild(ezDynamic);
+}
+function getCookiesWithPrefix() {
+    var allCookies = document.cookie.split(';');
+    var cookiesWithPrefix = {};
+
+    for (var i = 0; i < allCookies.length; i++) {
+        var cookie = allCookies[i].trim();
+
+        for (var j = 0; j < arguments.length; j++) {
+            var prefix = arguments[j];
+            if (cookie.indexOf(prefix) === 0) {
+                var cookieParts = cookie.split('=');
+                var cookieName = cookieParts[0];
+                var cookieValue = cookieParts.slice(1).join('=');
+                cookiesWithPrefix[cookieName] = decodeURIComponent(cookieValue);
+                break; // Once matched, no need to check other prefixes
+            }
+        }
+    }
+
+    return cookiesWithPrefix;
+}
+function productAnalytics() {
+	var d = {"dhh":"//go.ezodn.com","pr":[6],"omd5":"c14619786826e7006afe4b54ad528e51","nar":"risk score"};
+	d.u = _ezaq.url;
+	d.p = _ezaq.page_view_id;
+	d.v = _ezaq.visit_uuid;
+	d.ab = _ezaq.ab_test_id;
+	d.e = JSON.stringify(_ezaq);
+	d.ref = document.referrer;
+	d.dw = document.documentElement.clientWidth || window.innerWidth || 0;
+	d.dh = window.screen.height || 0;
+	d.vpw = window.innerWidth || document.documentElement.clientWidth || 0;
+	d.vph = window.innerHeight || document.documentElement.clientHeight || 0;
+	d.doch = Math.max((document.body && document.body.scrollHeight) || 0, (document.documentElement && document.documentElement.scrollHeight) || 0, (document.body && document.body.offsetHeight) || 0, (document.documentElement && document.documentElement.offsetHeight) || 0, (document.body && document.body.clientHeight) || 0, (document.documentElement && document.documentElement.clientHeight) || 0);
+	d.c = getCookiesWithPrefix('active_template', 'ez', 'lp_');
+	if(typeof ez_utmParams !== 'undefined') {
+		d.utm = ez_utmParams;
+	}
+	d.qs = window.location.search;
+
+	var dataText = JSON.stringify(d);
+	var xhr = new XMLHttpRequest();
+	xhr.open('POST','//g.ezoic.net/ezais/analytics?cb=1', true);
+	xhr.onload = function () {
+		if (xhr.status!=200) {
+            return;
+		}
+
+        if(document.readyState !== 'loading') {
+            analyticsAddScript(xhr.response);
+            return;
+        }
+
+        var eventFunc = function() {
+            if(document.readyState === 'loading') {
+                return;
+            }
+            document.removeEventListener('readystatechange', eventFunc, false);
+            analyticsAddScript(xhr.response);
+        };
+
+        document.addEventListener('readystatechange', eventFunc, false);
+	};
+	xhr.setRequestHeader('Content-Type','text/plain');
+	xhr.send(dataText);
+}
+__ez.queue.addFunc("productAnalytics", "productAnalytics", null, true, ['ezaqBaseReady'], false, false, false, true);
+</script><base href="http://www.kodevelopment.nl/minecraft/customnpcs/custom-npcs"/>
+
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes"/>
+<meta name="HandheldFriendly" content="true"/>
+
+<link rel="pingback" href="http://www.kodevelopment.nl/minecraft/xmlrpc.php"/>
+
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.4 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Custom NPCs - Noppes&#39; minecraft mods</title>
+	<meta name="description" content="The minecraft custom npcs mod made by Noppes"/>
+	<link rel="canonical" href="http://www.kodevelopment.nl/minecraft/customnpcs/"/>
+	<meta property="og:locale" content="en_US"/>
+	<meta property="og:type" content="article"/>
+	<meta property="og:title" content="Custom NPCs - Noppes&#39; minecraft mods"/>
+	<meta property="og:description" content="The minecraft custom npcs mod made by Noppes"/>
+	<meta property="og:url" content="http://www.kodevelopment.nl/minecraft/customnpcs/"/>
+	<meta property="og:site_name" content="Noppes&#39; minecraft mods"/>
+	<meta property="article:published_time" content="2014-10-11T07:55:44+00:00"/>
+	<meta property="article:modified_time" content="2017-01-22T16:23:32+00:00"/>
+	<meta property="og:image" content="https://i0.wp.com/www.kodevelopment.nl/minecraft/wp-content/uploads/2014/10/SCMowns-Custom-NPCs-1.5.1-Minecraft-Full-Review-and-Tutorial-Client-and-Server-400th-Video-1.jpg?fit=1366%2C768"/>
+	<meta property="og:image:width" content="1366"/>
+	<meta property="og:image:height" content="768"/>
+	<meta property="og:image:type" content="image/jpeg"/>
+	<meta name="author" content="Noppes"/>
+	<meta name="twitter:label1" content="Written by"/>
+	<meta name="twitter:data1" content="Noppes"/>
+	<meta name="twitter:label2" content="Est. reading time"/>
+	<meta name="twitter:data2" content="1 minute"/>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.kodevelopment.nl/minecraft/#website","url":"https://www.kodevelopment.nl/minecraft/","name":"Noppes&#039; minecraft mods","description":"Minecraft mods for everyone","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.kodevelopment.nl/minecraft/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","inLanguage":"en-US","@id":"http://www.kodevelopment.nl/minecraft/customnpcs/#primaryimage","url":"https://i0.wp.com/www.kodevelopment.nl/minecraft/wp-content/uploads/2014/10/SCMowns-Custom-NPCs-1.5.1-Minecraft-Full-Review-and-Tutorial-Client-and-Server-400th-Video-1.jpg?fit=1366%2C768","contentUrl":"https://i0.wp.com/www.kodevelopment.nl/minecraft/wp-content/uploads/2014/10/SCMowns-Custom-NPCs-1.5.1-Minecraft-Full-Review-and-Tutorial-Client-and-Server-400th-Video-1.jpg?fit=1366%2C768","width":1366,"height":768},{"@type":"WebPage","@id":"http://www.kodevelopment.nl/minecraft/customnpcs/","url":"http://www.kodevelopment.nl/minecraft/customnpcs/","name":"Custom NPCs - Noppes&#039; minecraft mods","isPartOf":{"@id":"https://www.kodevelopment.nl/minecraft/#website"},"primaryImageOfPage":{"@id":"http://www.kodevelopment.nl/minecraft/customnpcs/#primaryimage"},"image":{"@id":"http://www.kodevelopment.nl/minecraft/customnpcs/#primaryimage"},"thumbnailUrl":"https://i0.wp.com/www.kodevelopment.nl/minecraft/wp-content/uploads/2014/10/SCMowns-Custom-NPCs-1.5.1-Minecraft-Full-Review-and-Tutorial-Client-and-Server-400th-Video-1.jpg?fit=1366%2C768","datePublished":"2014-10-11T07:55:44+00:00","dateModified":"2017-01-22T16:23:32+00:00","author":{"@id":"https://www.kodevelopment.nl/minecraft/#/schema/person/6c4a81a78ece45fff6155d1e3789402d"},"description":"The minecraft custom npcs mod made by Noppes","breadcrumb":{"@id":"http://www.kodevelopment.nl/minecraft/customnpcs/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["http://www.kodevelopment.nl/minecraft/customnpcs/"]}]},{"@type":"BreadcrumbList","@id":"http://www.kodevelopment.nl/minecraft/customnpcs/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"http://www.kodevelopment.nl/minecraft/"},{"@type":"ListItem","position":2,"name":"Custom NPCs"}]},{"@type":"Person","@id":"https://www.kodevelopment.nl/minecraft/#/schema/person/6c4a81a78ece45fff6155d1e3789402d","name":"Noppes","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.kodevelopment.nl/minecraft/#/schema/person/image/","url":"http://0.gravatar.com/avatar/3190231fab852cbd9552bda57340027c?s=96&d=mm&r=g","contentUrl":"http://0.gravatar.com/avatar/3190231fab852cbd9552bda57340027c?s=96&d=mm&r=g","caption":"Noppes"},"url":"http://www.kodevelopment.nl/minecraft/author/noppesadmin/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com"/>
+<link rel="dns-prefetch" href="//i0.wp.com"/>
+<link rel="dns-prefetch" href="//c0.wp.com"/>
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.kodevelopment.nl\/minecraft\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.5"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/6.6.5/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"/>
+<style id="wp-block-library-inline-css" type="text/css">
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel="stylesheet" id="mediaelement-css" href="https://c0.wp.com/c/6.6.5/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-mediaelement-css" href="https://c0.wp.com/c/6.6.5/wp-includes/js/mediaelement/wp-mediaelement.min.css" type="text/css" media="all"/>
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="cookie-law-info-css" href="http://www.kodevelopment.nl/minecraft/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-public.css?ver=2.1.2" type="text/css" media="all"/>
+<link rel="stylesheet" id="cookie-law-info-gdpr-css" href="http://www.kodevelopment.nl/minecraft/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-gdpr.css?ver=2.1.2" type="text/css" media="all"/>
+<link rel="stylesheet" id="fvp-frontend-css" href="http://www.kodevelopment.nl/minecraft/wp-content/plugins/featured-video-plus/styles/frontend.css?ver=2.3.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="collapscore-css-css" href="http://www.kodevelopment.nl/minecraft/wp-content/plugins/jquery-collapse-o-matic/css/core_style.css?ver=1.0" type="text/css" media="all"/>
+<link rel="stylesheet" id="collapseomatic-css-css" href="http://www.kodevelopment.nl/minecraft/wp-content/plugins/jquery-collapse-o-matic/css/light_style.css?ver=1.6" type="text/css" media="all"/>
+<link rel="stylesheet" id="pc_google_analytics-frontend-css" href="http://www.kodevelopment.nl/minecraft/wp-content/plugins/pc-google-analytics/assets/css/frontend.css?ver=1.0.0" type="text/css" media="all"/>
+<link rel="stylesheet" id="default_gwf-css" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C300%2C300italic&amp;ver=6.6.5" type="text/css" media="all"/>
+<link rel="stylesheet" id="parent-style-css" href="http://www.kodevelopment.nl/minecraft/wp-content/themes/mesocolumn/style.css?ver=1.6.5.1" type="text/css" media="all"/>
+<link rel="stylesheet" id="style-responsive-css" href="http://www.kodevelopment.nl/minecraft/wp-content/themes/mesocolumn/responsive.css?ver=1.6.5.1" type="text/css" media="all"/>
+<link rel="stylesheet" id="superfish-css" href="http://www.kodevelopment.nl/minecraft/wp-content/themes/mesocolumn/lib/scripts/superfish-menu/css/superfish.css?ver=1.6.5.1" type="text/css" media="all"/>
+<link rel="stylesheet" id="font-awesome-cdn-css" href="http://www.kodevelopment.nl/minecraft/wp-content/themes/mesocolumn/lib/scripts/font-awesome/css/font-awesome.css?ver=1.6.5.1" type="text/css" media="all"/>
+<link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/11.2.2/css/jetpack.css" type="text/css" media="all"/>
+<script type="text/javascript" src="https://c0.wp.com/c/6.6.5/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://c0.wp.com/c/6.6.5/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="cookie-law-info-js-extra">
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[],"non_necessary_cookies":[],"ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","strictlyEnabled":["necessary","obligatoire"],"ccpaType":"gdpr","js_blocking":"","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
+var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#fff","border":"#444","border_on":"","button_1_button_colour":"#000","button_1_button_hover":"#000000","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":"","button_2_hidebar":"","button_3_button_colour":"#000","button_3_button_hover":"#000000","button_3_link_colour":"#fff","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#000","button_4_button_hover":"#000000","button_4_link_colour":"#fff","button_4_as_button":"1","button_7_button_colour":"#61a229","button_7_button_hover":"#4e8221","button_7_link_colour":"#fff","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"1","notify_animate_show":"","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":"","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"1","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":"","show_once":"10000","logging_on":"","as_popup":"","popup_overlay":"1","bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"};
+var log_object = {"ajax_url":"http:\/\/www.kodevelopment.nl\/minecraft\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.kodevelopment.nl/minecraft/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js?ver=2.1.2" id="cookie-law-info-js"></script>
+<script type="text/javascript" src="http://www.kodevelopment.nl/minecraft/wp-content/plugins/featured-video-plus/js/jquery.fitvids.min.js?ver=master-2015-08" id="jquery.fitvids-js"></script>
+<script type="text/javascript" id="fvp-frontend-js-extra">
+/* <![CDATA[ */
+var fvpdata = {"ajaxurl":"http:\/\/www.kodevelopment.nl\/minecraft\/wp-admin\/admin-ajax.php","nonce":"8aab7291ae","fitvids":"1","dynamic":"","overlay":"","opacity":"0.75","color":"b","width":"640"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.kodevelopment.nl/minecraft/wp-content/plugins/featured-video-plus/js/frontend.min.js?ver=2.3.3" id="fvp-frontend-js"></script>
+<script type="text/javascript" src="http://www.kodevelopment.nl/minecraft/wp-content/plugins/pc-google-analytics/assets/js/frontend.min.js?ver=1.0.0" id="pc_google_analytics-frontend-js"></script>
+<link rel="https://api.w.org/" href="http://www.kodevelopment.nl/minecraft/wp-json/"/><link rel="alternate" title="JSON" type="application/json" href="http://www.kodevelopment.nl/minecraft/wp-json/wp/v2/posts/1251"/><link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="http://www.kodevelopment.nl/minecraft/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.kodevelopment.nl%2Fminecraft%2Fcustomnpcs"/>
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="http://www.kodevelopment.nl/minecraft/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.kodevelopment.nl%2Fminecraft%2Fcustomnpcs&amp;format=xml"/>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		ga('create', 'UA-29079943-1', 'auto');
+		ga('send', 'pageview');
+		
+		</script>
+<style>img#wpstats{display:none}</style>
+	<style type="text/css" media="all">
+#main-navigation li.tn_cat_color_2 a {border-bottom: 5px solid #4cc600;}#main-navigation ul.sf-menu li.tn_cat_color_2:hover {background-color: #4cc600;}#main-navigation li.tn_cat_color_2.current-menu-item a {background-color: #4cc600;color:white;}#main-navigation li.tn_cat_color_2.current-menu-item a span.menu-decsription {color:white;}ul.sub_tn_cat_color_2 li a {color: #4cc600;}#main-navigation .sf-menu li a:hover {color: #fff !important;}#custom #main-navigation .sf-menu li.tn_cat_color_2 a:hover {color: #fff !important;background-color: #4cc600;}aside.home-feat-cat h4.homefeattitle.feat_tn_cat_color_2 {border-bottom: 5px solid #4cc600;}h2.header-title.feat_tn_cat_color_2 {background-color: #4cc600;padding: 1% 2%;width:95%;color: white;}#custom .archive_tn_cat_color_2 h1.post-title a,#custom .archive_tn_cat_color_2 h2.post-title a {color: #4cc600 !important;}aside.home-feat-cat.post_tn_cat_color_2 .widget a, aside.home-feat-cat.post_tn_cat_color_2 article a {color: #4cc600;}#custom #post-entry.archive_tn_cat_color_2 article .post-meta a:hover {color: #4cc600 !important;}#main-navigation .sf-menu li.tn_cat_color_2 ul  {background-color: #4cc600;background-image: none;}#main-navigation .sf-menu li.tn_cat_color_2 ul li a:hover  {background-color:#199300;background-image: none;}#main-navigation li.tn_cat_color_4 a {border-bottom: 5px solid #cd3700;}#main-navigation ul.sf-menu li.tn_cat_color_4:hover {background-color: #cd3700;}#main-navigation li.tn_cat_color_4.current-menu-item a {background-color: #cd3700;color:white;}#main-navigation li.tn_cat_color_4.current-menu-item a span.menu-decsription {color:white;}ul.sub_tn_cat_color_4 li a {color: #cd3700;}#main-navigation .sf-menu li a:hover {color: #fff !important;}#custom #main-navigation .sf-menu li.tn_cat_color_4 a:hover {color: #fff !important;background-color: #cd3700;}aside.home-feat-cat h4.homefeattitle.feat_tn_cat_color_4 {border-bottom: 5px solid #cd3700;}h2.header-title.feat_tn_cat_color_4 {background-color: #cd3700;padding: 1% 2%;width:95%;color: white;}#custom .archive_tn_cat_color_4 h1.post-title a,#custom .archive_tn_cat_color_4 h2.post-title a {color: #cd3700 !important;}aside.home-feat-cat.post_tn_cat_color_4 .widget a, aside.home-feat-cat.post_tn_cat_color_4 article a {color: #cd3700;}#custom #post-entry.archive_tn_cat_color_4 article .post-meta a:hover {color: #cd3700 !important;}#main-navigation .sf-menu li.tn_cat_color_4 ul  {background-color: #cd3700;background-image: none;}#main-navigation .sf-menu li.tn_cat_color_4 ul li a:hover  {background-color:#9a0400;background-image: none;}#main-navigation li.tn_cat_color_6 a {border-bottom: 5px solid #606060;}#main-navigation ul.sf-menu li.tn_cat_color_6:hover {background-color: #606060;}#main-navigation li.tn_cat_color_6.current-menu-item a {background-color: #606060;color:white;}#main-navigation li.tn_cat_color_6.current-menu-item a span.menu-decsription {color:white;}ul.sub_tn_cat_color_6 li a {color: #606060;}#main-navigation .sf-menu li a:hover {color: #fff !important;}#custom #main-navigation .sf-menu li.tn_cat_color_6 a:hover {color: #fff !important;background-color: #606060;}aside.home-feat-cat h4.homefeattitle.feat_tn_cat_color_6 {border-bottom: 5px solid #606060;}h2.header-title.feat_tn_cat_color_6 {background-color: #606060;padding: 1% 2%;width:95%;color: white;}#custom .archive_tn_cat_color_6 h1.post-title a,#custom .archive_tn_cat_color_6 h2.post-title a {color: #606060 !important;}aside.home-feat-cat.post_tn_cat_color_6 .widget a, aside.home-feat-cat.post_tn_cat_color_6 article a {color: #606060;}#custom #post-entry.archive_tn_cat_color_6 article .post-meta a:hover {color: #606060 !important;}#main-navigation .sf-menu li.tn_cat_color_6 ul  {background-color: #606060;background-image: none;}#main-navigation .sf-menu li.tn_cat_color_6 ul li a:hover  {background-color:#2d2d2d;background-image: none;}#main-navigation li.tn_cat_color_7 a {border-bottom: 5px solid #1c58ff;}#main-navigation ul.sf-menu li.tn_cat_color_7:hover {background-color: #1c58ff;}#main-navigation li.tn_cat_color_7.current-menu-item a {background-color: #1c58ff;color:white;}#main-navigation li.tn_cat_color_7.current-menu-item a span.menu-decsription {color:white;}ul.sub_tn_cat_color_7 li a {color: #1c58ff;}#main-navigation .sf-menu li a:hover {color: #fff !important;}#custom #main-navigation .sf-menu li.tn_cat_color_7 a:hover {color: #fff !important;background-color: #1c58ff;}aside.home-feat-cat h4.homefeattitle.feat_tn_cat_color_7 {border-bottom: 5px solid #1c58ff;}h2.header-title.feat_tn_cat_color_7 {background-color: #1c58ff;padding: 1% 2%;width:95%;color: white;}#custom .archive_tn_cat_color_7 h1.post-title a,#custom .archive_tn_cat_color_7 h2.post-title a {color: #1c58ff !important;}aside.home-feat-cat.post_tn_cat_color_7 .widget a, aside.home-feat-cat.post_tn_cat_color_7 article a {color: #1c58ff;}#custom #post-entry.archive_tn_cat_color_7 article .post-meta a:hover {color: #1c58ff !important;}#main-navigation .sf-menu li.tn_cat_color_7 ul  {background-color: #1c58ff;background-image: none;}#main-navigation .sf-menu li.tn_cat_color_7 ul li a:hover  {background-color:#0025cc;background-image: none;}#main-navigation li.tn_cat_color_18 a {border-bottom: 5px solid #8224e3;}#main-navigation ul.sf-menu li.tn_cat_color_18:hover {background-color: #8224e3;}#main-navigation li.tn_cat_color_18.current-menu-item a {background-color: #8224e3;color:white;}#main-navigation li.tn_cat_color_18.current-menu-item a span.menu-decsription {color:white;}ul.sub_tn_cat_color_18 li a {color: #8224e3;}#main-navigation .sf-menu li a:hover {color: #fff !important;}#custom #main-navigation .sf-menu li.tn_cat_color_18 a:hover {color: #fff !important;background-color: #8224e3;}aside.home-feat-cat h4.homefeattitle.feat_tn_cat_color_18 {border-bottom: 5px solid #8224e3;}h2.header-title.feat_tn_cat_color_18 {background-color: #8224e3;padding: 1% 2%;width:95%;color: white;}#custom .archive_tn_cat_color_18 h1.post-title a,#custom .archive_tn_cat_color_18 h2.post-title a {color: #8224e3 !important;}aside.home-feat-cat.post_tn_cat_color_18 .widget a, aside.home-feat-cat.post_tn_cat_color_18 article a {color: #8224e3;}#custom #post-entry.archive_tn_cat_color_18 article .post-meta a:hover {color: #8224e3 !important;}#main-navigation .sf-menu li.tn_cat_color_18 ul  {background-color: #8224e3;background-image: none;}#main-navigation .sf-menu li.tn_cat_color_18 ul li a:hover  {background-color:#4f00b0;background-image: none;}</style>
+<style type="text/css" media="all">
+</style>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://www.kodevelopment.nl/minecraft/customnpcs"/>
+<meta property="og:title" content="Custom NPCs"/>
+<meta property="og:site_name" content="Noppes&#39; minecraft mods"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:description" content="Info This mod allows you to add custom npcs to your world and is mostly aimed at creative players who want more interactive worlds. If you have any question feel free to ask them add the Custom NPCs Thread, but be sure to read the Frequently Asked..."/>
+<meta property="og:image" content="https://i0.wp.com/www.kodevelopment.nl/minecraft/wp-content/uploads/2014/10/SCMowns-Custom-NPCs-1.5.1-Minecraft-Full-Review-and-Tutorial-Client-and-Server-400th-Video-1.jpg?resize=150%2C150"/>
+<meta property="fb:app_id" content="226825140774952"/>
+<style type="text/css" media="all">
+body {font-family: 'Open Sans', sans-serif;font-weight: 400;}
+#siteinfo div,h1,h2,h3,h4,h5,h6,.header-title,#main-navigation, #featured #featured-title, #cf .tinput, #wp-calendar caption,.flex-caption h1,#portfolio-filter li,.nivo-caption a.read-more,.form-submit #submit,.fbottom,ol.commentlist li div.comment-post-meta, .home-post span.post-category a,ul.tabbernav li a {font-family: 'Open Sans', sans-serif;font-weight:600;}
+#main-navigation, .sf-menu li a {font-family: 'Open Sans', sans-serif;font-weight: 600;}
+#Gallerybox,#myGallery,#myGallerySet,#flickrGallery {height:400px;}
+@media only screen and (min-width:768px) {
+#post-entry article.post-style-magazine {width:48%;float:left;height:480px;}
+#post-entry article.feat-thumbnail.post-style-magazine {height:350px;}
+#post-entry article.post-style-magazine.alt-post {margin-right:4%;}
+#post-entry article.post-style-magazine .post-right {margin:0;}
+#post-entry article.post-style-magazine .post-right h2,
+#post-entry article.post-style-magazine .post-right .post-meta,
+#post-entry article.post-style-magazine .post-right .post-content {float:none;width:auto;}
+#post-entry article.post-style-magazine.feat-thumbnail div.post-thumb {margin: 0 15px 8px 0;}
+#post-entry article.post-style-magazine:last-of-type {border-bottom:1px solid #ddd;}
+#post-entry article.post-style-magazine.feat-medium div.post-thumb,#post-entry article.post-style-magazine.feat-large div.post-thumb {width:100%;max-height:200px;float:left;margin:0 0 12px;}
+#post-entry article.post-style-magazine.feat-medium div.post-thumb img,#post-entry article.post-style-magazine.feat-large div.post-thumb img {width:100%;height:auto;}
+}
+#custom #siteinfo a {color: # !important;text-decoration: none;}
+#custom #siteinfo p#site-description {color: # !important;text-decoration: none;}
+#post-entry div.post-thumb.size-thumbnail {float:left;width:150px;}
+#post-entry article .post-right {margin:0 0 0 170px;}
+#main-navigation .sf-menu a:hover{
+  text-decoration: underline !important;
+}
+body{
+    background-image:url("http://img.photobucket.com/albums/v651/noppes/minecraft%20website/background_zps320caa47.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index:-700;
+}
+#bodywrap{
+    max-width:1300px;
+}
+#header{
+    background-color:#FFFFFF;
+    z-index:-600;
+}
+.container-wrap{
+    background-color:#FFFFFF;
+    z-index:-600;
+    margin:0;
+}
+#post-entry{
+    margin-left:1.25em;
+}
+#post-navigator-single{
+    display:none !important;
+}
+.ad{
+    border:1px solid #999; 
+    border-radius:4px;
+    padding-left:0.5em;
+    max-width:310px;
+}
+.adl{
+    margin-left:0.5em;
+}</style>
+
+<script type='text/javascript'>
+var ezoTemplate = 'old_site_noads';
+var ezouid = '1';
+var ezoFormfactor = '1';
+</script><script data-ezscrex="false" type='text/javascript'>
+var soc_app_id = '0';
+var did = 299597;
+var ezdomain = 'kodevelopment.nl';
+var ezoicSearchable = 1;
+</script><script type="text/javascript">(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=1;</script>
+<script type="text/javascript">var cmpIsOn = true;</script></head>
+
+<body class="post-template-default single single-post postid-1251 single-format-standard unknown" id="custom"><script>var ezCmpChangeLogId=2007254;var ezCmpCacheBusterId=469</script><script src="https://the.gatekeeperconsent.com/v2/cmp.js?v=469" id="cmpjs" async="true"></script>
+
+<div class="product-with-desc secbody">
+
+<div id="wrapper">
+
+<div id="wrapper-main">
+
+<div id="bodywrap" class="innerwrap">
+
+<div id="bodycontent">
+
+<div id="container">
+
+<nav class="top-nav iegradient effect-1" id="top-navigation">
+<div class="innerwrap">
+<ul id="menu-top" class="sf-menu"><li id="menu-item-1801" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home no_desc   "><a href="http://www.kodevelopment.nl/minecraft/">Home</a></li>
+<li id="menu-item-1800" class="menu-item menu-item-type-custom menu-item-object-custom no_desc   "><a href="http://www.minecraftforge.net/forum/index.php?board=122.0">Forum</a></li>
+<li id="menu-item-1911" class="menu-item menu-item-type-custom menu-item-object-custom no_desc   "><a href="https://discord.gg/9xZuaA4">Discord</a></li>
+<li id="menu-item-1806" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children no_desc   "><a href="http://www.kodevelopment.nl/minecraft/donate">Support/Donate</a>
+<ul class="sub-menu">
+<li id="menu-item-1807" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/donate">Buy me a drink</a></li>
+<li id="menu-item-1808" class="menu-item menu-item-type-custom menu-item-object-custom no_desc   "><a href="https://www.patreon.com/Noppes">Patreon</a></li>
+</ul>
+</li>
+</ul><div id="mobile-nav"><div class="mobile-open"><a class="mobile-open-click" href="#"><i class="fa fa-bars"></i>Top Menu</a></div><ul id="mobile-menu-wrap"><li><a href="http://www.kodevelopment.nl/minecraft/minecraft/customnpcs">CustomNPCs</a>
+
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs">  <i class="fa fa-minus"></i>Info</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/installation/">  <i class="fa fa-minus"></i>Installation Guide</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/downloads/">  <i class="fa fa-minus"></i>Downloads</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/faq/">  <i class="fa fa-minus"></i>F.A.Q.</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/changelog">  <i class="fa fa-minus"></i>Changelog</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/items">  <i class="fa fa-minus"></i>Items</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/todo">  <i class="fa fa-minus"></i>Todo and Plan list</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/dialog">  <i class="fa fa-minus"></i>Dialog Setup</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/quest">  <i class="fa fa-minus"></i>Quest Setup</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/factions">  <i class="fa fa-minus"></i>Factions Setup</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/jobs">  <i class="fa fa-minus"></i>Jobs</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/roles/">  <i class="fa fa-minus"></i>Roles</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/models">  <i class="fa fa-minus"></i>Models</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/machinima">  <i class="fa fa-minus"></i>Machinima</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/scripting">  <i class="fa fa-minus"></i>Scripting</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/customnpcs/commands">  <i class="fa fa-minus"></i>Commands</a>
+
+
+</li><li><a href="http://www.kodevelopment.nl/minecraft/category/moreplayermodels/">MorePlayerModels</a>
+
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/installation">  <i class="fa fa-minus"></i>Installation Guide</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/packs/">  <i class="fa fa-minus"></i>Packs</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/downloads/">  <i class="fa fa-minus"></i>Downloads</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/creation">  <i class="fa fa-minus"></i>Character Creation</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/model-json-creation/">  <i class="fa fa-minus"></i>Model json creation</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/extra">  <i class="fa fa-minus"></i>Extra Options</a>
+	</li><li><a href="http://dev.bukkit.org/bukkit-plugins/sit-and-lie-anywhere/">  <i class="fa fa-minus"></i>Bukkit</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/animations">  <i class="fa fa-minus"></i>Animations</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/servers">  <i class="fa fa-minus"></i>Server List</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/changelog">  <i class="fa fa-minus"></i>Changelog</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/faq">  <i class="fa fa-minus"></i>F.A.Q.</a>
+
+
+</li><li><a href="http://www.kodevelopment.nl/minecraft/category/animalbikes/">AnimalBikes</a>
+
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/">  <i class="fa fa-minus"></i>Info</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/installation/">  <i class="fa fa-minus"></i>Installation Guide</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/downloads">  <i class="fa fa-minus"></i>Downloads</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/">  <i class="fa fa-minus"></i>Bikes</a>
+	
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/bat/">       <i class="fa fa-angle-double-right"></i>Bat Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/bunny/">       <i class="fa fa-angle-double-right"></i>Bunny Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/chicken/">       <i class="fa fa-angle-double-right"></i>Chicken Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/chinesedragon/">       <i class="fa fa-angle-double-right"></i>Chinese Dragon Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/chocobo/">       <i class="fa fa-angle-double-right"></i>Chocobo Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/cow">       <i class="fa fa-angle-double-right"></i>Cow Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/creeper/">       <i class="fa fa-angle-double-right"></i>Creeper Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/dino/">       <i class="fa fa-angle-double-right"></i>Dino Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/dragon/">       <i class="fa fa-angle-double-right"></i>Ender Dragon Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/ender/">       <i class="fa fa-angle-double-right"></i>Enderman Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/flower">       <i class="fa fa-angle-double-right"></i>Flower Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/ghast/">       <i class="fa fa-angle-double-right"></i>Ghast Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/irongolem/">       <i class="fa fa-angle-double-right"></i>Iron Golem Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/notch/">       <i class="fa fa-angle-double-right"></i>Notch Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/ocelot">       <i class="fa fa-angle-double-right"></i>Ocelot Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/pig/">       <i class="fa fa-angle-double-right"></i>Pig Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/animal-bikes-polar-bear-bike/">       <i class="fa fa-angle-double-right"></i>Polar Bear Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/pony/">       <i class="fa fa-angle-double-right"></i>Pony Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/reindeer/">       <i class="fa fa-angle-double-right"></i>Reindeer Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/sheep/">       <i class="fa fa-angle-double-right"></i>Sheep Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/silverfish/">       <i class="fa fa-angle-double-right"></i>Silverfish Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/slime">       <i class="fa fa-angle-double-right"></i>Slime Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/snowgolem/">       <i class="fa fa-angle-double-right"></i>Snow Golem Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/spider/">       <i class="fa fa-angle-double-right"></i>Spider Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/squid/">       <i class="fa fa-angle-double-right"></i>Squid Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/wolf/">       <i class="fa fa-angle-double-right"></i>Wolf Bike</a>
+		</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/wither">       <i class="fa fa-angle-double-right"></i>Wither Bike</a>
+	
+
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/faq">  <i class="fa fa-minus"></i>F.A.Q.</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/animalbikes/changelog/">  <i class="fa fa-minus"></i>Changelog</a>
+
+
+</li><li><a href="http://www.kodevelopment.nl/minecraft/category/variedcommodities/">VariedCommodities</a>
+
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/varied-commodities/info">  <i class="fa fa-minus"></i>Info</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/varied-commodities/downloads">  <i class="fa fa-minus"></i>Downloads</a>
+
+
+</li><li><a href="http://www.kodevelopment.nl/minecraft/category/miscellaneous/">Miscellaneous</a>
+
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/misc/install">  <i class="fa fa-minus"></i>Installation Guide</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/misc/scare">  <i class="fa fa-minus"></i>Scare Mod</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/misc/crash">  <i class="fa fa-minus"></i>Crash Mod</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/misc/porkchop">  <i class="fa fa-minus"></i>Porkchop Mod</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/misc/trotuman">  <i class="fa fa-minus"></i>Trotuman Mod</a>
+	</li><li><a href="http://www.kodevelopment.nl/minecraft/misc/drophalf">  <i class="fa fa-minus"></i>DropHalf Plugin</a>
+
+
+</li></ul></div></div>
+</nav>
+<!-- HEADER START -->
+<header class="iegradient _head" id="header">
+<div class="header-inner">
+<div class="innerwrap">
+<div id="siteinfo">
+<a href="http://www.kodevelopment.nl/minecraft/" title="Noppes&#39; minecraft mods"><img src="http://img.photobucket.com/albums/v651/noppes/minecraft website/websitelogo_zpsb73d95a3.png" alt="Noppes&#39; minecraft mods"/></a>
+<span class="header-seo-span">
+<div><a href="http://www.kodevelopment.nl/minecraft/" title="Noppes&#39; minecraft mods" rel="home">Noppes&#39; minecraft mods</a></div><p id="site-description">Minecraft mods for everyone</p>
+</span>
+</div>
+<!-- SITEINFO END -->
+</div>
+</div>
+</header>
+<!-- HEADER END -->
+<div class="container-wrap">
+
+<!-- NAVIGATION START -->
+<nav class="main-nav iegradient" id="main-navigation">
+<ul id="menu-main-menu-1" class="sf-menu"><li id="menu-item-1802" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-ancestor current-menu-parent current-post-parent menu-item-has-children no_desc  tn_cat_color_4 "><a href="http://www.kodevelopment.nl/minecraft/minecraft/customnpcs">CustomNPCs</a>
+<ul class="sub-menu">
+<li id="menu-item-1775" class="menu-item menu-item-type-post_type menu-item-object-post current-menu-item no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs">Info</a></li>
+<li id="menu-item-1654" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/installation/">Installation Guide</a></li>
+<li id="menu-item-1858" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/downloads/">Downloads</a></li>
+<li id="menu-item-1664" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/faq/">F.A.Q.</a></li>
+<li id="menu-item-1663" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/changelog">Changelog</a></li>
+<li id="menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/items">Items</a></li>
+<li id="menu-item-1662" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/todo">Todo and Plan list</a></li>
+<li id="menu-item-1660" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/dialog">Dialog Setup</a></li>
+<li id="menu-item-1659" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/quest">Quest Setup</a></li>
+<li id="menu-item-1677" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/factions">Factions Setup</a></li>
+<li id="menu-item-1675" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/jobs">Jobs</a></li>
+<li id="menu-item-1676" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/roles/">Roles</a></li>
+<li id="menu-item-1674" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/models">Models</a></li>
+<li id="menu-item-1673" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/machinima">Machinima</a></li>
+<li id="menu-item-1763" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/scripting">Scripting</a></li>
+<li id="menu-item-1769" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/customnpcs/commands">Commands</a></li>
+</ul>
+</li>
+<li id="menu-item-1803" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children no_desc  tn_cat_color_7 "><a href="http://www.kodevelopment.nl/minecraft/category/moreplayermodels/">MorePlayerModels</a>
+<ul class="sub-menu">
+<li id="menu-item-1682" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/installation">Installation Guide</a></li>
+<li id="menu-item-2195" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/packs/">Packs</a></li>
+<li id="menu-item-1866" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/downloads/">Downloads</a></li>
+<li id="menu-item-1693" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/creation">Character Creation</a></li>
+<li id="menu-item-2153" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/model-json-creation/">Model json creation</a></li>
+<li id="menu-item-1695" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/extra">Extra Options</a></li>
+<li id="menu-item-1500" class="menu-item menu-item-type-custom menu-item-object-custom no_desc   "><a href="http://dev.bukkit.org/bukkit-plugins/sit-and-lie-anywhere/">Bukkit</a></li>
+<li id="menu-item-1692" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/animations">Animations</a></li>
+<li id="menu-item-1691" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/servers">Server List</a></li>
+<li id="menu-item-1680" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/changelog">Changelog</a></li>
+<li id="menu-item-1681" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/moreplayermodels/faq">F.A.Q.</a></li>
+</ul>
+</li>
+<li id="menu-item-1784" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children no_desc  tn_cat_color_2 "><a href="http://www.kodevelopment.nl/minecraft/category/animalbikes/">AnimalBikes</a>
+<ul class="sub-menu">
+<li id="menu-item-1774" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/">Info</a></li>
+<li id="menu-item-1648" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/installation/">Installation Guide</a></li>
+<li id="menu-item-1867" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/downloads">Downloads</a></li>
+<li id="menu-item-1779" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/">Bikes</a>
+	<ul class="sub-menu">
+<li id="menu-item-1721" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/bat/">Bat Bike</a></li>
+<li id="menu-item-1722" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/bunny/">Bunny Bike</a></li>
+<li id="menu-item-1723" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/chicken/">Chicken Bike</a></li>
+<li id="menu-item-1724" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/chinesedragon/">Chinese Dragon Bike</a></li>
+<li id="menu-item-1725" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/chocobo/">Chocobo Bike</a></li>
+<li id="menu-item-1726" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/cow">Cow Bike</a></li>
+<li id="menu-item-1727" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/creeper/">Creeper Bike</a></li>
+<li id="menu-item-1728" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/dino/">Dino Bike</a></li>
+<li id="menu-item-1729" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/dragon/">Ender Dragon Bike</a></li>
+<li id="menu-item-1730" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/ender/">Enderman Bike</a></li>
+<li id="menu-item-1768" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/flower">Flower Bike</a></li>
+<li id="menu-item-1731" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/ghast/">Ghast Bike</a></li>
+<li id="menu-item-1732" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/irongolem/">Iron Golem Bike</a></li>
+<li id="menu-item-1733" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/notch/">Notch Bike</a></li>
+<li id="menu-item-1734" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/ocelot">Ocelot Bike</a></li>
+<li id="menu-item-1735" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/pig/">Pig Bike</a></li>
+<li id="menu-item-1966" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/animal-bikes-polar-bear-bike/">Polar Bear Bike</a></li>
+<li id="menu-item-1736" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/pony/">Pony Bike</a></li>
+<li id="menu-item-1737" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/reindeer/">Reindeer Bike</a></li>
+<li id="menu-item-1738" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/sheep/">Sheep Bike</a></li>
+<li id="menu-item-1739" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/silverfish/">Silverfish Bike</a></li>
+<li id="menu-item-1740" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/slime">Slime Bike</a></li>
+<li id="menu-item-1741" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/snowgolem/">Snow Golem Bike</a></li>
+<li id="menu-item-1742" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/spider/">Spider Bike</a></li>
+<li id="menu-item-1743" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/squid/">Squid Bike</a></li>
+<li id="menu-item-1744" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/wolf/">Wolf Bike</a></li>
+<li id="menu-item-1767" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/wither">Wither Bike</a></li>
+	</ul>
+</li>
+<li id="menu-item-1653" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/faq">F.A.Q.</a></li>
+<li id="menu-item-1651" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/animalbikes/changelog/">Changelog</a></li>
+</ul>
+</li>
+<li id="menu-item-1978" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children no_desc  tn_cat_color_18 "><a href="http://www.kodevelopment.nl/minecraft/category/variedcommodities/">VariedCommodities</a>
+<ul class="sub-menu">
+<li id="menu-item-1979" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/varied-commodities/info">Info</a></li>
+<li id="menu-item-1980" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/varied-commodities/downloads">Downloads</a></li>
+</ul>
+</li>
+<li id="menu-item-1804" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children no_desc  tn_cat_color_6 "><a href="http://www.kodevelopment.nl/minecraft/category/miscellaneous/">Miscellaneous</a>
+<ul class="sub-menu">
+<li id="menu-item-1805" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/misc/install">Installation Guide</a></li>
+<li id="menu-item-1762" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/misc/scare">Scare Mod</a></li>
+<li id="menu-item-1761" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/misc/crash">Crash Mod</a></li>
+<li id="menu-item-1760" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/misc/porkchop">Porkchop Mod</a></li>
+<li id="menu-item-1759" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/misc/trotuman">Trotuman Mod</a></li>
+<li id="menu-item-1758" class="menu-item menu-item-type-post_type menu-item-object-post no_desc   "><a href="http://www.kodevelopment.nl/minecraft/misc/drophalf">DropHalf Plugin</a></li>
+</ul>
+</li>
+</ul></nav>
+<!-- NAVIGATION END -->
+
+<!-- CONTENT START -->
+<div class="content">
+<div class="content-inner">
+
+
+<!-- POST ENTRY START -->
+<div id="post-entry">
+
+<div class="post-entry-inner">
+
+
+
+
+<!-- POST START -->
+<article class="post-single post-1251 post type-post status-publish format-standard has-post-thumbnail hentry category-customnpcs has-post-video has_thumb" id="post-1251">
+
+<div class="post-top">
+<h1 class="post-title entry-title">Custom NPCs</h1>
+<div class="post-meta the-icons pmeta-alt">
+
+
+<span class="post-author vcard"><i class="fa fa-user"></i><a class="url fn" href="http://www.kodevelopment.nl/minecraft/author/noppesadmin/" title="Posts by Noppes" rel="author">Noppes</a></span>
+
+<span class="entry-date post-date"><i class="fa fa-clock-o"></i><abbr class="published" title="2014-10-11T08:55:44+00:00">11 October 2014</abbr></span>
+<span class="meta-no-display"><a href="http://www.kodevelopment.nl/minecraft/customnpcs" rel="bookmark">Custom NPCs</a></span><span class="date updated meta-no-display">2017-01-22T16:23:32+00:00</span>
+<span class="post-category"><i class="fa fa-file"></i><a href="http://www.kodevelopment.nl/minecraft/minecraft/customnpcs" rel="category tag">CustomNpcs</a></span>
+
+
+<span class="post-comment last"><i class="fa fa-comment"></i><a href="http://www.kodevelopment.nl/minecraft/customnpcs#comments">85 Comments</a></span>
+
+
+</div></div>
+
+
+<div class="post-content">
+
+
+<div class="entry-content">
+<h2>Info</h2>
+<p>This mod allows you to add custom npcs to your world and is mostly aimed at creative players who want more interactive worlds. If you have any question feel free to ask them add the <a title="minecraft custom npcs" href="http://www.minecraftforum.net/topic/833003-">Custom NPCs Thread</a>, but be sure to read the Frequently Asked Questions first.</p><!-- Ezoic - wp_under_page_title - under_page_title --><div id="ezoic-pub-ad-placeholder-102" data-inserter-version="2"></div><!-- End Ezoic - wp_under_page_title - under_page_title -->
+<h2>Things you might want to know</h2>
+<ul>
+<li>Before updating to a new version always backup your world</li>
+<li>When closing minecraft be sure to save your world before exiting (esc -&gt; Save and Quit). If you dont your latest changes might not be saved properly</li>
+<li>You can add skins to the .minecraft/customnpcs/assets/customnpcs/textures folder or put them in your resource pack in the assets/customnpcs folder</li>
+<li>You can make npcs shoot things by putting an item in the shoot slot in the inventory. You will need to increase his attack range to a shooting range: 10 is default for skeletons, 2 is melee range.</li>
+<li>Bigger Npcs need a larger attack range else they might only walk into players.</li>
+<li>Cloned npcs are saved in the .minecraft/customnpcs/clones.dat, you can share them with others as long as they are on the same version as you</li>
+<li>You can equip blocks as helmets</li>
+</ul>
+<h2>Adding sounds</h2>
+<ul>
+<li>Put your sounds in the .minecraft/customnpcs/assets/customnpcs/sounds folder</li>
+<li>In the .minecraft/customnpcs/assets/customnpcs is a sounds.json. Open it with a text editor</li>
+<li>This sounds.json is how songs are added to resource packs like: <a href="https://dl.dropboxusercontent.com/u/3096920/tutorials/forge/sounds.json">this</a></li>
+<li>If you are still unclear how to add sounds to the sounds.json, there are plenty of videos and tutorials about it. Like this video: <a href="https://m.youtube.com/watch?v=8jXLhhiaKWQ">https://m.youtube.com/watch?v=8jXLhhiaKWQ</a></li>
+</ul>
+<h2>More good tutorials</h2>
+<p><iframe src="http://www.youtube.com/embed/luHoV8p6JaY?rel=0&amp;wmode=transparent" width="640" height="390" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe src="http://www.youtube.com/embed/SXZsqQQzOwU?rel=0&amp;wmode=transparent" width="640" height="390" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p><!-- Ezoic - wp_under_first_paragraph - under_first_paragraph --><div id="ezoic-pub-ad-placeholder-110" data-inserter-version="2"></div><!-- End Ezoic - wp_under_first_paragraph - under_first_paragraph -->
+</div>
+
+<div class="adsense-single adbottom"><fieldset class="ad">
+<legend class="adl">Ad:</legend>
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Minecraft Bar1 -->
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6976215994876732" data-ad-slot="7706697357"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</fieldset>
+</div>
+
+</div>
+
+
+<div class="post-meta the-icons pm-bottom">
+</div>
+
+</article>
+<!-- POST END -->
+
+
+
+
+
+
+<script>
+  (function($) {
+    $(function() {
+      if (!$('#fb-root').size()) {
+        $('body').append('<div id="fb-root"></div>');
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk')); 
+      }
+    });
+    $.post('http://www.kodevelopment.nl/minecraft/wp-admin/admin-ajax.php', {
+      action: 'fbc_ping',
+      post_id: '1251',
+      nonce: '472c4ffd92'
+    });  
+  })(jQuery);
+</script>
+
+<a name="comments"></a>
+
+
+
+<div id="FatPandaFacebookComments">
+  <noscript>
+    		<div class="facebook even thread-even depth-1" id="comment-1234">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=598981869" class="url" rel="ugc external nofollow">Sarah Cafarella</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1234">11 January 2016 at 09:30</a>		</div>
+
+		<p>how do you make a house with it</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1233">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100002994194189" class="url" rel="ugc external nofollow">Pedro Lopes</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1233">2 January 2016 at 00:29</a>		</div>
+
+		<p>Download??</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1232">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100000926553027" class="url" rel="ugc external nofollow">Mauricio Abner</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1232">31 December 2015 at 15:14</a>		</div>
+
+		<p>1.9.9 please.</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1231">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100001794647839" class="url" rel="ugc external nofollow">женя шрамко</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1231">28 December 2015 at 22:14</a>		</div>
+
+		<p>vbbfv</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1230">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100001794647839" class="url" rel="ugc external nofollow">женя шрамко</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1230">28 December 2015 at 22:14</a>		</div>
+
+		<p>grggggggggggguuhuih fd uh fu h fuy ui bg hj fhjkb hj bjh vf hf hfuivhijbnfdvjhbvihjgfli iu hui hf hfuig hxdui hvfuyihgfuiyhb g ui fui hj hff hui h<br />
+chgjv                                                                                                        4i8834048 0</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1229">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100001794647839" class="url" rel="ugc external nofollow">женя шрамко</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1229">28 December 2015 at 22:14</a>		</div>
+
+		<p>fryb5yth yfthvg</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1228">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100007633148934" class="url" rel="ugc external nofollow">Nahu Man</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1228">27 December 2015 at 00:00</a>		</div>
+
+		<p>tio</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1227">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100005300688712" class="url" rel="ugc external nofollow">Bryan van Geel</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1227">24 December 2015 at 20:00</a>		</div>
+
+		<p>lol</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1226">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100004966800905" class="url" rel="ugc external nofollow">Kinginter Van</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1226">24 December 2015 at 16:59</a>		</div>
+
+		<p>Hello,I have a advice.<br />
+If input chinese in win8.1 or win10,the Fonts will overlap.<br />
+Can you tell me how to deal with it?Thank you</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1225">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100002248164572" class="url" rel="ugc external nofollow">Kamaka Keawekane</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1225">24 December 2015 at 06:59</a>		</div>
+
+		<p>How do you get them to climb walls like spiders, or fly like birds</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1224">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100002481040772" class="url" rel="ugc external nofollow">Emerald Rose</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1224">22 December 2015 at 17:44</a>		</div>
+
+		<p>I don&#8217;t know how to have a conversation with any NPC&#8217;s or basically the only thing they do when I right click them is they say, &#8220;Hello WinterWolfHowl&#8221; because that&#8217;s my username, but anyways, HHAALLPP!!!!!!!!!! D:</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1223">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100008750928117" class="url" rel="ugc external nofollow">Joe Wood</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1223">22 December 2015 at 09:29</a>		</div>
+
+		<p>when i look at my npc, my world glitches out, i dont know whats happening</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1222">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100005607487725" class="url" rel="ugc external nofollow">Ivo Etienne Lancer</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1222">19 December 2015 at 21:59</a>		</div>
+
+		<p>Hello.<br />
+I can&#8217;t speak with any npc on my map.<br />
+They ignore me and no interaction is available.<br />
+I NEED HELP :'(</p>
+<p>Und in meiner Sprache<br />
+Ich kann keinen meiner npc&#8217;s ansprechen.<br />
+Es ist keine Interaktion mehr möglich.</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1221">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100001882504369" class="url" rel="ugc external nofollow">Дмитрий Марджера</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1221">17 December 2015 at 13:00</a>		</div>
+
+		<p>How to disable?<br />
+CustomNpcs installed. For more Click here.</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1220">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100002509321831" class="url" rel="ugc external nofollow">Orien Zhang</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1220">13 December 2015 at 19:00</a>		</div>
+
+		<p>whats the new update?!?!?! the old one was sooo much better</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1219">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100006563284123" class="url" rel="ugc external nofollow">Brandon Hodges</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1219">11 December 2015 at 03:59</a>		</div>
+
+		<p>HOW DO YOU USE THE BUILDER BLOCK!</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1218">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100001248500569" class="url" rel="ugc external nofollow">Milan Kovacic</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1218">8 December 2015 at 16:00</a>		</div>
+
+		<p>Can I send world with custom NPCs to a friend without need to install mod or forge for him?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1217">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100009438136337" class="url" rel="ugc external nofollow">Tom Sawyer</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1217">3 December 2015 at 23:44</a>		</div>
+
+		<p>grrrrrr</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1216">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100010560318646" class="url" rel="ugc external nofollow">Maxy Remo</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1216">30 November 2015 at 03:30</a>		</div>
+
+		<p>WTF are you</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1215">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100003035228024" class="url" rel="ugc external nofollow">Emery Kerindo</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1215">29 November 2015 at 02:14</a>		</div>
+
+		<p>how about adding downloaded skins too</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1214">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100004201329216" class="url" rel="ugc external nofollow">Dromus Tenkai Elemental</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1214">28 November 2015 at 12:59</a>		</div>
+
+		<p>does this need forge?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1213">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100003753630210" class="url" rel="ugc external nofollow">Andrew Cleary</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1213">25 November 2015 at 19:29</a>		</div>
+
+		<p>it crashes when i rightclick please help :/</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1212">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100005870502371" class="url" rel="ugc external nofollow">Benigno Junior</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1212">22 November 2015 at 02:44</a>		</div>
+
+		<p>In videos I see the blood block that only has one side is the floor, mine is transparent and there are 6 sides floating, bug or I need to edit it somehow?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1211">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100008526557225" class="url" rel="ugc external nofollow">Laura Owen</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1211">19 November 2015 at 15:44</a>		</div>
+
+		<p>how do you get on the actual game</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1210">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100003753630210" class="url" rel="ugc external nofollow">Andrew Cleary</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1210">15 November 2015 at 18:44</a>		</div>
+
+		<p>it keeps on crashing and i cant use most of the items</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1209">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100002853076033" class="url" rel="ugc external nofollow">Micaella Costandinou</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1209">12 November 2015 at 14:00</a>		</div>
+
+		<p>is crashing when im using the npcs wand is crashing! :/ please help me and i dont know what to do</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1208">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=1548206745" class="url" rel="ugc external nofollow">Adam Mayfield</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1208">10 November 2015 at 15:30</a>		</div>
+
+		<p>how do you do where it acts like you r talking to them  and u add what they say and what you wanna say</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1207">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100010512760385" class="url" rel="ugc external nofollow">Nathan Mercado</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1207">8 November 2015 at 23:30</a>		</div>
+
+		<p>i know how to do everything but i dont know how to work the building block</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1206">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100007763626750" class="url" rel="ugc external nofollow">Jovan Lewis</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1206">8 November 2015 at 04:14</a>		</div>
+
+		<p>i need a lot of help i want to do role play but i dont know how this mod works plz help?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1205">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100000447028483" class="url" rel="ugc external nofollow">Shane Warner</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1205">7 November 2015 at 16:29</a>		</div>
+
+		<p>To whoever here ^^^^ you are awesome</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1204">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100008389355551" class="url" rel="ugc external nofollow">Daan Georges</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1204">4 November 2015 at 12:30</a>		</div>
+
+		<p>where can i find crafting recipes</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1203">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100006622081061" class="url" rel="ugc external nofollow">Dominic Axel</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1203">3 November 2015 at 02:29</a>		</div>
+
+		<p>what does a musket shoot like wtf im in survival and i cant figure out what the musket shoots</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1202">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=1014690888" class="url" rel="ugc external nofollow">Christopher Newman Norm</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1202">26 October 2015 at 19:59</a>		</div>
+
+		<p>ALL the textures i use in the latest  1.8 version are all messed up and im wondering if anyone knows how to fix it</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1201">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100003534538080" class="url" rel="ugc external nofollow">Jake Thorson</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1201">26 October 2015 at 04:29</a>		</div>
+
+		<p>What are the shelves used for?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1200">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100000250376403" class="url" rel="ugc external nofollow">Kenaz Celestino</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1200">25 October 2015 at 11:29</a>		</div>
+
+		<p>how do you download this tho</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1199">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=793740393" class="url" rel="ugc external nofollow">Isaac Weaver</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1199">4 October 2015 at 07:59</a>		</div>
+
+		<p>So.. could anyone help me with this crash.. It happens when the NPC takes damage, I also have Terrafirmacraft mod.. and that may be why because in tfc the damage and health and stuff is alot higher&#8230; anyways.. here is part of the crash log.. is there anything I can do?</p>
+<p>&#8212;- Minecraft Crash Report &#8212;-<br />
+// This is a token for 1 free hug. Redeem at your nearest Mojangsta: [~~HUG~~]</p>
+<p>Time: 10/4/15 2:48 AM<br />
+Description: Ticking entity</p>
+<p>java.lang.ArrayIndexOutOfBoundsException: 3<br />
+	at com.bioxx.tfc.Handlers.EntityDamageHandler.applyArmorCalculations(EntityDamageHandler.java:107)<br />
+	at com.bioxx.tfc.Handlers.EntityDamageHandler.onEntityHurt(EntityDamageHandler.java:74)<br />
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler_466_EntityDamageHandler_onEntityHurt_LivingHurtEvent.invoke(.dynamic)<br />
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:54)<br />
+	at cpw.mods.fml.common.eventhandler.EventBus.post(EventBus.java:138)<br />
+	at net.minecraftforge.common.ForgeHooks.onLivingHurt(ForgeHooks.java:298)<br />
+	at net.minecraft.entity.EntityLivingBase.func_70665_d(EntityLivingBase.java:1129)<br />
+	at net.minecraft.entity.EntityLivingBase.func_70097_a(EntityLivingBase.java:785)<br />
+	at noppes.npcs.entity.EntityNPCInterface.func_70097_a(EntityNPCInterface.java:506)<br />
+	at net.minecraft.entity.monster.EntityMob.func_70652_k(SourceFile:101)<br />
+	at net.minecraft.entity.monster.EntityMob.func_70785_a(SourceFile:126)<br />
+	at net.minecraft.entity.monster.EntitySpider.func_70785_a(SourceFile:97)<br />
+	at net.minecraft.entity.EntityCreature.func_70626_be(SourceFile:63)<br />
+	at net.minecraft.entity.EntityLivingBase.func_70636_d(EntityLivingBase.java:1780)<br />
+	at net.minecraft.entity.EntityLiving.func_70636_d(EntityLiving.java:367)<br />
+	at net.minecraft.entity.monster.EntityMob.func_70636_d(SourceFile:25)<br />
+	at com.bioxx.tfc.Entities.Mobs.EntitySpiderTFC.func_70636_d(EntitySpiderTFC.java:39)<br />
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:1611)<br />
+	at net.minecraft.entity.EntityLiving.func_70071_h_(EntityLiving.java:206)<br />
+	at net.minecraft.entity.monster.EntityMob.func_70071_h_(SourceFile:30)<br />
+	at net.minecraft.entity.monster.EntitySpider.func_70071_h_(SourceFile:32)<br />
+	at net.minecraft.world.World.func_72866_a(World.java:2070)<br />
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:648)<br />
+	at net.minecraft.world.World.func_72870_g(World.java:2034)<br />
+	at net.minecraft.world.World.func_72939_s(World.java:1887)<br />
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:489)<br />
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:636)<br />
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547)<br />
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:111)<br />
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427)<br />
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1198">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100006892422534" class="url" rel="ugc external nofollow">Obrad Kratko</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1198">3 October 2015 at 08:30</a>		</div>
+
+		<p>hi</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1197">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100000383813857" class="url" rel="ugc external nofollow">Ken Rowe</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1197">1 October 2015 at 20:29</a>		</div>
+
+		<p>Im confused about the dialogs. here is my setup:<br />
+begin a quest to repair a garden blown up by a creeper. when you go to fix the garden you find a chest with hints that lead to next part of the quest.</p>
+<p>The npc SHOULD be able to say hello, you want a job? (yes/no) if no, then close.<br />
+If yes then goto question 2: Will you fix my garden? (yes / no) if yes, then player goes and fixes garden, finds item and player and npc talk about the item.</p>
+<p>My problem is that I cant get the first dialog to switch to the second dialog. If you say yes, I want a job, I want it to go to the &#8220;will you fix my garden&#8221; point.<br />
+Anyone know how to make that work?<br />
+thanks</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1196">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100000262660001" class="url" rel="ugc external nofollow">Elijah Tancio</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1196">29 September 2015 at 13:59</a>		</div>
+
+		<p>Can I add new mob like a minion?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1195">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100005495657835" class="url" rel="ugc external nofollow">Louie Jay Sarraga</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1195">28 September 2015 at 11:29</a>		</div>
+
+		<p>like!</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1194">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100001526570092" class="url" rel="ugc external nofollow">Erica Lane</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1194">27 September 2015 at 10:45</a>		</div>
+
+		<p>help i have custom npc&#8217;s 1.7.10d how do i do dialogs</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1193">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100005726820016" class="url" rel="ugc external nofollow">Jane Cheung</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1193">27 September 2015 at 05:00</a>		</div>
+
+		<p>how do you customize your self?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1192">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100008367730466" class="url" rel="ugc external nofollow">Tori Phillips</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1192">25 September 2015 at 02:29</a>		</div>
+
+		<p>how do you customize your own player?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1191">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100009534789687" class="url" rel="ugc external nofollow">Ahsoka Coulombe</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1191">22 September 2015 at 12:14</a>		</div>
+
+		<p>Hi I have the 1.8 Mac version how can i put skins in it please help ?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1190">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100006783873212" class="url" rel="ugc external nofollow">Allanjames Alcoran</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1190">16 September 2015 at 02:14</a>		</div>
+
+		<p>i got that mod but how to do with it</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1189">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100001092028056" class="url" rel="ugc external nofollow">Joia Lauren Jesa</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1189">12 September 2015 at 18:59</a>		</div>
+
+		<p>I have like three other mods, and i have no problems with crashing. I just don&#8217;t know how to script.</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1188">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100009482214473" class="url" rel="ugc external nofollow">Naufal Afif</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1188">12 September 2015 at 07:45</a>		</div>
+
+		<p>how do i get the puppet??? 1.7.10<br />
+i can&#8217;t find this</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1187">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100009882556762" class="url" rel="ugc external nofollow">Basilis Vrisariou</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1187">11 September 2015 at 19:30</a>		</div>
+
+		<p>fack</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1186">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100006182145392" class="url" rel="ugc external nofollow">Bashaar Ullah Khan</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1186">8 September 2015 at 14:45</a>		</div>
+
+		<p>well whenever i pick a mod and the for using it i press click the crashes saying:<br />
+&#8220;shutting down internal server&#8221;</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1185">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100006632682638" class="url" rel="ugc external nofollow">Mikayla Blossom</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1185">8 September 2015 at 01:29</a>		</div>
+
+		<p>do you have to build a village or kingdom or can you spawn it in or what..??</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1184">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100005323217172" class="url" rel="ugc external nofollow">Timothy Kim</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1184">6 September 2015 at 19:59</a>		</div>
+
+		<p>How do you get get a coumputer like in TDM or ThinkNoodles?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1183">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100010294714070" class="url" rel="ugc external nofollow">Bean Gaming</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1183">26 August 2015 at 03:15</a>		</div>
+
+		<p>I used this mod and everytime an npc kills me when i respawn i crash. I tried removing all other mods but it still crashes. Plz help!</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1182">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100008986302666" class="url" rel="ugc external nofollow">Alex Haga</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1182">23 August 2015 at 04:44</a>		</div>
+
+		<p>Help! I have no other mods installed! But when I right click in a world while forge is running with customnpcs, i crash! Help!</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1181">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100001590034175" class="url" rel="ugc external nofollow">Bianca Deryan</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1181">10 August 2015 at 07:45</a>		</div>
+
+		<p>lol</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1180">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=561957255" class="url" rel="ugc external nofollow">Bruce Tomlin</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1180">7 August 2015 at 04:29</a>		</div>
+
+		<p>how do i add a texture pack to this</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1179">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=370817986321557" class="url" rel="ugc external nofollow">ElterPro</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1179">5 August 2015 at 19:29</a>		</div>
+
+		<p>Dear creators,<br />
+I&#8217;ve starded a tutorial series about everything you need for creating a good adventure map by your own in German. Since I think, Custom NPCs with its load of features is an absolutly requirement for those, I&#8217;ve done a big series about Custom NPCs, which parts are going to be released over the next days! I thought you maybe want to have a look and include the playlist on your site, because I haven&#8217;t seen a german tutorial series linked here. Also I would be very happy about some support from you guys, since I support your German users.<br />
+Here&#8217;s the playlist : <a href="https://www.youtube.com/playlist?list=PLPG8-r_2DYem__23zSfKc-ltuVJp1tn0o" rel="nofollow ugc">https://www.youtube.com/playlist?list=PLPG8-r_2DYem__23zSfKc-ltuVJp1tn0o</a></p>
+<p>Kind regards,<br />
+elterPro</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1178">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100002232817746" class="url" rel="ugc external nofollow">Can Altüz</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1178">4 August 2015 at 13:44</a>		</div>
+
+		<p>dawnload??</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1177">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100005213375271" class="url" rel="ugc external nofollow">Ilya Shabanov</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1177">31 July 2015 at 12:59</a>		</div>
+
+		<p>When I make about ten or more NPC&#8217;s, Minecraft often crashes. HELP, I need to make a Minecraft map! Sorry is my English is bad. I am Russian.</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1176">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100001318296217" class="url" rel="ugc external nofollow">Gabe Pressley</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1176">28 July 2015 at 19:14</a>		</div>
+
+		<p>crashes me everytime it used to me now it hates me 🙁</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1175">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100004264034311" class="url" rel="ugc external nofollow">Ethan Elliott</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1175">14 July 2015 at 06:59</a>		</div>
+
+		<p>the purple and black checkers thing is just missing textures. Garry&#8217;s Mod does the same thing</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1174">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100004719513196" class="url" rel="ugc external nofollow">Cheyanne Siedel</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1174">9 July 2015 at 22:29</a>		</div>
+
+		<p>When i download a custom skin it&#8217;s not showing up but it would show up my files, But it used to work, HELP!!!</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1173">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100004719513196" class="url" rel="ugc external nofollow">Cheyanne Siedel</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1173">9 July 2015 at 22:29</a>		</div>
+
+		<p>When i download a custom skin it&#8217;s not showing up but it would show up my files, But it used to work, HELP!!!</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1172">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100009294347571" class="url" rel="ugc external nofollow">Marcel Dett</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1172">5 July 2015 at 01:15</a>		</div>
+
+		<p>So, when I install skins, putting the skins on my NPC looks all messed up. Some more info is that I have the 1.8 beta version, so I understand it&#8217;s in beta and dev, but just a heads up so you know to fix it before the full version if you didn&#8217;t notice it already 🙂</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1171">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100004366697677" class="url" rel="ugc external nofollow">Hannah Hayman</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1171">11 June 2015 at 20:29</a>		</div>
+
+		<p>My game keeps crashing. I have forge 1.8 and only the custom npcs mod. instead of a tool for the npc wand, I get a purple/pink and black checkered thing and when I right click to use it my game crashes.</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1170">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100007100143126" class="url" rel="ugc external nofollow">Shaun Smith</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1170">2 June 2015 at 17:59</a>		</div>
+
+		<p>Hey guys.  Favorite mod by far.  Question though.  After updating my server to the 1.7.1 version, all of my npcs across my world are dead and never respawn.  They all just lay there.  Any suggestions?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1169">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=1257811544" class="url" rel="ugc external nofollow">Benjamin Marcus Allen</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1169">29 May 2015 at 10:29</a>		</div>
+
+		<p>You know what would be cool? Right clicking on multi-option buttons should select the previous option so one doesn&#8217;t have to left click all the way back around. The devil is in the details I guess.</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1168">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100000122834646" class="url" rel="ugc external nofollow">Robin Ecklesdafer</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1168">25 May 2015 at 23:14</a>		</div>
+
+		<p>How do you create npcs</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1167">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100008149180079" class="url" rel="ugc external nofollow">Nick Barham</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1167">7 April 2015 at 19:59</a>		</div>
+
+		<p>I am having trouble spawning NPCs from mobspawners using the NPC cloner. I have set the command /gamerule doMobSpawn false. Entitys will spawn from them but the clones I have saved will not. I am trying to create an Adventure map so this is a problem, if I have forgot to do something or need to do something to fix this please let me know, but otherwise, I really need some advice/help.</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1166">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100006638231010" class="url" rel="ugc external nofollow">Michael Frascona</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1166">1 April 2015 at 19:29</a>		</div>
+
+		<p>I need help adding skin on the custom NPC&#8217;s mod. I&#8217;m using a Mac by the way. Here&#8217;s what I did, I clicked my username/Library/Application Support/minecraft/Custom-NPCs-Mod-1.8/assets/customnpcs/textures/entity/humanmale. Then I placed my custom skin in that folder. but when I open Minecraft and try to find my skin. IT&#8217;S NOT THERE!!!</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1165">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100008697996342" class="url" rel="ugc external nofollow">Noah Rapetti</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1165">9 March 2015 at 00:14</a>		</div>
+
+		<p>I can&#8217;t open the custem npc 1.7.10 mod folder can some one help please</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1164">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=" class="url" rel="ugc external nofollow">Anonymous</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1164">5 March 2015 at 12:29</a>		</div>
+
+		<p>Если кого-то интересует русский видео учебник (tutorial) на новую версию CustomNPS 1.7.10, то вам сюда:<br />
+<a href="http://www.youtube.com/watch?v=bpqFGjp5MAg" rel="nofollow ugc">http://www.youtube.com/watch?v=bpqFGjp5MAg</a></p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1163">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100005712481332" class="url" rel="ugc external nofollow">Jackson Calhoun</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1163">1 March 2015 at 15:29</a>		</div>
+
+		<p>where do u download the update?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1162">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100006860850671" class="url" rel="ugc external nofollow">عبد الكريم زيد</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1162">6 February 2015 at 07:59</a>		</div>
+
+		<p>How to craft a stone or wooden bullet?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1161">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100001811883697" class="url" rel="ugc external nofollow">Demarcus Dalton</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1161">5 February 2015 at 09:44</a>		</div>
+
+		<p>Total noob question, but how do you damage the npcs? I can shoot arrows at them but I can&#8217;t hurt them with any close range weapons! thank you for your help!</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1160">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=1613904967" class="url" rel="ugc external nofollow">Christopher Weins</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1160">22 January 2015 at 19:59</a>		</div>
+
+		<p>How does the console command works? Trying to give 5 fish to a player when read a dialog but give @dp 349 5 dont work.</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1159">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=530855966" class="url" rel="ugc external nofollow">Britney McCarty</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1159">24 December 2014 at 11:14</a>		</div>
+
+		<p>where can i see a list of all the item id&#8217;s?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1158">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=728744881" class="url" rel="ugc external nofollow">Hymn Wiriyapibool</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1158">8 December 2014 at 03:29</a>		</div>
+
+		<p>I am trying to unzip the customs npc to add more skins but when zip back and put to jar, game crash!!! Help please</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1157">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100006515406361" class="url" rel="ugc external nofollow">Yildri Dijkstra</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1157">2 December 2014 at 21:14</a>		</div>
+
+		<p>I want to make a mod like CloneCraft/  MyPeople, and if you can send me the source it will be a lot easier. If you don&#8217;t want that i publish it, just say it then i wont and only use it private.</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1156">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=158400137" class="url" rel="ugc external nofollow">Thomas Sutphin</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1156">16 November 2014 at 00:44</a>		</div>
+
+		<p>I honestly can&#8217;t believe they never hired you.  This mod is quite simply the most ground-breaking, game-changing mod available right now.  Is there any way to help support your work?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1155">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100004486390551" class="url" rel="ugc external nofollow">Jr Segundo</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1155">14 November 2014 at 01:59</a>		</div>
+
+		<p>hi</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1154">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100004486390551" class="url" rel="ugc external nofollow">Jr Segundo</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1154">14 November 2014 at 01:59</a>		</div>
+
+		<p>how do you download it?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1153">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100006086768163" class="url" rel="ugc external nofollow">Renan Do Valle Baptista</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1153">5 November 2014 at 22:29</a>		</div>
+
+		<p>ya mod bom</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1152">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100004713192268" class="url" rel="ugc external nofollow">Leila Csabai</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1152">3 November 2014 at 19:14</a>		</div>
+
+		<p>magyarrrr!!</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook odd alt thread-odd thread-alt depth-1" id="comment-1151">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100000145357209" class="url" rel="ugc external nofollow">Kyre Floyd</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1151">24 October 2014 at 20:59</a>		</div>
+
+		<p>How do you use it?</p>
+
+		
+				</div><!-- #comment-## -->
+		<div class="facebook even thread-even depth-1" id="comment-1150">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href="http://facebook.com/profile.php?id=100003697074043" class="url" rel="ugc external nofollow">Atus Kolonics</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="http://www.kodevelopment.nl/minecraft/customnpcs/#comment-1150">17 October 2014 at 17:59</a>		</div>
+
+		<p>JÓ KIRÁLY:)!!!!!</p>
+
+		
+				</div><!-- #comment-## -->
+                </noscript>
+  <div class="fb-comments" data-colorscheme="light" data-href="http://www.kodevelopment.nl/minecraft/customnpcs" data-num-posts="10" data-publish_feed="true" data-width="600"></div>
+</div>
+
+
+
+
+
+
+
+<div class="post-nav-archive" id="post-navigator-single">
+<div class="alignleft">« <a href="http://www.kodevelopment.nl/minecraft/animalbikes/wither" rel="prev">Animal Bikes – Wither Bike</a></div>
+<div class="alignright"><a href="http://www.kodevelopment.nl/minecraft/animalbikes/" rel="next">Animal Bikes</a> »</div>
+</div>
+
+
+</div>
+</div>
+<!-- POST ENTRY END -->
+
+
+</div><!-- CONTENT INNER END -->
+</div><!-- CONTENT END -->
+
+
+
+<div id="right-sidebar" class="sidebar right-sidebar">
+<div class="sidebar-inner">
+<div class="widget-area the-icons">
+<aside id="text-2" class="widget widget_text">			<div class="textwidget"><fieldset class="ad">
+<legend class="adl">Ad:</legend>
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Minecraft menu -->
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-6976215994876732" data-ad-slot="1142255751"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</fieldset></div>
+		</aside><aside id="nav_menu-4" class="widget widget_nav_menu"><h3 class="widget-title">Custom NPCs</h3><div class="menu-custom-npcs-container"><ul id="menu-custom-npcs" class="menu"><li id="menu-item-1771" class="menu-item menu-item-type-post_type menu-item-object-post current-menu-item menu-item-1771"><a href="http://www.kodevelopment.nl/minecraft/customnpcs" aria-current="page">Info</a></li>
+<li id="menu-item-1655" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1655"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/installation/">Installation Guide</a></li>
+<li id="menu-item-1857" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1857"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/downloads/">Downloads</a></li>
+<li id="menu-item-1657" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1657"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/faq/">F.A.Q.</a></li>
+<li id="menu-item-1656" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1656"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/changelog">Changelog</a></li>
+<li id="menu-item-1658" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1658"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/todo">Todo and Plan list</a></li>
+<li id="menu-item-1667" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1667"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/items">Items</a></li>
+<li id="menu-item-1666" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1666"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/dialog">Dialog Setup</a></li>
+<li id="menu-item-1665" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1665"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/quest">Quest Setup</a></li>
+<li id="menu-item-1672" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1672"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/factions">Factions Setup</a></li>
+<li id="menu-item-1669" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1669"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/models">Models</a></li>
+<li id="menu-item-1671" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1671"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/roles/">Roles</a></li>
+<li id="menu-item-1670" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1670"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/jobs">Jobs</a></li>
+<li id="menu-item-1668" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1668"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/machinima">Machinima</a></li>
+<li id="menu-item-1764" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1764"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/scripting">Scripting</a></li>
+<li id="menu-item-1770" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1770"><a href="http://www.kodevelopment.nl/minecraft/customnpcs/commands">Commands</a></li>
+</ul></div></aside><aside id="text-3" class="widget widget_text">			<div class="textwidget"><fieldset class="ad">
+<legend class="adl">Ad:</legend>
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Minecraft menu 2 -->
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-6976215994876732" data-ad-slot="7370259351"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</fieldset></div>
+		</aside></div>
+</div><!-- SIDEBAR-INNER END -->
+</div><!-- RIGHT SIDEBAR END -->
+
+
+</div><!-- CONTAINER WRAP END -->
+
+</div><!-- CONTAINER END -->
+
+</div><!-- BODYCONTENT END -->
+
+</div><!-- INNERWRAP BODYWRAP END -->
+
+</div><!-- WRAPPER MAIN END -->
+
+</div><!-- WRAPPER END -->
+
+
+<footer class="footer-bottom">
+<div class="innerwrap">
+<div class="fbottom">
+<div class="footer-left">
+Copyright ©2026. Noppes&#39; minecraft mods</div>
+<div class="footer-right">
+Mesocolumn Theme by Dezzain</div>
+</div>
+</div>
+</footer>
+<!-- FOOTER BOTTOM END -->
+
+
+</div>
+<!-- SECBODY END -->
+
+<!--googleoff: all--><div id="cookie-law-info-bar" data-nosnippet="true"><span>My websites uses cookies, because of google adsense. People who don&#39;t understand the internet, require me to make you aware of this.<a role="button" data-cli_action="accept" id="cookie_action_close_header" class="medium cli-plugin-button cli-plugin-main-button cookie_action_close_header cli_action_button wt-cli-accept-btn">Accept</a> <a href="https://www.google.com/intl/en/policies/privacy/partners/" id="CONSTANT_OPEN_URL" target="_blank" class="cli-plugin-main-link">Read More</a></span></div><div id="cookie-law-info-again" data-nosnippet="true"><span id="cookie_hdr_showagain">Privacy &amp; Cookies Policy</span></div><div class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" tabindex="-1" role="dialog" aria-labelledby="cliSettingsPopup" aria-hidden="true">
+  <div class="cli-modal-dialog" role="document">
+	<div class="cli-modal-content cli-bar-popup">
+		  <button type="button" class="cli-modal-close" id="cliModalClose">
+			<svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+			<span class="wt-cli-sr-only">Close</span>
+		  </button>
+		  <div class="cli-modal-body">
+			<div class="cli-container-fluid cli-tab-container">
+	<div class="cli-row">
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+			<div class="cli-privacy-overview">
+				<h4>Privacy Overview</h4>				<div class="cli-privacy-content">
+					<div class="cli-privacy-content-text">This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.</div>
+				</div>
+				<a class="cli-privacy-readmore" aria-label="Show more" role="button" data-readmore-text="Show more" data-readless-text="Show less"></a>			</div>
+		</div>
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+												<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">
+								Necessary							</a>
+															<div class="wt-cli-necessary-checkbox">
+									<input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-necessary" data-id="checkbox-necessary" checked="checked"/>
+									<label class="form-check-label" for="wt-cli-checkbox-necessary">Necessary</label>
+								</div>
+								<span class="cli-necessary-caption">Always Enabled</span>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="necessary">
+								<div class="wt-cli-cookie-description">
+									Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information.								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="non-necessary" data-toggle="cli-toggle-tab">
+								Non-necessary							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-non-necessary" class="cli-user-preference-checkbox" data-id="checkbox-non-necessary" checked="checked"/>
+									<label for="wt-cli-checkbox-non-necessary" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Non-necessary</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="non-necessary">
+								<div class="wt-cli-cookie-description">
+									Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website.								</div>
+							</div>
+						</div>
+					</div>
+										</div>
+	</div>
+</div>
+		  </div>
+		  <div class="cli-modal-footer">
+			<div class="wt-cli-element cli-container-fluid cli-tab-container">
+				<div class="cli-row">
+					<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+						<div class="cli-tab-footer wt-cli-privacy-overview-actions">
+						
+															<a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">SAVE &amp; ACCEPT</a>
+													</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all--><script type="text/javascript" src="https://c0.wp.com/p/jetpack/11.2.2/_inc/build/photon/photon.min.js" id="jetpack-photon-js"></script>
+<script type="text/javascript" id="collapseomatic-js-js-before">
+/* <![CDATA[ */
+const com_options = {"colomatduration":"fast","colomatslideEffect":"slideFade","colomatpauseInit":"","colomattouchstart":""}
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.kodevelopment.nl/minecraft/wp-content/plugins/jquery-collapse-o-matic/js/collapse.js?ver=1.7.0" id="collapseomatic-js-js"></script>
+<script type="text/javascript" src="https://c0.wp.com/c/6.6.5/wp-includes/js/hoverIntent.min.js" id="hoverIntent-js"></script>
+<script type="text/javascript" src="http://www.kodevelopment.nl/minecraft/wp-content/themes/mesocolumn/lib/scripts/modernizr/modernizr.js?ver=1.6.5.1" id="modernizr-js"></script>
+<script type="text/javascript" src="http://www.kodevelopment.nl/minecraft/wp-content/themes/mesocolumn/lib/scripts/superfish-menu/js/superfish.js?ver=1.6.5.1" id="superfish-js-js"></script>
+<script type="text/javascript" src="http://www.kodevelopment.nl/minecraft/wp-content/themes/mesocolumn/lib/scripts/superfish-menu/js/supersubs.js?ver=1.6.5.1" id="supersub-js-js"></script>
+<script type="text/javascript" src="http://www.kodevelopment.nl/minecraft/wp-content/themes/mesocolumn/lib/scripts/custom.js?ver=1.6.5.1" id="custom-js-js"></script>
+<script type="text/javascript" src="https://c0.wp.com/c/6.6.5/wp-includes/js/comment-reply.min.js" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script src="https://stats.wp.com/e-202626.js" defer=""></script>
+<script>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:11.2.2',blog:'209508716',post:'1251',tz:'0',srv:'www.kodevelopment.nl'} ]);
+	_stq.push([ 'clickTrackerInit', '209508716', '1251' ]);
+</script>
+
+
+
+<script data-cfasync="false">function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.kodevelopment.nl;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+function _handleGoogleConsentV2(tcdata){if(!tcdata||!tcdata.purpose||!tcdata.purpose.consents){return;}
+var googConsentV2={};if(tcdata.purpose.consents[1]){googConsentV2.ad_storage='granted';googConsentV2.analytics_storage='granted';}
+if(tcdata.purpose.consents[3]&&tcdata.purpose.consents[4]){googConsentV2.ad_personalization='granted';}
+if(tcdata.purpose.consents[1]&&tcdata.purpose.consents[7]){googConsentV2.ad_user_data='granted';}
+if(googConsentV2.analytics_storage=='denied'){gtag('set','url_passthrough',true);}
+gtag('consent','update',googConsentV2);}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){if(typeof gtag!='undefined'){_handleGoogleConsentV2(tcdata);}
+_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.Add(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);</script></body></html>

@@ -1,0 +1,11 @@
+{
+  "useURL": false,
+  "allowModifications": true,
+  "url": "",
+  "servers": {
+    "Zetta": "107.161.154.156:25757"
+  },
+  "DO_NOT_EDIT_prevDefaultServers": [
+    "zettaworld.20tps.ru"
+  ]
+}

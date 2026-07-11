@@ -1,0 +1,21 @@
+{
+  "_name": "etfuturum:blue_ice",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 2.8,
+    "resistance": 8.4,
+    "sound": "glass",
+    "slipperiness": 0.989,
+    "tool_data": [
+      {
+        "tool": "pickaxe",
+        "level": 0
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

@@ -1,0 +1,18 @@
+filename = 'CustomNPCs_1.7.10d(29oct17).jar'
+name = 'Custom NPCs'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CustomNPCs_1.7.10d(29oct17).jar'
+
+[download]
+hash = '2d75096f72bda3e95dd69e94d6c79787da11b78a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2495406
+project-id = 221826

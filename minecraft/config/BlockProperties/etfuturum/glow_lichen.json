@@ -1,0 +1,20 @@
+{
+  "_name": "etfuturum:glow_lichen",
+  "stats": {
+    "opacity": 0,
+    "brightness": 7,
+    "hardness": 0.2,
+    "resistance": 1.0,
+    "sound": "grass",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "tool": "shears"
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

@@ -1,0 +1,18 @@
+filename = 'OreDictionaryConverter-1.6.1.jar'
+name = 'OreDictionaryConverter'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ore Dictionary Converter 1.6.1'
+
+[download]
+hash = '7505b945d79aa0f891745250eb95bd62562d121f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2226312
+project-id = 227564

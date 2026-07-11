@@ -1,0 +1,16 @@
+{
+  "_name": "etfuturum:quartz_bricks",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 0.8,
+    "resistance": 2.4,
+    "sound": "stone",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

@@ -1,0 +1,18 @@
+filename = 'biggerpacketsplz-upto1.7.10-1.2.jar'
+name = 'Bigger Packets Please'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'biggerpacketsplz-upto1.7.10-1.2.jar'
+
+[download]
+hash = '69de0b989b8e85524e448a0d453ed99b62ddf42f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2655844
+project-id = 309110

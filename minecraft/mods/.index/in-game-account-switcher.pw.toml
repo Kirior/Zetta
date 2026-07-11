@@ -1,0 +1,18 @@
+filename = 'InGameAccountSwitcher-Forge-1.7-8.0.1.jar'
+name = 'In-Game Account Switcher'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '8.0.1-forge1.7'
+
+[download]
+hash = '3d88714d23d6af535d4c64932de090e201c61a690719c27dc6d646d8d27e5aef1782a011b93e854367e02cd4552e596ffa0bcde7f11397dd1f855788d32c62b7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cudtvDnd/versions/IEcVEZWR/InGameAccountSwitcher-Forge-1.7-8.0.1.jar'
+
+[update.modrinth]
+mod-id = 'cudtvDnd'
+version = 'IEcVEZWR'

@@ -1,0 +1,21 @@
+filename = 'ASMFixes-1.0.jar'
+name = 'ASM Fixes (J.A.F.M)'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'J.A.F.M - V1.0'
+
+[download]
+hash = '13de381a6ee6972600736e27b313d376831ae928'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2294974
+project-id = 244171
+
+[[x-prismlauncher-dependencies]]
+addonId = '222213'
+type = 'REQUIRED'

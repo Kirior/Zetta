@@ -1,0 +1,18 @@
+filename = 'PowerUtils_1.7.10_1.0.4.jar'
+name = 'Power Utilites 1.7.10'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Power Utilites 1.7.10_1.0.4'
+
+[download]
+hash = 'deb6cb5bf0ebed1e8c07fcc9059938a913eef945'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3139307
+project-id = 428533

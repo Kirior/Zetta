@@ -1,0 +1,30 @@
+#Tips for the loading screen
+#
+#
+#Maximal characters for a tip: 77 (more can go out of the screen)
+#The line below, including the "#" are 77 chars
+#Adventurer's backpack? Did you mean integrated crafting grid, bed and fluid
+#
+Infinite water sources are disabled
+Got a question? Join our Discord server: https://discord.gg/JUEr92m5
+Don't give ideas to build
+Don't feed your machines after midnight!
+Make sure you have installed a backup mod
+If a machine has too much speed upgrades it stop work
+Adding water to an empty but hot Boiler will make a loud bang!
+Avoid eldritch obelisks!
+Placing a glin weed makes it spread
+Travelers gear slot can be abuse
+Taking lava without gloves hurts!
+Watch out, eating the same food gives diminishing returns
+Using too many translocators can cause TPS lag
+Be sure to check out what you can do with Mouse Tweaks
+Protect your flowers from rain!
+Right-clicking with a wrench on a fluid tank change it input or output
+Forestry Worktables are a must!
+Try the Realistic Sky resourcepack
+Literally flint and steel!
+Tinker's tools can be upgrade by gold, diamond & nether star
+Making steel armour? Check out the Composite Chestplate
+Adventurer's backpack: integrated crafting grid, bed and fluid storage
+Tinker's smeltery does double ores

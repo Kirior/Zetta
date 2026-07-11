@@ -1,0 +1,22 @@
+ID,Provider ID,Provider Class Name
+-112,-112,com.rwtema.extrautils.worldgen.endoftime.WorldProviderEndOfTime
+-100,-100,com.rwtema.extrautils.worldgen.Underdark.WorldProviderUnderdark
+-73,-73,makeo.gadomancy.common.utils.world.WorldProviderTCEldrich
+-42,-42,thaumcraft.common.lib.world.dim.WorldProviderOuter
+-39,-39,com.emoniph.witchery.dimension.WorldProviderMirror
+-38,-38,com.emoniph.witchery.dimension.WorldProviderTorment
+-37,-37,com.emoniph.witchery.dimension.WorldProviderDreamWorld
+-19,-19,thaumic.tinkerer.common.dim.WorldProviderBedrock
+-1,-1,biomesoplenty.common.world.WorldProviderBOPHell
+0,0,biomesoplenty.common.world.WorldProviderSurfaceBOP
+1,1,net.minecraft.world.WorldProviderEnd
+2,2,org.dave.CompactMachines.machines.world.WorldProviderMachines
+7,-777,twilightforest.world.WorldProviderTwilightForest
+50,50,net.divinerpg.dimensions.twilight.eden.WorldProviderEden
+51,51,net.divinerpg.dimensions.twilight.wildwood.WorldProviderWildwood
+52,52,net.divinerpg.dimensions.twilight.apalachia.WorldProviderApalachia
+53,53,net.divinerpg.dimensions.twilight.skythern.WorldProviderSkythern
+54,54,net.divinerpg.dimensions.twilight.mortum.WorldProviderMortum
+55,55,net.divinerpg.dimensions.vethea.WorldProviderVethea
+56,56,net.divinerpg.dimensions.arcana.WorldProviderArcana
+57,57,net.divinerpg.dimensions.iceika.WorldProviderIceika

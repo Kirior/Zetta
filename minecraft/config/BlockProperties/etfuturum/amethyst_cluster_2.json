@@ -1,0 +1,21 @@
+{
+  "_name": "etfuturum:amethyst_cluster_2",
+  "stats": {
+    "opacity": 0,
+    "brightness": 1,
+    "hardness": 1.5,
+    "resistance": 4.5,
+    "sound": "<unknown>",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "tool": "pickaxe",
+        "level": 0
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

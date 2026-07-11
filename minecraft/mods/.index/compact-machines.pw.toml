@@ -1,0 +1,18 @@
+filename = 'compactmachines-1.7.10-1.21.jar'
+name = 'Compact Machines'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'compactmachines-1.7.10-1.21.jar'
+
+[download]
+hash = 'f727b0f5bee06abad2e42cc1807d2373b8b4336c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2268575
+project-id = 224218

@@ -1,0 +1,153 @@
+Handler Recipe Name,Handler Class,Overlay Identifier,Mod DisplayName,ItemStack
+Shaped Crafting,appeng.integration.modules.NEIHelpers.NEIAEShapedRecipeHandler,crafting,Applied Energistics 2,1xitem.appliedenergistics2.ItemPart@380
+Shapeless Crafting,appeng.integration.modules.NEIHelpers.NEIAEShapelessRecipeHandler,crafting,Applied Energistics 2,1xitem.appliedenergistics2.ItemPart@380
+Inscriber,appeng.integration.modules.NEIHelpers.NEIInscriberRecipeHandler,inscriber,Applied Energistics 2,1xtile.appliedenergistics2.BlockInscriber@0
+AE2 In World Crafting,appeng.integration.modules.NEIHelpers.NEIWorldCraftingHandler,null,Applied Energistics 2,1xitem.appliedenergistics2.ItemMaterial@9
+Grindstone,appeng.integration.modules.NEIHelpers.NEIGrinderRecipeHandler,grindstone,Applied Energistics 2,1xtile.appliedenergistics2.BlockGrinder@0
+Facade Crafting,appeng.integration.modules.NEIHelpers.NEIFacadeRecipeHandler,crafting,Applied Energistics 2,1xitem.appliedenergistics2.ItemFacade@192
+Refinery,buildcraft.compat.nei.RecipeHandlerRefinery,null,BuildCraft,1xtile.refineryBlock@0
+Assembly Table,buildcraft.compat.nei.RecipeHandlerAssemblyTable,null,BuildCraft,1xtile.laserTableBlock@0
+Integration Table,buildcraft.compat.nei.RecipeHandlerIntegrationTable,null,BuildCraft,1xtile.laserTableBlock@2
+IRecipeInfo,com.creativemd.creativecore.api.nei.NEIRecipeInfoHandler,crafting,Unknown,Unknown
+Shapeless Crafting,extracells.integration.nei.UniversalTerminalRecipe,crafting,Extra Cells 2,1xitem.extracells.part.base@9
+Xtreme Crafting,fox.spiteful.avaritia.compat.nei.ExtremeShapedRecipeHandler,extreme,Avaritia,1xtile.dire_crafting@0
+Xtreme Shapeless,fox.spiteful.avaritia.compat.nei.ExtremeShapelessRecipeHandler,extreme,Avaritia,1xtile.dire_crafting@0
+Neutronium Compressor,fox.spiteful.avaritia.compat.nei.CompressionHandler,extreme_compression,Avaritia,1xtile.neutronium_compressor@0
+Bee Breeding Tree,hellfirepvp.beebetteratbees.client.gui.BBABGuiRecipeTreeHandler,null,Bees,1xitem.for.beeQueenGE@0
+Shaped Crafting,gcewing.projectblue.nei.NEIRecipeHandler,crafting,ProjectBlue,1xitem.gcewing_projectblue:sprayCan@0
+Shaped Crafting,codechicken.nei.recipe.ShapedRecipeHandler,crafting,Minecraft,1xtile.workbench@0
+Shapeless Crafting,codechicken.nei.recipe.ShapelessRecipeHandler,crafting,Minecraft,1xtile.workbench@0
+Fireworks,codechicken.nei.recipe.FireworkRecipeHandler,crafting,Minecraft,1xitem.fireworks@0
+Smelting,codechicken.nei.recipe.FurnaceRecipeHandler,smelting,Minecraft,1xtile.furnace@0
+Brewing,codechicken.nei.recipe.BrewingRecipeHandler,brewing,Minecraft,1xitem.brewingStand@0
+Fuel,codechicken.nei.recipe.FuelRecipeHandler,fuel,Minecraft,Unknown
+Usage Profiling,codechicken.nei.recipe.ProfilerRecipeHandler,null,Unknown,Unknown
+Items History,codechicken.nei.recipe.ItemsHistoryHandler,null,Unknown,Unknown
+Cover Crafting,cofh.thermaldynamics.plugins.nei.RecipeHandlerCover,crafting,Thermal Dynamics,1xitem.thermaldynamics.cover@0
+Shader Grabbag,blusunrize.immersiveengineering.client.nei.NEIShaderBagHandler,ieShaderBag,Immersive Engineering,1xitem.ImmersiveEngineering.shaderBag@0
+Shaped Crafting,mrtjp.projectred.core.libmc.recipe.PRShapedRecipeHandler,crafting,ProjectRed,1xitem.projectred.transmission.wire@7
+Drying Rack,tconstruct.plugins.nei.RecipeHandlerDryingRack,null,Tinker's Construct,1xtile.Armor.DryingRack@0
+Shaped IC2 Crafting,ic2.neiIntegration.core.recipehandler.AdvRecipeHandler,crafting,IndustrialCraft 2,1xic2.blockreactorvessel@0
+Engineer's Workbench,blusunrize.immersiveengineering.client.nei.NEIBlueprintHandler,ieBlueprintCrafting,Immersive Engineering,1xtile.ImmersiveEngineering.woodenDevice@5
+Shapeless Crafting,mrtjp.projectred.core.libmc.recipe.PRShapelessRecipeHandler,crafting,ProjectRed,1xitem.projectred.transmission.wire@7
+          Blood Altar,WayofTime.alchemicalWizardry.client.nei.NEIAltarRecipeHandler,altarrecipes,Blood Magic,1xtile.bloodAltar@0
+Shapeless IC2 Crafting,ic2.neiIntegration.core.recipehandler.AdvShapelessRecipeHandler,crafting,IndustrialCraft 2,1xic2.blockreactorvessel@0
+Ore Converter,exter.fodc.nei.ODCRecipeHandler,null,Ore Dictionary Converter,1xtile.oreConvTable@0
+Coke Oven,blusunrize.immersiveengineering.client.nei.NEICokeOvenHandler,ieCokeOven,Immersive Engineering,1xtile.ImmersiveEngineering.stoneDecoration@1
+Tool Materials,tconstruct.plugins.nei.RecipeHandlerToolMaterials,null,Tinker's Construct,1xtile.ToolStation@0
+Machine Crafting,cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerCraftingMachine,crafting,Thermal Expansion,1xtile.thermalexpansion.frame@0
+Information,net.darkhax.bookshelf.client.nei.DescriptionHandler,null,Unknown,Unknown
+Macerator,ic2.neiIntegration.core.recipehandler.MaceratorRecipeHandler,macerator,IndustrialCraft 2,1xic2.blockMachine@3
+Extractor,ic2.neiIntegration.core.recipehandler.ExtractorRecipeHandler,extractor,IndustrialCraft 2,1xic2.blockMachine@4
+Blast Furnace,blusunrize.immersiveengineering.client.nei.NEIBlastFurnaceHandler,ieBlastFurnace,Immersive Engineering,1xtile.ImmersiveEngineering.stoneDecoration@2
+Smeltery Melting,tconstruct.plugins.nei.RecipeHandlerMelting,null,Tinker's Construct,1xtile.LavaTank@2
+Bottler,forestry.factory.recipes.nei.NEIHandlerBottler,null,Forestry for Minecraft,1xtile.for.factory@0
+Shaped Orb Crafting,WayofTime.alchemicalWizardry.client.nei.NEIBloodOrbShapedHandler,crafting,Blood Magic,1xtile.bloodRune@3
+Compressor,ic2.neiIntegration.core.recipehandler.CompressorRecipeHandler,compressor,IndustrialCraft 2,1xic2.blockMachine@5
+Alloy Smelter,crazypants.enderio.nei.AlloySmelterRecipeHandler,EnderIOAlloySmelter,Ender IO,1xtile.blockAlloySmelter@0
+Mob Info,com.kuba6000.mobsinfo.nei.MobHandler,mobsinfo.mobhandler,MobsInfo,1xitem.swordDiamond@0
+Upgrade Crafting,cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerCraftingUpgrade,crafting,Thermal Expansion,1xtile.thermalexpansion.frame@3
+Carpenter,forestry.factory.recipes.nei.NEIHandlerCarpenter,null,Forestry for Minecraft,1xtile.for.factory@1
+Industrial Squeezer,blusunrize.immersiveengineering.client.nei.NEISqueezerHandler,ieSqueezer,Immersive Engineering,1xtile.ImmersiveEngineering.metalMultiblock@2
+Smeltery Alloying,tconstruct.plugins.nei.RecipeHandlerAlloying,null,Tinker's Construct,1xtile.Smeltery@0
+Shapeless Orb Crafting,WayofTime.alchemicalWizardry.client.nei.NEIBloodOrbShapelessHandler,crafting,Blood Magic,1xtile.bloodRune@4
+Fermenter,blusunrize.immersiveengineering.client.nei.NEIFermenterHandler,ieFermenter,Immersive Engineering,1xtile.ImmersiveEngineering.metalMultiblock@3
+Scrapbox,ic2.neiIntegration.core.recipehandler.ScrapboxRecipeHandler,null,IndustrialCraft 2,1xic2.itemScrapbox@0
+Security Crafting,cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerCraftingSecure,crafting,Thermal Expansion,1xitem.thermalexpansion.material@16
+Centrifuge,forestry.factory.recipes.nei.NEIHandlerCentrifuge,null,Forestry for Minecraft,1xtile.for.factory@2
+Villager Trades,com.kuba6000.mobsinfo.nei.VillagerTradesHandler,mobsinfo.villagertradeshandler,MobsInfo,1xitem.emerald@0
+Binding Ritual,WayofTime.alchemicalWizardry.client.nei.NEIBindingRitualHandler,alchemicalwizardry.bindingritual,Blood Magic,1xitem.sacrificialDagger@0
+Refinery,blusunrize.immersiveengineering.client.nei.NEIRefineryHandler,ieRefinery,Immersive Engineering,1xtile.ImmersiveEngineering.metalMultiblock@4
+Casting Table,tconstruct.plugins.nei.RecipeHandlerCastingTable,null,Tinker's Construct,1xtile.SearedBlock@0
+Casting Basin,tconstruct.plugins.nei.RecipeHandlerCastingBasin,null,Tinker's Construct,1xtile.SearedBlock@2
+Metal Former,ic2.neiIntegration.core.recipehandler.MetalFormerRecipeHandlerExtruding,metalformer,IndustrialCraft 2,1xic2.blockMachine2@4
+SAG Mill,crazypants.enderio.nei.SagMillRecipeHandler,EnderIOSagMill,Ender IO,1xtile.blockSagMill@0
+Metal Former,ic2.neiIntegration.core.recipehandler.MetalFormerRecipeHandlerCutting,metalformer,IndustrialCraft 2,1xic2.blockMachine2@4
+Thermionic Fabricator,forestry.factory.recipes.nei.NEIHandlerFabricator,null,Forestry for Minecraft,1xtile.for.factory2@0
+Metal Former,ic2.neiIntegration.core.recipehandler.MetalFormerRecipeHandlerRolling,metalformer,IndustrialCraft 2,1xic2.blockMachine2@4
+Chisel,team.chisel.compat.nei.RecipeHandlerChisel,null,Chisel,1xitem.chisel.chisel_iron@0
+Floating Flowers,vazkii.botania.client.integration.nei.recipe.RecipeHandlerFloatingFlowers,null,Botania,1xtile.miniIsland@0
+Bottling Machine,blusunrize.immersiveengineering.client.nei.NEIBottlingMachineHandler,ieBottlingMachine,Immersive Engineering,1xitem.glassBottle@0
+Redstone Furnace,cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerFurnace,thermalexpansion.furnace,Thermal Expansion,1xtile.thermalexpansion.machine@0
+Thermal Centrifuge,ic2.neiIntegration.core.recipehandler.CentrifugeRecipeHandler,centrifuge,IndustrialCraft 2,1xic2.blockMachine2@3
+Petal Apothecary,vazkii.botania.client.integration.nei.recipe.RecipeHandlerPetalApothecary,null,Botania,1xtile.altar@0
+Fluid Registry,tonius.neiintegration.mods.mcforge.RecipeHandlerFluidRegistry,null,Minecraft,1xtile.water@0
+Fermenter,forestry.factory.recipes.nei.NEIHandlerFermenter,null,Forestry for Minecraft,1xtile.for.factory@3
+Runic Altar,vazkii.botania.client.integration.nei.recipe.RecipeHandlerRunicAltar,null,Botania,1xtile.runeAltar@0
+Moistener,forestry.factory.recipes.nei.NEIHandlerMoistener,null,Forestry for Minecraft,1xtile.for.factory@4
+Pulverizer,cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerPulverizer,thermalexpansion.pulverizer,Thermal Expansion,1xtile.thermalexpansion.machine@1
+Metal Press,blusunrize.immersiveengineering.client.nei.NEIMetalPressHandler,ieMetalPress,Immersive Engineering,1xtile.ImmersiveEngineering.metalMultiblock@13
+Ore Dictionary,tonius.neiintegration.mods.mcforge.RecipeHandlerOreDictionary,null,Minecraft,1xtile.oreIron@0
+Squeezer,forestry.factory.recipes.nei.NEIHandlerSqueezer,null,Forestry for Minecraft,1xtile.for.factory@5
+Still,forestry.factory.recipes.nei.NEIHandlerStill,null,Forestry for Minecraft,1xtile.for.factory@6
+Block Cutting Machine,ic2.neiIntegration.core.recipehandler.BlockCutterRecipeHandler,BlockCutter,IndustrialCraft 2,1xic2.blockMachine3@2
+Vat,crazypants.enderio.nei.VatRecipeHandler,EnderIOVat,Ender IO,1xtile.blockVat@0
+Mana Infusion,vazkii.botania.client.integration.nei.recipe.RecipeHandlerManaPool,null,Botania,1xtile.pool@0
+Crusher,blusunrize.immersiveengineering.client.nei.NEICrusherHandler,ieCrusher,Immersive Engineering,1xtile.ImmersiveEngineering.metalMultiblock@5
+Sawmill,cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerSawmill,thermalexpansion.sawmill,Thermal Expansion,1xtile.thermalexpansion.machine@2
+Ore Washing Plant,ic2.neiIntegration.core.recipehandler.OreWashingRecipeHandler,oreWashing,IndustrialCraft 2,1xic2.blockMachine2@5
+Induction Smelter,cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerSmelter,thermalexpansion.smelter,Thermal Expansion,1xtile.thermalexpansion.machine@3
+Elven Trade,vazkii.botania.client.integration.nei.recipe.RecipeHandlerElvenTrade,null,Botania,1xtile.alfheimPortal@0
+Canning Machine,ic2.neiIntegration.core.recipehandler.SolidCannerRecipeHandler,solidcanner,IndustrialCraft 2,1xic2.blockMachine2@9
+Magma Crucible,cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerCrucible,thermalexpansion.crucible,Thermal Expansion,1xtile.thermalexpansion.machine@4
+Enchanter,crazypants.enderio.nei.EnchanterRecipeHandler,EIOEnchanter,Ender IO,1xtile.blockEnchanter@0
+Botanical Brewery,vazkii.botania.client.integration.nei.recipe.RecipeHandlerBrewery,null,Botania,1xtile.brewery@0
+Blast Furnace,ic2.neiIntegration.core.recipehandler.BlastFurnaceRecipeHandler,blastfurnace,IndustrialCraft 2,1xic2.blockMachine3@1
+Turning Table,ic2.neiIntegration.core.recipehandler.LatheRecipeHandler,null,IndustrialCraft 2,1xic2.blockMachine3@8
+Fluid Transposer,cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerTransposer,thermalexpansion.transposer,Thermal Expansion,1xtile.thermalexpansion.machine@5
+Isolator,binnie.genetics.nei.IsolatorRecipeHandler,genetics.isolator,Genetics,1xtile.machine@0
+Molecular Transformer,advsolar.client.nei.MTRecipeHandler,null,Advanced Solar Panels,1xtile.null@0
+Sequencer,binnie.genetics.nei.SequencerRecipeHandler,genetics.sequencer,Genetics,1xtile.machine@1
+Phytogenic Insolator,cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerInsolator,thermalexpansion.insolator,Thermal Expansion,1xtile.thermalexpansion.machine@11
+Pure Daisy,vazkii.botania.client.integration.nei.recipe.RecipeHandlerPureDaisy,null,Botania,1xtile.specialFlower@0
+Energetic Infuser,cofh.thermalexpansion.plugins.nei.handlers.RecipeHandlerCharger,thermalexpansion.charger,Thermal Expansion,1xtile.thermalexpansion.machine@10
+Fluid Canning Machine,ic2.neiIntegration.core.recipehandler.FluidCannerRecipeHandler,fluidcanner,IndustrialCraft 2,1xic2.blockMachine@6
+Polymeriser,binnie.genetics.nei.PolymeriserRecipeHandler,genetics.polymeriser,Genetics,1xtile.machine@2
+Lexica Botania,vazkii.botania.client.integration.nei.recipe.RecipeHandlerLexicaBotania,null,Botania,1xitem.lexicon@0
+Slice'N'Splice,crazypants.enderio.nei.SliceAndSpliceRecipeHandler,EnderIOSliceAndSplice,Ender IO,1xtile.blockSliceAndSplice@0
+Flower Breeding,net.bdew.neiaddons.botany.flowers.FlowerBreedingHandler,null,Botany,1xbotany.flower@0
+Inoculator,binnie.genetics.nei.InoculatorRecipeHandler,genetics.inoculator,Genetics,1xtile.machine@3
+Soul Binder,crazypants.enderio.nei.SoulBinderRecipeHandler,EnderIOSoulBinder,Ender IO,1xtile.blockSoulBinder@0
+Shaped A.Worktable,com.djgiannuzz.thaumcraftneiplugin.nei.recipehandler.ArcaneShapedRecipeHandler,arcaneshapedrecipes,Thaumcraft,1xtile.blockTable@15
+Lumbermill,binnie.extratrees.nei.NEIHandlerLumbermill,extratrees.lumbermill,Extra Trees,1xtile.machine@0
+Analyzer,binnie.genetics.nei.AnalyserRecipeHandler,genetics.analyser,Genetics,1xtile.labMachine@1
+Incubator,binnie.genetics.nei.IncubatorRecipeHandler,genetics.incubator,Genetics,1xtile.labMachine@2
+Shapeless A.Worktable,com.djgiannuzz.thaumcraftneiplugin.nei.recipehandler.ArcaneShapelessRecipeHandler,arcaneshapelessrecipes,Thaumcraft,1xtile.blockTable@15
+Genepool,binnie.genetics.nei.GenepoolRecipeHandler,genetics.genepool,Genetics,1xtile.labMachine@3
+Crucible,com.djgiannuzz.thaumcraftneiplugin.nei.recipehandler.CrucibleRecipeHandler,cruciblerecipe,Thaumcraft,1xtile.blockMetalDevice@0
+Witches Oven,com.emoniph.witchery.integration.NEIWitchesOvenRecipeHandler,witchery_cooking,Witchery,1xtile.witchery:witchesovenidle@0
+Cyanite Reprocesssor,tonius.neiintegration.mods.bigreactors.RecipeHandlerCyaniteReprocessor,null,Big Reactors,1xtile.blockBRDevice.0@0
+BioReactor,tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerBioReactor,null,MineFactory Reloaded,1xtile.mfr.machine.1@10
+Distillery,com.emoniph.witchery.integration.NEIDistilleryRecipeHandler,witchery_distilling,Witchery,1xtile.witchery:distilleryidle@0
+Arcane Infusion,com.djgiannuzz.thaumcraftneiplugin.nei.recipehandler.InfusionRecipeHandler,infusionCrafting,Thaumcraft,1xtile.blockStoneDevice@2
+Acclimatiser,binnie.genetics.nei.AcclimatiserRecipeHandler,genetics.acclimatiser,Genetics,1xtile.labMachine@4
+Composter,tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerComposter,null,MineFactory Reloaded,1xtile.mfr.machine.0@11
+com.djgiannuzz.thaumcraftneiplugin.nei.recipehandler.AspectRecipeHandler,aspectsRecipe,Unknown,Unknown
+Witch's Cauldron,com.emoniph.witchery.integration.NEICauldronRecipeHandler,witchery_brewing_plus,Witchery,1xtile.witchery:cauldron@0
+Splicer,binnie.genetics.nei.SplicerRecipeHandler,genetics.splicer,Genetics,1xtile.advMachine@0
+Bee Breeding,net.bdew.neiaddons.forestry.bees.BeeBreedingHandler,null,Forestry for Minecraft,1xitem.for.beeQueenGE@0
+Grinder,tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerGrinder,null,MineFactory Reloaded,1xtile.mfr.machine.0@13
+Spinning Wheel,com.emoniph.witchery.integration.NEISpinningWheelRecipeHandler,witchery_spinning,Witchery,1xtile.witchery:spinningwheel@0
+Gene Database,binnie.genetics.nei.DatabaseRecipeHandler,genetics.database,Genetics,1xitem.database@0
+Harvester,tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerHarvester,null,MineFactory Reloaded,1xtile.mfr.machine.0@2
+Bee Produce,net.bdew.neiaddons.forestry.bees.BeeProduceHandler,null,Forestry for Minecraft,1xitem.for.beeQueenGE@0
+blockrenderer6343.integration.structurelib.StructureCompatNEIHandler,blockrenderer6343.integration.structurelib.StructureCompatNEIHandler,StructureLib,1xitem.structurelib.constructableTrigger@0
+QED Recipes,com.rwtema.extrautils.nei.EnderConstructorHandler,qedcrafting,Extra Utilities,1xtile.extrautils:endConstructor@0
+Laser Drill,tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerLaserDrill,null,MineFactory Reloaded,1xtile.mfr.machine.2@0
+Documentation,com.rwtema.extrautils.nei.InfoHandler,null,Extra Utilities,1xtile.extrautils:chandelier@0
+Soul Crafting,com.rwtema.extrautils.nei.SoulHandler,null,Extra Utilities,1xitem.extrautils:mini-soul@0
+Lava Fabricator,tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerLavaFabricator,null,MineFactory Reloaded,1xtile.mfr.machine.1@5
+Microblock Crafting,com.rwtema.extrautils.nei.FMPMicroBlocksHandler,crafting,Extra Utilities,1xitem.microblock:sawIron@0
+Meat Packer,tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerMeatPacker,null,MineFactory Reloaded,1xtile.mfr.machine.1@14
+Sewer,tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerSewer,null,MineFactory Reloaded,1xtile.mfr.machine.0@10
+Extra Utilities: Microblocks,com.rwtema.extrautils.nei.MicroBlocksHandler,crafting,Extra Utilities,1xitem.extrautils:microblocks@1
+Tree Breeding,net.bdew.neiaddons.forestry.trees.TreeBreedingHandler,null,Forestry for Minecraft,1xtile.for.saplingGE@0
+Tree Produce,net.bdew.neiaddons.forestry.trees.TreeProduceHandler,null,Forestry for Minecraft,1xtile.for.saplingGE@0
+Slaughterhouse,tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerSlaughterhouse,null,MineFactory Reloaded,1xtile.mfr.machine.1@13
+Sludge Boiler,tonius.neiintegration.mods.minefactoryreloaded.RecipeHandlerSludgeBoiler,null,MineFactory Reloaded,1xtile.mfr.machine.0@9
+Butterfly Breeding,net.bdew.neiaddons.forestry.butterflies.ButterflyBreedingHandler,null,Forestry for Minecraft,1xitem.for.butterflyGE@0
+Blast Furnace,tonius.neiintegration.mods.railcraft.RecipeHandlerBlastFurnace,null,Railcraft,1xtile.railcraft.machine.alpha@12
+Coke Oven,tonius.neiintegration.mods.railcraft.RecipeHandlerCokeOven,null,Railcraft,1xtile.railcraft.machine.alpha@7
+Rock Crusher,tonius.neiintegration.mods.railcraft.RecipeHandlerRockCrusher,null,Railcraft,1xtile.railcraft.machine.alpha@15
+Rolling Machine,tonius.neiintegration.mods.railcraft.RecipeHandlerRollingMachineShaped,null,Railcraft,1xtile.railcraft.machine.alpha@8
+Rolling Machine,tonius.neiintegration.mods.railcraft.RecipeHandlerRollingMachineShapeless,null,Railcraft,1xtile.railcraft.machine.alpha@8

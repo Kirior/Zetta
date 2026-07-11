@@ -1,0 +1,21 @@
+filename = 'Tainted-Magic-r7.82.jar'
+name = 'Tainted Magic'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Tainted-Magic-r7.82.jar'
+
+[download]
+hash = '1b0391f510c8014b939ce2f80cafeb6c70645780'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2462744
+project-id = 231061
+
+[[x-prismlauncher-dependencies]]
+addonId = '223628'
+type = 'REQUIRED'

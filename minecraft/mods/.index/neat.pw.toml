@@ -1,0 +1,18 @@
+filename = 'Neat 1.0-1.jar'
+name = 'Neat'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0-1'
+
+[download]
+hash = '56be8b4113edeb0a8ad8578f3f31e4c7b54f057340e191fa08d4c0e252ca18b8cc7265827d74d73649ad65be59c620a4e1ce117bee647c4c2cbf3d749b3c0e2a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Ins7SzzR/versions/1.0-1/Neat%2B1.0-1.jar'
+
+[update.modrinth]
+mod-id = 'Ins7SzzR'
+version = 'NOwFHZBU'

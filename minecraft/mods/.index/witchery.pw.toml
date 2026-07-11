@@ -1,0 +1,18 @@
+filename = 'witchery-1.7.10-0.24.1.jar'
+name = 'Witchery'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'witchery-1.7.10-0.24.1.jar'
+
+[download]
+hash = 'b3f02f7049eedef71ebd7ad192c3cc23cf1268c9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2234410
+project-id = 69673

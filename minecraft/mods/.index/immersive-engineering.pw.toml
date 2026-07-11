@@ -1,0 +1,18 @@
+filename = 'ImmersiveEngineering-0.7.7.jar'
+name = 'Immersive Engineering'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = ' Immersive Engineering v0.7.7'
+
+[download]
+hash = '5574a1fd5b308d169f053eaeb52ad40ae89a5015'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2299019
+project-id = 231951

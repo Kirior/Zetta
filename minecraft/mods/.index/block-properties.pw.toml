@@ -1,0 +1,18 @@
+filename = 'BlockProperties-1.7.10-0.1.5.jar'
+name = 'Block Properties'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'BlockProperties-1.7.10-0.1.5.jar'
+
+[download]
+hash = 'a6d68b64b05aae93599689631111e578e87a9e52'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2281380
+project-id = 230368

@@ -1,0 +1,359 @@
+UID,Name,Allele0,Allele1,isSecret,baseChance,conditions
+forestry.speciesCommon,Common,forestry.speciesForest,forestry.speciesMeadows,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesForest,forestry.speciesModest,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesForest,forestry.speciesTropical,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesForest,forestry.speciesWintry,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesForest,forestry.speciesMarshy,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesMeadows,forestry.speciesModest,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesMeadows,forestry.speciesTropical,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesMeadows,forestry.speciesWintry,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesMeadows,forestry.speciesMarshy,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesModest,forestry.speciesTropical,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesModest,forestry.speciesWintry,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesModest,forestry.speciesMarshy,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesTropical,forestry.speciesWintry,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesTropical,forestry.speciesMarshy,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesWintry,forestry.speciesMarshy,false,15.0,
+forestry.speciesCultivated,Cultivated,forestry.speciesCommon,forestry.speciesForest,false,12.0,
+forestry.speciesCultivated,Cultivated,forestry.speciesCommon,forestry.speciesMeadows,false,12.0,
+forestry.speciesCultivated,Cultivated,forestry.speciesCommon,forestry.speciesModest,false,12.0,
+forestry.speciesCultivated,Cultivated,forestry.speciesCommon,forestry.speciesTropical,false,12.0,
+forestry.speciesCultivated,Cultivated,forestry.speciesCommon,forestry.speciesWintry,false,12.0,
+forestry.speciesCultivated,Cultivated,forestry.speciesCommon,forestry.speciesMarshy,false,12.0,
+forestry.speciesNoble,Noble,forestry.speciesCommon,forestry.speciesCultivated,false,10.0,
+forestry.speciesMajestic,Majestic,forestry.speciesNoble,forestry.speciesCultivated,false,8.0,
+forestry.speciesImperial,Imperial,forestry.speciesNoble,forestry.speciesMajestic,false,8.0,
+forestry.speciesDiligent,Diligent,forestry.speciesCommon,forestry.speciesCultivated,false,10.0,
+forestry.speciesUnweary,Unweary,forestry.speciesDiligent,forestry.speciesCultivated,false,8.0,
+forestry.speciesIndustrious,Industrious,forestry.speciesDiligent,forestry.speciesUnweary,false,8.0,
+forestry.speciesHeroic,Heroic,forestry.speciesSteadfast,forestry.speciesValiant,false,6.0,Occurs within a forest biome.
+forestry.speciesSinister,Sinister,forestry.speciesCultivated,forestry.speciesModest,false,60.0,Occurs within a nether biome.
+forestry.speciesSinister,Sinister,forestry.speciesCultivated,forestry.speciesTropical,false,60.0,Occurs within a nether biome.
+forestry.speciesFiendish,Fiendish,forestry.speciesSinister,forestry.speciesCultivated,false,40.0,Occurs within a nether biome.
+forestry.speciesFiendish,Fiendish,forestry.speciesSinister,forestry.speciesModest,false,40.0,Occurs within a nether biome.
+forestry.speciesFiendish,Fiendish,forestry.speciesSinister,forestry.speciesTropical,false,40.0,Occurs within a nether biome.
+forestry.speciesDemonic,Demonic,forestry.speciesSinister,forestry.speciesFiendish,false,25.0,Occurs within a nether biome.
+forestry.speciesFrugal,Frugal,forestry.speciesModest,forestry.speciesSinister,false,16.0,Requires temperature between Hot and Hellish.|Requires Arid humidity.
+forestry.speciesFrugal,Frugal,forestry.speciesModest,forestry.speciesFiendish,false,10.0,Requires temperature between Hot and Hellish.|Requires Arid humidity.
+forestry.speciesAustere,Austere,forestry.speciesModest,forestry.speciesFrugal,false,8.0,Requires temperature between Hot and Hellish.|Requires Arid humidity.
+forestry.speciesExotic,Exotic,forestry.speciesAustere,forestry.speciesTropical,false,12.0,
+forestry.speciesEdenic,Edenic,forestry.speciesExotic,forestry.speciesTropical,false,8.0,
+forestry.speciesSpectral,Spectral,forestry.speciesHermitic,forestry.speciesEnded,false,4.0,
+forestry.speciesPhantasmal,Phantasmal,forestry.speciesSpectral,forestry.speciesEnded,false,2.0,
+forestry.speciesIcy,Icy,forestry.speciesIndustrious,forestry.speciesWintry,false,12.0,Requires temperature between Icy and Cold.
+forestry.speciesGlacial,Glacial,forestry.speciesIcy,forestry.speciesWintry,false,8.0,Requires temperature between Icy and Cold.
+forestry.speciesVindictive,Vindictive,forestry.speciesMonastic,forestry.speciesDemonic,true,4.0,
+forestry.speciesVengeful,Vengeful,forestry.speciesDemonic,forestry.speciesVindictive,true,8.0,
+forestry.speciesVengeful,Vengeful,forestry.speciesMonastic,forestry.speciesVindictive,true,8.0,
+forestry.speciesAvenging,Avenging,forestry.speciesVengeful,forestry.speciesVindictive,false,4.0,
+forestry.speciesLeporine,Leporine,forestry.speciesMeadows,forestry.speciesForest,true,10.0,Occurs between March 29 and April 15.
+forestry.speciesMerry,Merry,forestry.speciesWintry,forestry.speciesForest,true,10.0,Occurs between December 21 and December 27.
+forestry.speciesTipsy,Tipsy,forestry.speciesWintry,forestry.speciesMeadows,true,10.0,Occurs between December 27 and January 2.
+forestry.speciesTricky,Tricky,forestry.speciesSinister,forestry.speciesCommon,true,10.0,Occurs between October 15 and November 3.
+forestry.speciesRural,Rural,forestry.speciesMeadows,forestry.speciesDiligent,false,12.0,Occurs within a plains biome.
+forestry.speciesFarmerly,Farmerly,forestry.speciesRural,forestry.speciesUnweary,false,10.0,Occurs within a plains biome.
+forestry.speciesAgrarian,Agrarian,forestry.speciesFarmerly,forestry.speciesIndustrious,false,6.0,Occurs within a plains biome.
+forestry.speciesMiry,Miry,forestry.speciesMarshy,forestry.speciesNoble,false,15.0,Requires Warm temperature.|Requires Damp humidity.
+forestry.speciesBoggy,Boggy,forestry.speciesMarshy,forestry.speciesMiry,false,9.0,Requires Warm temperature.|Requires Damp humidity.
+forestry.speciesSecluded,Secluded,forestry.speciesMonastic,forestry.speciesAustere,false,12.0,
+forestry.speciesHermitic,Hermitic,forestry.speciesMonastic,forestry.speciesSecluded,false,8.0,
+extrabees.species.arid,Arid,forestry.speciesMeadows,forestry.speciesFrugal,false,10.0,
+extrabees.species.arid,Arid,forestry.speciesForest,forestry.speciesFrugal,false,10.0,
+extrabees.species.barren,Barren,forestry.speciesCommon,extrabees.species.arid,false,10.0,
+extrabees.species.desolate,Desolate,extrabees.species.arid,extrabees.species.barren,false,10.0,
+extrabees.species.decomposing,Decomposing,forestry.speciesMarshy,extrabees.species.barren,false,15.0,
+extrabees.species.gnawing,Gnawing,forestry.speciesForest,extrabees.species.barren,false,15.0,
+extrabees.species.rotten,Decaying,forestry.speciesMeadows,extrabees.species.desolate,false,15.0,
+extrabees.species.bone,Skeletal,forestry.speciesForest,extrabees.species.desolate,false,15.0,
+extrabees.species.creeper,Creepy,forestry.speciesModest,extrabees.species.desolate,false,15.0,
+extrabees.species.stone,Tolerant,forestry.speciesDiligent,extrabees.species.rock,false,12.0,
+extrabees.species.granite,Robust,forestry.speciesUnweary,extrabees.species.stone,false,10.0,
+extrabees.species.mineral,Resilient,forestry.speciesIndustrious,extrabees.species.granite,false,6.0,
+extrabees.species.copper,Corroded,forestry.speciesWintry,extrabees.species.mineral,false,5.0,
+extrabees.species.copper,Corroded,forestry.speciesModest,extrabees.species.mineral,false,5.0,
+extrabees.species.tin,Tarnished,forestry.speciesMarshy,extrabees.species.mineral,false,5.0,
+extrabees.species.tin,Tarnished,forestry.speciesTropical,extrabees.species.mineral,false,5.0,
+extrabees.species.iron,Rusty,forestry.speciesMeadows,extrabees.species.mineral,false,5.0,
+extrabees.species.iron,Rusty,forestry.speciesForest,extrabees.species.mineral,false,5.0,
+extrabees.species.lead,Leaden,forestry.speciesMeadows,extrabees.species.mineral,false,5.0,
+extrabees.species.lead,Leaden,forestry.speciesModest,extrabees.species.mineral,false,5.0,
+extrabees.species.zinc,Galvanized,forestry.speciesWintry,extrabees.species.mineral,false,5.0,
+extrabees.species.zinc,Galvanized,forestry.speciesTropical,extrabees.species.mineral,false,5.0,
+extrabees.species.titanium,Impregnable,forestry.speciesCultivated,extrabees.species.mineral,false,3.0,
+extrabees.species.tungstate,Invincible,forestry.speciesCommon,extrabees.species.mineral,false,3.0,
+extrabees.species.nickel,Lustered,forestry.speciesForest,extrabees.species.mineral,false,5.0,
+extrabees.species.nickel,Lustered,forestry.speciesMarshy,extrabees.species.mineral,false,5.0,
+extrabees.species.gold,Glittering,forestry.speciesMajestic,extrabees.species.iron,false,2.0,
+extrabees.species.gold,Glittering,forestry.speciesMajestic,extrabees.species.copper,false,2.0,
+extrabees.species.gold,Glittering,forestry.speciesMajestic,extrabees.species.nickel,false,2.0,
+extrabees.species.gold,Glittering,forestry.speciesMajestic,extrabees.species.tungstate,false,2.0,
+extrabees.species.silver,Shining,forestry.speciesMajestic,extrabees.species.zinc,false,2.0,
+extrabees.species.silver,Shining,forestry.speciesMajestic,extrabees.species.tin,false,2.0,
+extrabees.species.silver,Shining,forestry.speciesMajestic,extrabees.species.lead,false,2.0,
+extrabees.species.silver,Shining,forestry.speciesMajestic,extrabees.species.titanium,false,2.0,
+extrabees.species.platinum,Valuable,extrabees.species.gold,extrabees.species.silver,false,2.0,
+extrabees.species.lapis,Lapis,forestry.speciesImperial,extrabees.species.mineral,false,5.0,
+extrabees.species.emerald,Emerald,forestry.speciesForest,extrabees.species.lapis,false,5.0,
+extrabees.species.ruby,Ruby,forestry.speciesModest,extrabees.species.lapis,false,5.0,
+extrabees.species.sapphire,Sapphire,extrabees.species.water,extrabees.species.lapis,false,5.0,
+extrabees.species.diamond,Diamond,forestry.speciesCultivated,extrabees.species.lapis,false,5.0,
+extrabees.species.unstable,Unstable,extrabees.species.prehistoric,extrabees.species.mineral,false,5.0,
+extrabees.species.nuclear,Nuclear,extrabees.species.unstable,extrabees.species.iron,false,5.0,
+extrabees.species.nuclear,Nuclear,extrabees.species.unstable,extrabees.species.copper,false,5.0,
+extrabees.species.nuclear,Nuclear,extrabees.species.unstable,extrabees.species.tin,false,5.0,
+extrabees.species.nuclear,Nuclear,extrabees.species.unstable,extrabees.species.zinc,false,5.0,
+extrabees.species.nuclear,Nuclear,extrabees.species.unstable,extrabees.species.nickel,false,5.0,
+extrabees.species.nuclear,Nuclear,extrabees.species.unstable,extrabees.species.lead,false,5.0,
+extrabees.species.radioactive,Radioactive,extrabees.species.nuclear,extrabees.species.gold,false,5.0,
+extrabees.species.radioactive,Radioactive,extrabees.species.nuclear,extrabees.species.silver,false,5.0,
+extrabees.species.yellorium,Yellorium,forestry.speciesFrugal,extrabees.species.nuclear,false,5.0,
+extrabees.species.cyanite,Cyanite,extrabees.species.nuclear,extrabees.species.yellorium,false,5.0,
+extrabees.species.blutonium,Blutonium,extrabees.species.cyanite,extrabees.species.yellorium,false,5.0,
+extrabees.species.ancient,Ancient,forestry.speciesNoble,forestry.speciesDiligent,false,10.0,
+extrabees.species.primeval,Primeval,forestry.speciesSecluded,extrabees.species.ancient,false,8.0,
+extrabees.species.prehistoric,Prehistoric,extrabees.species.primeval,extrabees.species.ancient,false,8.0,
+extrabees.species.relic,Relic,forestry.speciesImperial,extrabees.species.prehistoric,false,8.0,
+extrabees.species.coal,Fossilised,extrabees.species.primeval,extrabees.species.growing,false,8.0,
+extrabees.species.coal,Fossilised,forestry.speciesRural,extrabees.species.primeval,false,8.0,
+extrabees.species.resin,Resinous,forestry.speciesMiry,extrabees.species.primeval,false,8.0,
+extrabees.species.oil,Oily,extrabees.species.ocean,extrabees.species.primeval,false,8.0,
+extrabees.species.oil,Oily,forestry.speciesFrugal,extrabees.species.primeval,false,8.0,
+extrabees.species.distilled,Distilled,forestry.speciesIndustrious,extrabees.species.oil,false,8.0,
+extrabees.species.fuel,Refined,extrabees.species.distilled,extrabees.species.oil,false,8.0,
+extrabees.species.creosote,Tarry,extrabees.species.distilled,extrabees.species.coal,false,8.0,
+extrabees.species.latex,Elastic,extrabees.species.distilled,extrabees.species.resin,false,8.0,
+extrabees.species.river,River,forestry.speciesDiligent,extrabees.species.water,false,10.0,Occurs within a river biome.
+extrabees.species.ocean,Ocean,forestry.speciesDiligent,extrabees.species.water,false,10.0,Occurs within a ocean biome.
+extrabees.species.ink,Stained,extrabees.species.black,extrabees.species.ocean,false,8.0,
+extrabees.species.growing,Growing,forestry.speciesForest,forestry.speciesDiligent,false,10.0,
+extrabees.species.farm,Farmed,forestry.speciesFarmerly,forestry.speciesMeadows,false,10.0,
+extrabees.species.thriving,Thriving,forestry.speciesUnweary,extrabees.species.growing,false,10.0,
+extrabees.species.blooming,Blooming,forestry.speciesIndustrious,extrabees.species.thriving,false,8.0,
+extrabees.species.sweet,Sweetened,forestry.speciesValiant,forestry.speciesDiligent,false,15.0,
+extrabees.species.sugar,Sugary,forestry.speciesRural,extrabees.species.sweet,false,15.0,
+extrabees.species.ripening,Ripening,extrabees.species.sweet,extrabees.species.growing,false,5.0,
+extrabees.species.fruit,Fruity,extrabees.species.sweet,extrabees.species.thriving,false,5.0,
+extrabees.species.alcohol,Fermented,forestry.speciesFarmerly,forestry.speciesMeadows,false,10.0,
+extrabees.species.milk,Bovine,forestry.speciesFarmerly,extrabees.species.water,false,10.0,
+extrabees.species.coffee,Caffeinated,forestry.speciesFarmerly,forestry.speciesTropical,false,10.0,
+extrabees.species.swamp,Damp,forestry.speciesMiry,extrabees.species.water,false,10.0,
+extrabees.species.boggy,Sodden,forestry.speciesBoggy,extrabees.species.swamp,false,8.0,
+extrabees.species.fungal,Fungal,forestry.speciesBoggy,forestry.speciesMiry,false,8.0,
+extrabees.species.fungal,Fungal,forestry.speciesBoggy,extrabees.species.fungal,false,8.0,
+extrabees.species.tempered,Furious,forestry.speciesFiendish,extrabees.species.basalt,false,30.0,Occurs within a nether biome.
+extrabees.species.volcanic,Volcanic,forestry.speciesDemonic,extrabees.species.tempered,false,20.0,Occurs within a nether biome.
+extrabees.species.glowstone,Glowering,extrabees.species.tempered,extrabees.species.excited,false,5.0,
+extrabees.species.malicious,Malicious,forestry.speciesSinister,forestry.speciesTropical,false,10.0,
+extrabees.species.infectious,Infectious,forestry.speciesTropical,extrabees.species.malicious,false,8.0,
+extrabees.species.virulent,Virulent,extrabees.species.malicious,extrabees.species.infectious,false,8.0,
+extrabees.species.viscous,Viscous,forestry.speciesExotic,extrabees.species.water,false,10.0,
+extrabees.species.glutinous,Glutinous,forestry.speciesExotic,extrabees.species.viscous,false,8.0,
+extrabees.species.sticky,Sticky,extrabees.species.viscous,extrabees.species.glutinous,false,8.0,
+extrabees.species.corrosive,Corrosive,extrabees.species.malicious,extrabees.species.viscous,false,10.0,
+extrabees.species.caustic,Caustic,forestry.speciesFiendish,extrabees.species.corrosive,false,8.0,
+extrabees.species.acidic,Acidic,extrabees.species.corrosive,extrabees.species.caustic,false,4.0,
+extrabees.species.excited,Excited,forestry.speciesValiant,forestry.speciesCultivated,false,10.0,
+extrabees.species.energetic,Energetic,forestry.speciesDiligent,extrabees.species.excited,false,8.0,
+extrabees.species.ecstatic,Ecstatic,extrabees.species.excited,extrabees.species.energetic,false,8.0,
+extrabees.species.artic,Frigid,forestry.speciesWintry,forestry.speciesDiligent,false,10.0,
+extrabees.species.freezing,Absolute,extrabees.species.ocean,extrabees.species.artic,false,10.0,
+extrabees.species.shadow,Shadowed,forestry.speciesSinister,extrabees.species.rock,false,10.0,
+extrabees.species.darkened,Darkened,extrabees.species.shadow,extrabees.species.rock,false,8.0,
+extrabees.species.abyss,Abyssal,extrabees.species.shadow,extrabees.species.darkened,false,8.0,
+extrabees.species.red,Maroon,forestry.speciesForest,forestry.speciesValiant,false,5.0,
+extrabees.species.yellow,Saffron,forestry.speciesMeadows,forestry.speciesValiant,false,5.0,
+extrabees.species.blue,Prussian,forestry.speciesValiant,extrabees.species.water,false,5.0,
+extrabees.species.green,Natural,forestry.speciesTropical,forestry.speciesValiant,false,5.0,
+extrabees.species.black,Ebony,forestry.speciesValiant,extrabees.species.rock,false,5.0,
+extrabees.species.white,Bleached,forestry.speciesWintry,forestry.speciesValiant,false,5.0,
+extrabees.species.brown,Sepia,forestry.speciesMarshy,forestry.speciesValiant,false,5.0,
+extrabees.species.orange,Amber,extrabees.species.red,extrabees.species.yellow,false,5.0,
+extrabees.species.cyan,Turquoise,extrabees.species.green,extrabees.species.blue,false,5.0,
+extrabees.species.purple,Indigo,extrabees.species.red,extrabees.species.blue,false,5.0,
+extrabees.species.gray,Slate,extrabees.species.black,extrabees.species.white,false,5.0,
+extrabees.species.lightblue,Azure,extrabees.species.blue,extrabees.species.white,false,5.0,
+extrabees.species.pink,Lavender,extrabees.species.red,extrabees.species.white,false,5.0,
+extrabees.species.limegreen,Lime,extrabees.species.green,extrabees.species.white,false,5.0,
+extrabees.species.magenta,Fuchsia,extrabees.species.purple,extrabees.species.pink,false,5.0,
+extrabees.species.lightgray,Ashen,extrabees.species.gray,extrabees.species.white,false,5.0,
+extrabees.species.celebratory,Celebratory,forestry.speciesAustere,extrabees.species.excited,false,5.0,
+extrabees.species.jaded,Jaded,forestry.speciesEnded,extrabees.species.relic,false,2.0,Inspired by [jadedcat§r]
+extrabees.species.chad,Chad,forestry.speciesCultivated,extrabees.species.celebratory,false,5.0,"Occurs between February 29 and February 29.|During the day.|Inspired by |[§4§lR§c§lu§6§ln§e§la§2§lk§a§la§b§li§r, boubou_19§r, Alastors_Game§r, | BlueWeabo§r, Lewis_Saber§r, True_Aurastorm§r, | mitchej123§r, minecraft7771§r, _Timbo§r, | kuba6000§r, Alrightsc§r, YeetYeetDatBoi§r, | DreamMasterXXL§r, Colen§r, OrderedSet§r]"
+extrabees.species.hazardous,Hazardous,forestry.speciesAustere,extrabees.species.desolate,false,5.0,
+extrabees.species.quantum,Quantum,forestry.speciesSpectral,extrabees.species.spatial,false,5.0,
+extrabees.species.unusual,Abnormal,forestry.speciesSecluded,forestry.speciesEnded,false,5.0,
+extrabees.species.spatial,Spatial,forestry.speciesHermitic,extrabees.species.unusual,false,5.0,
+extrabees.species.mystical,Mystical,forestry.speciesNoble,forestry.speciesMonastic,false,5.0,
+forestry.speciesCommon,Common,forestry.speciesForest,extrabees.species.water,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesMeadows,extrabees.species.water,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesModest,extrabees.species.water,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesTropical,extrabees.species.water,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesMarshy,extrabees.species.water,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesWintry,extrabees.species.water,false,15.0,
+forestry.speciesCommon,Common,extrabees.species.rock,extrabees.species.water,false,15.0,
+forestry.speciesCommon,Common,extrabees.species.basalt,extrabees.species.water,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesForest,extrabees.species.rock,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesMeadows,extrabees.species.rock,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesModest,extrabees.species.rock,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesTropical,extrabees.species.rock,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesMarshy,extrabees.species.rock,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesWintry,extrabees.species.rock,false,15.0,
+forestry.speciesCommon,Common,extrabees.species.basalt,extrabees.species.rock,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesForest,extrabees.species.basalt,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesMeadows,extrabees.species.basalt,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesModest,extrabees.species.basalt,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesTropical,extrabees.species.basalt,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesMarshy,extrabees.species.basalt,false,15.0,
+forestry.speciesCommon,Common,forestry.speciesWintry,extrabees.species.basalt,false,15.0,
+forestry.speciesCultivated,Cultivated,forestry.speciesCommon,extrabees.species.water,false,12.0,
+forestry.speciesCultivated,Cultivated,forestry.speciesCommon,extrabees.species.rock,false,12.0,
+forestry.speciesCultivated,Cultivated,forestry.speciesCommon,extrabees.species.basalt,false,12.0,
+forestry.speciesSinister,Sinister,forestry.speciesCultivated,extrabees.species.basalt,false,60.0,Occurs within a nether biome.
+forestry.speciesFiendish,Fiendish,forestry.speciesSinister,extrabees.species.basalt,false,40.0,Occurs within a nether biome.
+forestry.speciesCommon,Common,magicbees.speciesMystical,forestry.speciesForest,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesMystical,forestry.speciesMeadows,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesMystical,forestry.speciesModest,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesMystical,forestry.speciesWintry,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesMystical,forestry.speciesTropical,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesMystical,forestry.speciesMarshy,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesMystical,extrabees.species.rock,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesMystical,extrabees.species.water,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesMystical,extrabees.species.basalt,false,15.0,
+forestry.speciesCultivated,Cultivated,magicbees.speciesMystical,forestry.speciesCommon,false,12.0,
+magicbees.speciesEldritch,Eldritch,magicbees.speciesMystical,forestry.speciesCultivated,false,12.0,
+forestry.speciesCommon,Common,magicbees.speciesSorcerous,forestry.speciesForest,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesSorcerous,forestry.speciesMeadows,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesSorcerous,forestry.speciesModest,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesSorcerous,forestry.speciesWintry,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesSorcerous,forestry.speciesTropical,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesSorcerous,forestry.speciesMarshy,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesSorcerous,extrabees.species.rock,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesSorcerous,extrabees.species.water,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesSorcerous,extrabees.species.basalt,false,15.0,
+forestry.speciesCultivated,Cultivated,magicbees.speciesSorcerous,forestry.speciesCommon,false,12.0,
+magicbees.speciesEldritch,Eldritch,magicbees.speciesSorcerous,forestry.speciesCultivated,false,12.0,
+forestry.speciesCommon,Common,magicbees.speciesUnusual,forestry.speciesForest,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesUnusual,forestry.speciesMeadows,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesUnusual,forestry.speciesModest,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesUnusual,forestry.speciesWintry,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesUnusual,forestry.speciesTropical,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesUnusual,forestry.speciesMarshy,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesUnusual,extrabees.species.rock,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesUnusual,extrabees.species.water,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesUnusual,extrabees.species.basalt,false,15.0,
+forestry.speciesCultivated,Cultivated,magicbees.speciesUnusual,forestry.speciesCommon,false,12.0,
+magicbees.speciesEldritch,Eldritch,magicbees.speciesUnusual,forestry.speciesCultivated,false,12.0,
+forestry.speciesCommon,Common,magicbees.speciesAttuned,forestry.speciesForest,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesAttuned,forestry.speciesMeadows,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesAttuned,forestry.speciesModest,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesAttuned,forestry.speciesWintry,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesAttuned,forestry.speciesTropical,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesAttuned,forestry.speciesMarshy,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesAttuned,extrabees.species.rock,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesAttuned,extrabees.species.water,false,15.0,
+forestry.speciesCommon,Common,magicbees.speciesAttuned,extrabees.species.basalt,false,15.0,
+forestry.speciesCultivated,Cultivated,magicbees.speciesAttuned,forestry.speciesCommon,false,12.0,
+magicbees.speciesEldritch,Eldritch,magicbees.speciesAttuned,forestry.speciesCultivated,false,12.0,
+magicbees.speciesEsoteric,Esoteric,forestry.speciesCultivated,magicbees.speciesEldritch,false,10.0,
+magicbees.speciesMysterious,Mysterious,magicbees.speciesEldritch,magicbees.speciesEsoteric,false,8.0,
+magicbees.speciesArcane,Arcane,magicbees.speciesEsoteric,magicbees.speciesMysterious,false,8.0,Better success between the Waxing Crescent and Waxing Gibbous.
+magicbees.speciesCharmed,Charmed,forestry.speciesCultivated,magicbees.speciesEldritch,false,10.0,
+magicbees.speciesEnchanted,Enchanted,magicbees.speciesEldritch,magicbees.speciesCharmed,false,8.0,
+magicbees.speciesSupernatural,Supernatural,magicbees.speciesCharmed,magicbees.speciesEnchanted,false,8.0,Better success between the Waning Gibbous and Waning Crescent.
+magicbees.speciesEthereal,Ethereal,magicbees.speciesArcane,magicbees.speciesSupernatural,false,7.0,
+magicbees.speciesWindy,Windy,magicbees.speciesSupernatural,magicbees.speciesEthereal,false,14.0,Requires Oak Leaves as a foundation.
+magicbees.speciesWatery,Watery,magicbees.speciesSupernatural,magicbees.speciesEthereal,false,14.0,Requires Water as a foundation.
+magicbees.speciesEarthen,Earthen,magicbees.speciesSupernatural,magicbees.speciesEthereal,false,14.0,Requires Bricks as a foundation.
+magicbees.speciesFirey,Firey,magicbees.speciesSupernatural,magicbees.speciesEthereal,false,14.0,Requires Lava as a foundation.
+magicbees.speciesAware,Aware,magicbees.speciesEthereal,magicbees.speciesAttuned,false,10.0,
+magicbees.speciesSpirit,Spirit,magicbees.speciesEthereal,magicbees.speciesAware,false,8.0,
+magicbees.speciesSpirit,Spirit,magicbees.speciesAttuned,magicbees.speciesAware,false,8.0,
+magicbees.speciesSoul,Soul,magicbees.speciesAware,magicbees.speciesSpirit,false,7.0,
+magicbees.speciesPupil,Pupil,forestry.speciesMonastic,magicbees.speciesArcane,false,10.0,
+magicbees.speciesScholarly,Scholarly,magicbees.speciesArcane,magicbees.speciesPupil,false,8.0,
+magicbees.speciesSavant,Savant,magicbees.speciesPupil,magicbees.speciesScholarly,false,6.0,
+magicbees.speciesTimely,Timely,forestry.speciesImperial,magicbees.speciesEthereal,false,8.0,
+magicbees.speciesLordly,Lordly,forestry.speciesImperial,magicbees.speciesTimely,false,8.0,
+magicbees.speciesDoctoral,Doctoral,magicbees.speciesTimely,magicbees.speciesLordly,false,7.0,
+magicbees.speciesHateful,Hateful,magicbees.speciesInfernal,magicbees.speciesEldritch,false,9.0,Occurs within a nether biome.
+magicbees.speciesSpiteful,Spiteful,magicbees.speciesInfernal,magicbees.speciesHateful,false,7.0,Occurs within a nether biome.
+magicbees.speciesWithering,Withering,forestry.speciesDemonic,magicbees.speciesSpiteful,false,6.0,Occurs within a nether biome.
+magicbees.speciesSkulking,Skulking,forestry.speciesModest,magicbees.speciesEldritch,false,12.0,
+magicbees.speciesSpidery,Spidery,forestry.speciesTropical,magicbees.speciesSkulking,false,10.0,
+magicbees.speciesGhastly,Ghastly,magicbees.speciesTCBatty,magicbees.speciesEthereal,false,9.0,
+magicbees.speciesSmouldering,Smouldering,magicbees.speciesGhastly,magicbees.speciesHateful,false,7.0,Occurs within a nether biome.
+magicbees.speciesBigBad,Big Bad,magicbees.speciesSkulking,magicbees.speciesMysterious,false,7.0,During the Full Moon
+magicbees.speciesTCChicken,Poultry,forestry.speciesCommon,magicbees.speciesSkulking,false,12.0,Occurs within a forest biome.
+magicbees.speciesTCBeef,Beefy,forestry.speciesCommon,magicbees.speciesSkulking,false,12.0,Occurs within a plains biome.
+magicbees.speciesTCPork,Porcine,forestry.speciesCommon,magicbees.speciesSkulking,false,12.0,Occurs within a mountain biome.
+magicbees.speciesSheepish,Sheepish,magicbees.speciesTCPork,magicbees.speciesSkulking,false,13.0,Occurs within a plains biome.
+magicbees.speciesHorse,Neighsayer,magicbees.speciesTCBeef,magicbees.speciesSheepish,false,12.0,Occurs within a plains biome.
+magicbees.speciesCatty,Catty,magicbees.speciesTCChicken,magicbees.speciesSpidery,false,15.0,Occurs within a jungle biome.
+magicbees.speciesTCBatty,Batty,magicbees.speciesSkulking,magicbees.speciesWindy,false,9.0,
+magicbees.speciesTCBrainy,Brainy,magicbees.speciesSkulking,magicbees.speciesPupil,false,9.0,
+magicbees.speciesNameless,Nameless,magicbees.speciesEthereal,magicbees.speciesOblivion,false,10.0,
+magicbees.speciesAbandoned,Abandoned,magicbees.speciesOblivion,magicbees.speciesNameless,false,8.0,
+magicbees.speciesForlorn,Forlorn,magicbees.speciesNameless,magicbees.speciesAbandoned,false,6.0,
+magicbees.speciesDraconic,Draconic,forestry.speciesImperial,magicbees.speciesAbandoned,false,6.0,Occurs within a end biome.
+magicbees.speciesMutable,Mutable,magicbees.speciesUnusual,magicbees.speciesEldritch,false,12.0,
+magicbees.speciesTransmuting,Transmuting,magicbees.speciesUnusual,magicbees.speciesMutable,false,9.0,
+magicbees.speciesCrumbling,Crumbling,magicbees.speciesUnusual,magicbees.speciesMutable,false,9.0,
+magicbees.speciesInvisible,Invisible,magicbees.speciesMystical,magicbees.speciesMutable,false,15.0,
+magicbees.speciesCopper,Cuprum,forestry.speciesIndustrious,forestry.speciesMeadows,false,12.0,Requires Copper Block as a foundation.
+magicbees.speciesTin,Stannum,forestry.speciesIndustrious,forestry.speciesForest,false,12.0,Requires Tin Block as a foundation.
+magicbees.speciesIron,Ferrous,forestry.speciesCommon,forestry.speciesIndustrious,false,12.0,Requires Block of Iron as a foundation.
+magicbees.speciesLead,Plumbum,magicbees.speciesTin,forestry.speciesCommon,false,10.0,Requires Lead Block as a foundation.
+magicbees.speciesSilver,Argentum,forestry.speciesImperial,forestry.speciesModest,false,8.0,Requires Silver Block as a foundation.
+magicbees.speciesGold,Auric,forestry.speciesImperial,magicbees.speciesLead,false,8.0,Requires Block of Gold as a foundation.
+magicbees.speciesAluminum,Aluminum,forestry.speciesIndustrious,forestry.speciesCultivated,false,10.0,Requires Block of Aluminium as a foundation.
+magicbees.speciesArdite,Ardite,forestry.speciesIndustrious,magicbees.speciesInfernal,false,9.0,Requires Block of Ardite as a foundation.
+magicbees.speciesCobalt,Cobalt,forestry.speciesImperial,magicbees.speciesInfernal,false,11.0,Requires Block of Cobalt as a foundation.
+magicbees.speciesManyullyn,Manyullyn,magicbees.speciesArdite,magicbees.speciesCobalt,false,9.0,Requires Block of Manyullyn as a foundation.
+magicbees.speciesOsmium,Osmium,magicbees.speciesSilver,magicbees.speciesCobalt,false,11.0,
+magicbees.speciesDiamond,Diamandi,forestry.speciesAustere,magicbees.speciesGold,false,7.0,Requires Block of Diamond as a foundation.
+magicbees.speciesEmerald,Esmeraldi,forestry.speciesAustere,magicbees.speciesSilver,false,6.0,Requires Block of Emerald as a foundation.
+magicbees.speciesApatite,Apatine,forestry.speciesRural,magicbees.speciesCopper,false,12.0,Requires Block of Apatite as a foundation.
+magicbees.speciesSilicon,Silicon,magicbees.speciesAESkystone,magicbees.speciesIron,false,17.0,
+magicbees.speciesCertus,Certus,magicbees.speciesSilicon,magicbees.speciesAESkystone,false,13.0,
+magicbees.speciesFluix,Fluix,magicbees.speciesCertus,magicbees.speciesAESkystone,false,17.0,
+magicbees.speciesTCAir,Aer,magicbees.speciesWindy,magicbees.speciesWindy,false,8.0,Requires Air Crystal Cluster as a foundation.
+magicbees.speciesTCFire,Ignis,magicbees.speciesFirey,magicbees.speciesFirey,false,8.0,Requires Fire Crystal Cluster as a foundation.
+magicbees.speciesTCWater,Aqua,magicbees.speciesWatery,magicbees.speciesWatery,false,8.0,Requires Water Crystal Cluster as a foundation.
+magicbees.speciesTCEarth,Solum,magicbees.speciesEarthen,magicbees.speciesEarthen,false,8.0,Requires Earth Crystal Cluster as a foundation.
+magicbees.speciesTCOrder,Ordered,magicbees.speciesEthereal,magicbees.speciesArcane,false,8.0,Requires Order Crystal Cluster as a foundation.
+magicbees.speciesTCChaos,Chaotic,magicbees.speciesEthereal,magicbees.speciesSupernatural,false,8.0,Requires Entropy Crystal Cluster as a foundation.
+magicbees.speciesTCVis,Vis,magicbees.speciesEthereal,magicbees.speciesInfernal,false,9.0,Occurs between the Waxing Half and Waning Half
+magicbees.speciesTCRejuvenating,Rejuvenating,magicbees.speciesAttuned,magicbees.speciesTCVis,false,8.0,
+magicbees.speciesTCEmpowering,Empowering,magicbees.speciesTCVis,magicbees.speciesTCRejuvenating,false,6.0,Better success during the Full Moon.
+magicbees.speciesTCNexus,Nexus,magicbees.speciesTCRejuvenating,magicbees.speciesTCEmpowering,false,10.0,Occurs within a magical biome.|Requires Aura Node as a foundation.
+magicbees.speciesTCFlux,Flux,magicbees.speciesTransmuting,magicbees.speciesTCEmpowering,false,11.0,During the New Moon
+magicbees.speciesTCPure,Pure,magicbees.speciesTransmuting,magicbees.speciesTCRejuvenating,false,8.0,Occurs within a magical biome.|During the New Moon
+magicbees.speciesTCHungry,Ravening,magicbees.speciesBigBad,magicbees.speciesTCVis,false,20.0,
+magicbees.speciesTCWispy,Wispy,magicbees.speciesEthereal,magicbees.speciesGhastly,false,9.0,Occurs between the Waning Crescent and Waxing Crescent
+magicbees.speciesTCVoid,Void,magicbees.speciesIron,magicbees.speciesTCFlux,false,5.0,Occurs within a magical biome.|During the night.
+magicbees.speciesRSAFluxed,Fluxed,magicbees.speciesTEElectrum,magicbees.speciesTEDestabilized,false,10.0,Requires Fluxed Electrum Block as a foundation.
+magicbees.speciesTEBronze,Bronzed,magicbees.speciesTin,magicbees.speciesCopper,false,12.0,Requires Bronze Block as a foundation.
+magicbees.speciesTEElectrum,Electrum,magicbees.speciesGold,magicbees.speciesSilver,false,10.0,Requires Electrum Block as a foundation.
+magicbees.speciesTENickel,Nickel,magicbees.speciesIron,magicbees.speciesEsoteric,false,14.0,Requires Ferrous Block as a foundation.
+magicbees.speciesTEInvar,Invar,magicbees.speciesIron,magicbees.speciesTENickel,false,14.0,Requires Invar Block as a foundation.
+magicbees.speciesTEPlatinum,Platinum,magicbees.speciesTENickel,magicbees.speciesTEInvar,false,10.0,Requires Shiny Block as a foundation.
+magicbees.speciesTEBronze,Bronzed,magicbees.speciesTin,magicbees.speciesCopper,false,12.0,Requires Bronze Block as a foundation.
+magicbees.speciesTECoal,Carbon,magicbees.speciesSpiteful,magicbees.speciesTin,false,12.0,Requires Coal Ore as a foundation.
+magicbees.speciesTEDestabilized,Destabilized,magicbees.speciesSpiteful,forestry.speciesIndustrious,false,12.0,Requires Redstone Ore as a foundation.
+magicbees.speciesTELux,Lux,magicbees.speciesSmouldering,magicbees.speciesInfernal,false,12.0,Requires Glowstone as a foundation.
+magicbees.speciesTEDante,Dante,magicbees.speciesSmouldering,forestry.speciesAustere,false,12.0,Occurs within a nether biome.
+magicbees.speciesTEPyro,Pyro,magicbees.speciesTEDante,magicbees.speciesTECoal,false,8.0,Occurs within a nether biome.
+magicbees.speciesTEBlizzy,Blizzy,magicbees.speciesSkulking,forestry.speciesWintry,false,12.0,
+magicbees.speciesTEGelid,Gelid,magicbees.speciesTEBlizzy,forestry.speciesIcy,false,8.0,
+magicbees.speciesTEShocking,Shocking,magicbees.speciesSmouldering,magicbees.speciesWindy,false,13.0,
+magicbees.speciesTEAmped,Amped,magicbees.speciesTEShocking,magicbees.speciesWindy,false,8.0,
+magicbees.speciesTEGrounded,Grounded,magicbees.speciesSmouldering,magicbees.speciesEarthen,false,12.0,
+magicbees.speciesTERocking,Rockin',magicbees.speciesTEGrounded,magicbees.speciesEarthen,false,9.0,
+magicbees.speciesTEWinsome,Winsome,magicbees.speciesTEPlatinum,magicbees.speciesOblivion,false,12.0,
+magicbees.speciesTEEndearing,Endearing,magicbees.speciesTEWinsome,magicbees.speciesTECoal,false,8.0,Requires Enderium Block as a foundation.
+magicbees.speciesBotRooted,Rooted,magicbees.speciesEldritch,forestry.speciesForest,false,15.0,Requires Livingwood as a foundation.
+magicbees.speciesBotSomnolent,Somnolent,magicbees.speciesBotRooted,magicbees.speciesWatery,false,16.0,During the night.
+magicbees.speciesBotDreaming,Dreaming,magicbees.speciesWindy,magicbees.speciesBotSomnolent,false,8.0,During the night.
+magicbees.speciesBotBlossom,Blossom,magicbees.speciesBotBotanic,magicbees.speciesEarthen,false,12.0,
+magicbees.speciesBotFloral,Floral,magicbees.speciesBotBotanic,magicbees.speciesBotBlossom,false,8.0,
+magicbees.speciesAESkystone,Skystone,magicbees.speciesEarthen,magicbees.speciesWindy,false,20.0,Requires Sky Stone as a foundation.

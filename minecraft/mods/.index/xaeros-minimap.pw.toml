@@ -1,0 +1,25 @@
+filename = 'Xaeros_Minimap_21.10.44_Forge_1.7.10.jar'
+name = "Xaero's Minimap"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v21.10.44 for Forge 1.7.10'
+
+[download]
+hash = '8be058c70fc161077fd84a6e72ba2bf951aa89c4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6012805
+project-id = 263420
+
+[[x-prismlauncher-dependencies]]
+addonId = '636608'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '317780'
+type = 'OPTIONAL'

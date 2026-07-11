@@ -1,0 +1,21 @@
+{
+  "_name": "etfuturum:lantern",
+  "stats": {
+    "opacity": 0,
+    "brightness": 15,
+    "hardness": 3.5,
+    "resistance": 10.5,
+    "sound": "<unknown>",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "tool": "pickaxe",
+        "level": 0
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

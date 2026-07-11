@@ -1,0 +1,22 @@
+Slot,Display Name,Amount,Damage,Max Damage,Item ID,Unlocalized Name,Item Class,NBT
+0,Karos Rockmaul,1,0,-1,divinerpg:karosRockmaul,item.karosRockmaul,net.divinerpg.items.vethea.ItemVetheanSword,"{ench:[0:{lvl:5s,id:16s},1:{lvl:3s,id:21s}]}"
+1,Pickaxe of the Wyvern,1,0,-1,DraconicEvolution:wyvernPickaxe,item.draconicevolution:wyvernPickaxe,com.brandon3055.draconicevolution.common.items.tools.WyvernPickaxe,"{ench:[0:{lvl:5s,id:32s},1:{lvl:1s,id:69s},2:{lvl:1s,id:33s},3:{lvl:1s,id:9s}],Upgrades:{DigAOE:[0,2,0,0,]},Energy:1000000,ConfigProfiles:[0:{ToolDigAOE:2},1:{},2:{},3:{},4:{}],ConfigProfile:0}"
+2,Dyeable Brick Big,64,7,0,littletiles:LTColoredBlock,tile.LTBlocks.brickBig,com.creativemd.littletiles.common.blocks.ItemBlockColored,
+5,Torch,59,0,0,minecraft:torch,tile.torch,net.minecraft.item.ItemBlock,
+6,Resonant Satchel,1,4,0,ThermalExpansion:satchel,item.thermalexpansion.satchel.resonant,cofh.thermalexpansion.item.ItemSatchel,"{ench:[0:{lvl:4s,id:104s}],Inventory:{},Accessible:1b}"
+7,Resonant Flux Capacitor,1,5,20000000,ThermalExpansion:capacitor,item.thermalexpansion.capacitor.resonant,cofh.thermalexpansion.item.ItemCapacitor,"{Active:1b,Energy:17463109}"
+8,Item Dislocator,1,0,0,DraconicEvolution:magnet,item.draconicevolution:magnet.wyvern,com.brandon3055.draconicevolution.common.items.tools.Magnet,{MagnetEnabled:0b}
+9,Divine Shickaxe,1,0,-1,divinerpg:divineShickaxe,item.divineShickaxe,net.divinerpg.items.base.ItemShickaxe,"{ench:[0:{lvl:5s,id:32s},1:{lvl:1s,id:33s}]}"
+10,Dark Pick,1,98,1561,EnderIO:item.darkSteel_pickaxe,item.darkSteel_pickaxe,crazypants.enderio.item.darksteel.ItemDarkSteelPickaxe,"{enderio.darksteel.upgrade.travel:{upgradeItem:{id:6647s,Count:1b,Damage:8s},level_cost:30,unlocalized_name:""enderio.darksteel.upgrade.travel""},ench:[0:{lvl:5s,id:32s},1:{lvl:3s,id:34s},2:{lvl:3s,id:35s}],enderio.darksteel.upgrade.energyUpgrade:{upgradeItem:{id:6645s,Count:1b,Damage:2s},maxOuput:10000,level_cost:20,unlocalized_name:""enderio.darksteel.upgrade.empowered_four"",maxInput:10000,capacity:1000000,energy:1000000},enderio.darksteel.upgrade.spoon:{upgradeItem:{id:277s,Count:1b,Damage:0s},level_cost:10,unlocalized_name:""enderio.darksteel.upgrade.spoon""}}"
+17,Resonant Flux Capacitor,1,5,20000000,ThermalExpansion:capacitor,item.thermalexpansion.capacitor.resonant,cofh.thermalexpansion.item.ItemCapacitor,"{Active:1b,Energy:20000000}"
+18,Staff of Traveling,1,0,16,EnderIO:itemTravelStaff,item.itemTravelStaff,crazypants.enderio.teleport.ItemTravelStaff,{Energy:250000}
+19,Miner's Amulet,1,0,0,divinerpg:miner'sAmulet,item.miner'sAmulet,net.divinerpg.items.base.ItemMod,
+26,Resonant Flux Capacitor,1,5,20000000,ThermalExpansion:capacitor,item.thermalexpansion.capacitor.resonant,cofh.thermalexpansion.item.ItemCapacitor,"{Active:1b,Energy:18171262}"
+27,Wireless Terminal,1,0,32,appliedenergistics2:item.ToolWirelessTerminal,item.appliedenergistics2.ToolWirelessTerminal,appeng.items.tools.powered.ToolWirelessTerminal,"{SORT_BY:""AMOUNT"",name:"""",VIEW_MODE:""ALL"",encryptionKey:""17382566944962"",SORT_DIRECTION:""ASCENDING"",internalCurrentPower:1600000.0d}"
+28,Certus Quartz Wrench,1,0,0,appliedenergistics2:item.ToolCertusQuartzWrench,item.appliedenergistics2.ToolCertusQuartzWrench,appeng.items.tools.quartz.ToolQuartzWrench,
+29,Blizz Rod,3,1024,0,ThermalFoundation:material,item.thermalfoundation.material.rodBlizz,cofh.core.item.ItemBase,
+35,Resonant Flux Capacitor,1,5,20000000,ThermalExpansion:capacitor,item.thermalexpansion.capacitor.resonant,cofh.thermalexpansion.item.ItemCapacitor,"{Active:1b,Energy:19483408}"
+100,Boots of the Horizontal Shield,1,0,0,ThaumicTinkerer:ichorclothBootsGem,item.ichorclothBootsGem,thaumic.tinkerer.common.item.kami.armor.ItemGemBoots,"{ench:[0:{lvl:4s,id:0s},1:{lvl:4s,id:2s},2:{lvl:3s,id:150s}]}"
+101,Leggings of the Burning Mantle,1,0,0,ThaumicTinkerer:ichorclothLegsGem,item.ichorclothLegsGem,thaumic.tinkerer.common.item.kami.armor.ItemGemLegs,"{ench:[0:{lvl:5s,id:170s},1:{lvl:4s,id:0s}]}"
+102,Robes of the Stratosphere,1,0,0,ThaumicTinkerer:ichorclothChestGem,item.ichorclothChestGem,thaumic.tinkerer.common.item.kami.armor.ItemGemChest,"{ench:[0:{lvl:4s,id:0s},1:{lvl:3s,id:7s}]}"
+103,Cowl of the Abyssal Depths,1,0,0,ThaumicTinkerer:ichorclothHelmGem,item.ichorclothHelmGem,thaumic.tinkerer.common.item.kami.armor.ItemGemHelm,"{ench:[0:{lvl:4s,id:0s},1:{lvl:3s,id:5s},2:{lvl:1s,id:6s}]}"

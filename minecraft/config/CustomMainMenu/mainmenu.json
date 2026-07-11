@@ -1,0 +1,208 @@
+{
+    "images":
+    {
+        "logo":
+        {
+            "image" : "custommainmenu:textures/gui/m2.png",
+            "posX" : -350,
+            "posY" : -150,
+            "width" : 900,
+            "height" : 500,
+            "alignment" : "column_logo"
+        }
+    },
+    
+    "buttons":
+    {
+        "dis":
+        {
+            "text": "",
+            "posX" : 55,
+            "posY" : 192,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth": 2400,
+	    "imageHeight": 2747,
+            "alignment": "column_bottom",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/P6EeFzng7F"
+            }
+        },
+
+        "discord":
+        {
+            "text": "",
+            "texture" : "custommainmenu:textures/gui/discord.png",
+            "posX" : 58,
+            "posY" : 195,
+            "width" : 14,
+            "height" : 15,
+            "imageWidth": 2400,
+	    "imageHeight": 2747,
+            "alignment": "column_bottom",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/P6EeFzng7F"
+            }
+        },
+
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 80,
+            "posY" : 167,
+            "width" : 200,
+            "height" : 20,
+            "alignment": "column_bottom",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "playinserver":
+        {
+            "text" : "Join to zetta",
+            "posX" : 80,
+            "posY" : 192,
+            "width" : 200,
+            "height" : 20,
+            "alignment": "column_bottom",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "107.161.154.156:25757"
+            }
+        },
+
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 80,
+            "posY" : 217,
+            "width" : 200,
+            "height" : 20,
+            "alignment": "column_bottom",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : 80,
+            "posY" : 267,
+            "width" : 98,
+            "height" : 20,
+            "alignment": "column_bottom",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 80,
+            "posY" : 242,
+            "width" : 200,
+            "height" : 20,
+            "alignment": "column_bottom",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 182,
+            "posY" : 267,
+            "width" : 98,
+            "height" : 20,
+            "alignment": "column_bottom",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : 55,
+            "posY" : 242,
+            "width" : 20,
+            "height" : 20,
+            "alignment": "column_bottom",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 0,
+            "height" : 0,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -50,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 280,
+            "posY" : 110,
+            "color" : -256,
+            "alignment": "column_bottom",
+            "texts" : "file:custommainmenu:textures/text/splashes.txt"
+        },
+
+        "background":
+        {
+            "image" : "",
+            "slideshow": 
+            {
+                "images": 
+                [
+                    "custommainmenu:textures/gui/bg1.png","custommainmenu:textures/gui/bg2.png","custommainmenu:textures/gui/bg3.png","custommainmenu:textures/gui/bg4.png","custommainmenu:textures/gui/bg5.png","custommainmenu:textures/gui/bg6.png","custommainmenu:textures/gui/bg7.png","custommainmenu:textures/gui/bg8.png","custommainmenu:textures/gui/bg9.png","custommainmenu:textures/gui/bg10.png","custommainmenu:textures/gui/bg11.png","custommainmenu:textures/gui/bg12.png","custommainmenu:textures/gui/bg13.png","custommainmenu:textures/gui/bg14.png","custommainmenu:textures/gui/bg15.png","custommainmenu:textures/gui/bg16.png","custommainmenu:textures/gui/bg17.png","custommainmenu:textures/gui/bg18.png","custommainmenu:textures/gui/bg19.png","custommainmenu:textures/gui/bg20.png"
+                ],
+                "displayDuration": 150,
+		"fadeDuration": 40
+            }
+        }
+    }
+}
