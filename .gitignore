@@ -1,4 +1,4 @@
-#instance.cfg
+instance.cfg
 backups/
 crash-reports/
 journeymap/
@@ -13,13 +13,13 @@ XaeroWaypoints_BACKUP032021/
 XaeroWorldMap/
 1213309934
 bettercrashes-stackdeobfuscator-methods.csv
-BoraniaVars.dat
+BotaniaVars.dat
 minetweaker.log
 OpenComputersMod-1.12.47-GTNH-52-libjnlua52-windows-x86_64.dll
 OpenComputersMod-1.12.47-GTNH-53-libjnlua53-windows-x86_64.dll
 OpenComputersMod-1.12.47-GTNH-54-libjnlua54-windows-x86_64.dll
 options.txt
-options.skinport.txt
-optionsf.txt
+options_skinport.txt
+optionsnf.txt
 usercache.json
 usernamecache.json
